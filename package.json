@@ -49,6 +49,7 @@
     "uninstall-husky": "pnpm remove husky && git config --unset core.hooksPath && rimraf .husky",
     "lint-staged": "lint-staged",
     "cm": "cz",
+    "cz": "cz",
     "// --- CI ---": "",
     "ci:lint": "pnpm run check",
     "ci:test:unit": "pnpm run test:cov",
