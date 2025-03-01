@@ -23,7 +23,7 @@ function getFileNamesFromDirectory(dirPath) {
 }
 
 function getAssetPaths(assetFiles) {
-	const jsPath = assetFiles.find((file) => file.endsWith('.js'));
+	const jsPath = assetFiles.find((file) => /\.jsx?$/.test(file));
 	const cssPath = assetFiles.find((file) => file.endsWith('.css'));
 	const faviconPath = assetFiles.find((file) => file.startsWith('vite') && file.endsWith('.svg'));
 	const paths = {};
@@ -51,12 +51,12 @@ function changeToProd(htmlContent, assetPaths) {
 		);
 	}
 
-	return htmlContent.replace(/\/src\/main\.ts/g, `dist/assets/${assetPaths.js}`);
+	return htmlContent.replace(/\/src\/main\.tsx?/g, `dist/assets/${assetPaths.js}`);
 }
 
 function changeToDev(htmlContent) {
 	return htmlContent
-		.replace(/dist\/assets\/[\w\d-]+\.js/g, '/src/main.ts')
+		.replace(/dist\/assets\/[\w\d-]+\.jsx?/g, '/src/main.tsx')
 		.replace(distCssPattern, '');
 }
 
