@@ -1,0 +1,8 @@
+node_modules
+bin
+dist
+build
+*.*
+!*.vue
+!*.css
+!*.scss

@@ -1,0 +1,28 @@
+---
+tabWidth: 4
+useTabs: true
+semi: true
+singleQuote: true
+trailingComma: es5
+printWidth: 100
+plugins:
+  - prettier-plugin-tailwindcss
+  - prettier-plugin-organize-attributes
+overrides:
+  - files:
+      - 'package.json'
+    options:
+      useTabs: false
+      tabWidth: 4
+  - files:
+      - '*.{md,json,yml,yaml}'
+    options:
+      useTabs: false
+      tabWidth: 2
+  - files:
+      - '*.css'
+      - '*.scss'
+      - '*.less'
+      - '*.styl'
+    options:
+      singleQuote: false

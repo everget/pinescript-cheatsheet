@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	background-color: #242424;
+	color: rgb(255 255 255 / 87%);
+	color-scheme: light dark;
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-synthesis: none;
+	font-weight: 400;
+	line-height: 1.5;
+	text-rendering: optimizelegibility;
+
+	/* Light theme colors */
+	--button-primary-bg: #2563eb;
+	--button-primary-hover: #1d4ed8;
+	--button-primary-active: #1e40af;
+	--button-primary-text: #fff;
+	--button-secondary-bg: #f3f4f6;
+	--button-secondary-hover: #e5e7eb;
+	--button-secondary-active: #d1d5db;
+	--button-secondary-text: #1f2937;
+	--button-secondary-border: #d1d5db;
+	--button-focus-ring: #3b82f680;
+}
+
+[data-theme="dark"] {
+	/* Dark theme colors */
+	--button-primary-bg: #3b82f6;
+	--button-primary-hover: #60a5fa;
+	--button-primary-active: #2563eb;
+	--button-primary-text: #fff;
+	--button-secondary-bg: #374151;
+	--button-secondary-hover: #4b5563;
+	--button-secondary-active: #6b7280;
+	--button-secondary-text: #f9fafb;
+	--button-secondary-border: #4b5563;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		background-color: #fff;
+		color: #213547;
+	}
+}

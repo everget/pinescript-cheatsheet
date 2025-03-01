@@ -1,0 +1,21 @@
+* text=auto eol=lf
+*.html  diff=html
+*.xhtml diff=html
+*.css   diff=css
+*.md    diff=markdown
+
+*.rs    diff=rust
+*.py    diff=python
+*.rb    diff=ruby
+*.php   diff=php
+*.ex    diff=elixir
+*.java  diff=java
+*.kt    diff=kotlin
+
+*.tex   diff=tex
+*.bib   diff=bibtex
+*.pdf   diff=pdf
+*.png   diff=exif
+*.jpg   diff=exif
+*.jpeg  diff=exif
+*.gif   diff=exif

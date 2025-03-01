@@ -1,0 +1,3982 @@
+[
+  {
+    "name": "array",
+    "desc": "Keyword used to explicitly declare the \"",
+    "category": "Types"
+  },
+  {
+    "name": "bool",
+    "desc": "Keyword used to explicitly declare the \"",
+    "category": "Types"
+  },
+  {
+    "name": "box",
+    "desc": "Keyword used to explicitly declare the \"",
+    "category": "Types"
+  },
+  {
+    "name": "chart.point",
+    "desc": "Keyword to explicitly declare the type o",
+    "category": "Types"
+  },
+  {
+    "name": "color",
+    "desc": "Keyword used to explicitly declare the \"",
+    "category": "Types"
+  },
+  {
+    "name": "const",
+    "desc": "The `const` keyword explicitly assigns t",
+    "category": "Types"
+  },
+  {
+    "name": "float",
+    "desc": "Keyword used to explicitly declare the \"",
+    "category": "Types"
+  },
+  {
+    "name": "int",
+    "desc": "Keyword used to explicitly declare the \"",
+    "category": "Types"
+  },
+  {
+    "name": "label",
+    "desc": "Keyword used to explicitly declare the \"",
+    "category": "Types"
+  },
+  {
+    "name": "line",
+    "desc": "Keyword used to explicitly declare the \"",
+    "category": "Types"
+  },
+  {
+    "name": "linefill",
+    "desc": "Keyword used to explicitly declare the \"",
+    "category": "Types"
+  },
+  {
+    "name": "map",
+    "desc": "Keyword used to explicitly declare the \"",
+    "category": "Types"
+  },
+  {
+    "name": "matrix",
+    "desc": "Keyword used to explicitly declare the \"",
+    "category": "Types"
+  },
+  {
+    "name": "polyline",
+    "desc": "Keyword to explicitly declare the type o",
+    "category": "Types"
+  },
+  {
+    "name": "series",
+    "desc": "The `series` keyword explicitly assigns ",
+    "category": "Types"
+  },
+  {
+    "name": "simple",
+    "desc": "The `simple` keyword explicitly assigns ",
+    "category": "Types"
+  },
+  {
+    "name": "string",
+    "desc": "Keyword used to explicitly declare the \"",
+    "category": "Types"
+  },
+  {
+    "name": "table",
+    "desc": "Keyword used to explicitly declare the \"",
+    "category": "Types"
+  },
+  {
+    "name": "@description",
+    "desc": "Sets a custom description for scripts th",
+    "category": "Annotations"
+  },
+  {
+    "name": "@enum",
+    "desc": "If placed above an enum declaration, it ",
+    "category": "Annotations"
+  },
+  {
+    "name": "@field",
+    "desc": "If placed above a [type](#kw_type) or [e",
+    "category": "Annotations"
+  },
+  {
+    "name": "@function",
+    "desc": "If placed above a function declaration, ",
+    "category": "Annotations"
+  },
+  {
+    "name": "@param",
+    "desc": "If placed above a function declaration, ",
+    "category": "Annotations"
+  },
+  {
+    "name": "@returns",
+    "desc": "If placed above a function declaration, ",
+    "category": "Annotations"
+  },
+  {
+    "name": "@strategy_alert_message",
+    "desc": "If used within a [strategy](#fun_strateg",
+    "category": "Annotations"
+  },
+  {
+    "name": "@type",
+    "desc": "If placed above a type declaration, it a",
+    "category": "Annotations"
+  },
+  {
+    "name": "@variable",
+    "desc": "If placed above a variable declaration, ",
+    "category": "Annotations"
+  },
+  {
+    "name": "@version=",
+    "desc": "Specifies the Pine Script® version that ",
+    "category": "Annotations"
+  },
+  {
+    "name": "and",
+    "desc": "Logical AND. Applicable to boolean expre",
+    "category": "Keywords"
+  },
+  {
+    "name": "as",
+    "desc": "",
+    "category": "Keywords"
+  },
+  {
+    "name": "break",
+    "desc": "",
+    "category": "Keywords"
+  },
+  {
+    "name": "by",
+    "desc": "",
+    "category": "Keywords"
+  },
+  {
+    "name": "continue",
+    "desc": "",
+    "category": "Keywords"
+  },
+  {
+    "name": "else",
+    "desc": "",
+    "category": "Keywords"
+  },
+  {
+    "name": "enum",
+    "desc": "This keyword allows the creation of an e",
+    "category": "Keywords"
+  },
+  {
+    "name": "export",
+    "desc": "Used in libraries to prefix the declarat",
+    "category": "Keywords"
+  },
+  {
+    "name": "for",
+    "desc": "The 'for' structure allows the repeated ",
+    "category": "Keywords"
+  },
+  {
+    "name": "for...in",
+    "desc": "The `for...in` structure allows the repe",
+    "category": "Keywords"
+  },
+  {
+    "name": "if",
+    "desc": "If statement defines what block of state",
+    "category": "Keywords"
+  },
+  {
+    "name": "import",
+    "desc": "Used to load an external [library](#fun_",
+    "category": "Keywords"
+  },
+  {
+    "name": "in",
+    "desc": "",
+    "category": "Keywords"
+  },
+  {
+    "name": "method",
+    "desc": "This keyword is used to prefix a functio",
+    "category": "Keywords"
+  },
+  {
+    "name": "not",
+    "desc": "Logical negation (NOT). Applicable to bo",
+    "category": "Keywords"
+  },
+  {
+    "name": "or",
+    "desc": "Logical OR. Applicable to boolean expres",
+    "category": "Keywords"
+  },
+  {
+    "name": "switch",
+    "desc": "The switch operator transfers control to",
+    "category": "Keywords"
+  },
+  {
+    "name": "to",
+    "desc": "",
+    "category": "Keywords"
+  },
+  {
+    "name": "type",
+    "desc": "This keyword allows the declaration of u",
+    "category": "Keywords"
+  },
+  {
+    "name": "var",
+    "desc": "**var** is the keyword used for assignin",
+    "category": "Keywords"
+  },
+  {
+    "name": "varip",
+    "desc": "**varip** (var intrabar persist) is the ",
+    "category": "Keywords"
+  },
+  {
+    "name": "while",
+    "desc": "The `while` statement allows the conditi",
+    "category": "Keywords"
+  },
+  {
+    "name": "-",
+    "desc": "Subtraction or unary minus. Applicable t",
+    "category": "Operators"
+  },
+  {
+    "name": "-=",
+    "desc": "Subtraction assignment. Applicable to nu",
+    "category": "Operators"
+  },
+  {
+    "name": ":=",
+    "desc": "Reassignment operator. It is used to ass",
+    "category": "Operators"
+  },
+  {
+    "name": "!=",
+    "desc": "Not equal to. Applicable to expressions ",
+    "category": "Operators"
+  },
+  {
+    "name": "?:",
+    "desc": "Ternary conditional operator",
+    "category": "Operators"
+  },
+  {
+    "name": "[]",
+    "desc": "Series subscript. Provides access to pre",
+    "category": "Operators"
+  },
+  {
+    "name": "*",
+    "desc": "Multiplication. Applicable to numerical ",
+    "category": "Operators"
+  },
+  {
+    "name": "*=",
+    "desc": "Multiplication assignment. Applicable to",
+    "category": "Operators"
+  },
+  {
+    "name": "/",
+    "desc": "Division. Applicable to numerical expres",
+    "category": "Operators"
+  },
+  {
+    "name": "/=",
+    "desc": "Division assignment. Applicable to numer",
+    "category": "Operators"
+  },
+  {
+    "name": "%",
+    "desc": "Modulo (integer remainder). Applicable t",
+    "category": "Operators"
+  },
+  {
+    "name": "%=",
+    "desc": "Modulo assignment. Applicable to numeric",
+    "category": "Operators"
+  },
+  {
+    "name": "+",
+    "desc": "Addition or unary plus. Applicable to nu",
+    "category": "Operators"
+  },
+  {
+    "name": "+=",
+    "desc": "Addition assignment. Applicable to numer",
+    "category": "Operators"
+  },
+  {
+    "name": "<",
+    "desc": "Less than. Applicable to numerical expre",
+    "category": "Operators"
+  },
+  {
+    "name": "<=",
+    "desc": "Less than or equal to. Applicable to num",
+    "category": "Operators"
+  },
+  {
+    "name": "==",
+    "desc": "Equal to. Applicable to expressions of a",
+    "category": "Operators"
+  },
+  {
+    "name": "=>",
+    "desc": "The '=>' operator is used in user-define",
+    "category": "Operators"
+  },
+  {
+    "name": ">",
+    "desc": "Greater than. Applicable to numerical ex",
+    "category": "Operators"
+  },
+  {
+    "name": ">=",
+    "desc": "Greater than or equal to. Applicable to ",
+    "category": "Operators"
+  },
+  {
+    "name": "bar_index",
+    "desc": "Current bar index. Numbering is zero-bas",
+    "category": "Bar Data"
+  },
+  {
+    "name": "close",
+    "desc": "Close price of the current bar when it h",
+    "category": "Bar Data"
+  },
+  {
+    "name": "high",
+    "desc": "Current high price",
+    "category": "Bar Data"
+  },
+  {
+    "name": "low",
+    "desc": "Current low price",
+    "category": "Bar Data"
+  },
+  {
+    "name": "open",
+    "desc": "Current open price",
+    "category": "Bar Data"
+  },
+  {
+    "name": "volume",
+    "desc": "Current bar volume",
+    "category": "Bar Data"
+  },
+  {
+    "name": "color.aqua",
+    "desc": "Is a named constant for #00BCD4 color",
+    "category": "Colors"
+  },
+  {
+    "name": "color.b()",
+    "desc": "Retrieves the value of the color's blue ",
+    "category": "Colors"
+  },
+  {
+    "name": "color.black",
+    "desc": "Is a named constant for #363A45 color",
+    "category": "Colors"
+  },
+  {
+    "name": "color.blue",
+    "desc": "Is a named constant for #2962ff color",
+    "category": "Colors"
+  },
+  {
+    "name": "color.from_gradient()",
+    "desc": "Based on the relative position of value ",
+    "category": "Colors"
+  },
+  {
+    "name": "color.fuchsia",
+    "desc": "Is a named constant for #E040FB color",
+    "category": "Colors"
+  },
+  {
+    "name": "color.g()",
+    "desc": "Retrieves the value of the color's green",
+    "category": "Colors"
+  },
+  {
+    "name": "color.gray",
+    "desc": "Is a named constant for #787B86 color",
+    "category": "Colors"
+  },
+  {
+    "name": "color.green",
+    "desc": "Is a named constant for #4CAF50 color",
+    "category": "Colors"
+  },
+  {
+    "name": "color.lime",
+    "desc": "Is a named constant for #00E676 color",
+    "category": "Colors"
+  },
+  {
+    "name": "color.maroon",
+    "desc": "Is a named constant for #880E4F color",
+    "category": "Colors"
+  },
+  {
+    "name": "color.navy",
+    "desc": "Is a named constant for #311B92 color",
+    "category": "Colors"
+  },
+  {
+    "name": "color.new()",
+    "desc": "Function color applies the specified tra",
+    "category": "Colors"
+  },
+  {
+    "name": "color.olive",
+    "desc": "Is a named constant for #808000 color",
+    "category": "Colors"
+  },
+  {
+    "name": "color.orange",
+    "desc": "Is a named constant for #FF9800 color",
+    "category": "Colors"
+  },
+  {
+    "name": "color.purple",
+    "desc": "Is a named constant for #9C27B0 color",
+    "category": "Colors"
+  },
+  {
+    "name": "color.r()",
+    "desc": "Retrieves the value of the color's red c",
+    "category": "Colors"
+  },
+  {
+    "name": "color.red",
+    "desc": "Is a named constant for #F23645 color",
+    "category": "Colors"
+  },
+  {
+    "name": "color.rgb()",
+    "desc": "Creates a new color with transparency us",
+    "category": "Colors"
+  },
+  {
+    "name": "color.silver",
+    "desc": "Is a named constant for #B2B5BE color",
+    "category": "Colors"
+  },
+  {
+    "name": "color.t()",
+    "desc": "Retrieves the color's transparency",
+    "category": "Colors"
+  },
+  {
+    "name": "color.teal",
+    "desc": "Is a named constant for #089981 color",
+    "category": "Colors"
+  },
+  {
+    "name": "color.white",
+    "desc": "Is a named constant for #FFFFFF color",
+    "category": "Colors"
+  },
+  {
+    "name": "color.yellow",
+    "desc": "Is a named constant for #FDD835 color",
+    "category": "Colors"
+  },
+  {
+    "name": "color()",
+    "desc": "Casts na to color",
+    "category": "Colors"
+  },
+  {
+    "name": "str.contains()",
+    "desc": "Returns true if the `source` string cont",
+    "category": "Strings"
+  },
+  {
+    "name": "str.endswith()",
+    "desc": "Returns true if the `source` string ends",
+    "category": "Strings"
+  },
+  {
+    "name": "str.format_time()",
+    "desc": "Converts the `time` timestamp into a str",
+    "category": "Strings"
+  },
+  {
+    "name": "str.format()",
+    "desc": "Converts the formatting string and value",
+    "category": "Strings"
+  },
+  {
+    "name": "str.length()",
+    "desc": "Returns an integer corresponding to the ",
+    "category": "Strings"
+  },
+  {
+    "name": "str.lower()",
+    "desc": "Returns a new string with all letters co",
+    "category": "Strings"
+  },
+  {
+    "name": "str.match()",
+    "desc": "Returns the new substring of the `source",
+    "category": "Strings"
+  },
+  {
+    "name": "str.pos()",
+    "desc": "Returns the position of the first occurr",
+    "category": "Strings"
+  },
+  {
+    "name": "str.repeat()",
+    "desc": "Constructs a new string containing the `",
+    "category": "Strings"
+  },
+  {
+    "name": "str.replace_all()",
+    "desc": "Replaces each occurrence of the target s",
+    "category": "Strings"
+  },
+  {
+    "name": "str.replace()",
+    "desc": "Returns a new string with the Nth occurr",
+    "category": "Strings"
+  },
+  {
+    "name": "str.split()",
+    "desc": "Divides a string into an array of substr",
+    "category": "Strings"
+  },
+  {
+    "name": "str.startswith()",
+    "desc": "Returns true if the `source` string star",
+    "category": "Strings"
+  },
+  {
+    "name": "str.substring()",
+    "desc": "Returns a new string that is a substring",
+    "category": "Strings"
+  },
+  {
+    "name": "str.tonumber()",
+    "desc": "Converts a value represented in `string`",
+    "category": "Strings"
+  },
+  {
+    "name": "str.tostring()",
+    "desc": "",
+    "category": "Strings"
+  },
+  {
+    "name": "str.trim()",
+    "desc": "Constructs a new string with all consecu",
+    "category": "Strings"
+  },
+  {
+    "name": "str.upper()",
+    "desc": "Returns a new string with all letters co",
+    "category": "Strings"
+  },
+  {
+    "name": "strategy.close_all()",
+    "desc": "Creates an order to close an open positi",
+    "category": "Strings"
+  },
+  {
+    "name": "string()",
+    "desc": "Casts na to string",
+    "category": "Strings"
+  },
+  {
+    "name": "math.abs()",
+    "desc": "Absolute value of `number` is `number` i",
+    "category": "Maths"
+  },
+  {
+    "name": "math.acos()",
+    "desc": "The acos function returns the arccosine ",
+    "category": "Maths"
+  },
+  {
+    "name": "math.asin()",
+    "desc": "The asin function returns the arcsine (i",
+    "category": "Maths"
+  },
+  {
+    "name": "math.atan()",
+    "desc": "The atan function returns the arctangent",
+    "category": "Maths"
+  },
+  {
+    "name": "math.avg()",
+    "desc": "Calculates average of all given series (",
+    "category": "Maths"
+  },
+  {
+    "name": "math.ceil()",
+    "desc": "Rounds the specified `number` up to the ",
+    "category": "Maths"
+  },
+  {
+    "name": "math.cos()",
+    "desc": "The cos function returns the trigonometr",
+    "category": "Maths"
+  },
+  {
+    "name": "math.e",
+    "desc": "Is a named constant for [Euler's number]",
+    "category": "Maths"
+  },
+  {
+    "name": "math.exp()",
+    "desc": "The exp function of `number` is e raised",
+    "category": "Maths"
+  },
+  {
+    "name": "math.floor()",
+    "desc": "Rounds the specified `number` down to th",
+    "category": "Maths"
+  },
+  {
+    "name": "math.log()",
+    "desc": "Natural logarithm of any `number` > 0 is",
+    "category": "Maths"
+  },
+  {
+    "name": "math.log10()",
+    "desc": "The common (or base 10) logarithm of `nu",
+    "category": "Maths"
+  },
+  {
+    "name": "math.max()",
+    "desc": "Returns the greatest of multiple values",
+    "category": "Maths"
+  },
+  {
+    "name": "math.min()",
+    "desc": "Returns the smallest of multiple values",
+    "category": "Maths"
+  },
+  {
+    "name": "math.phi",
+    "desc": "Is a named constant for the [golden rati",
+    "category": "Maths"
+  },
+  {
+    "name": "math.pi",
+    "desc": "Is a named constant for [Archimedes' con",
+    "category": "Maths"
+  },
+  {
+    "name": "math.pow()",
+    "desc": "Mathematical power function",
+    "category": "Maths"
+  },
+  {
+    "name": "math.random()",
+    "desc": "Returns a pseudo-random value. The funct",
+    "category": "Maths"
+  },
+  {
+    "name": "math.round_to_mintick()",
+    "desc": "Returns the value rounded to the symbol'",
+    "category": "Maths"
+  },
+  {
+    "name": "math.round()",
+    "desc": "Returns the value of `number` rounded to",
+    "category": "Maths"
+  },
+  {
+    "name": "math.rphi",
+    "desc": "Is a named constant for the [golden rati",
+    "category": "Maths"
+  },
+  {
+    "name": "math.sign()",
+    "desc": "Sign (signum) of `number` is zero if `nu",
+    "category": "Maths"
+  },
+  {
+    "name": "math.sin()",
+    "desc": "The sin function returns the trigonometr",
+    "category": "Maths"
+  },
+  {
+    "name": "math.sqrt()",
+    "desc": "Square root of any `number` >= 0 is the ",
+    "category": "Maths"
+  },
+  {
+    "name": "math.sum()",
+    "desc": "The sum function returns the sliding sum",
+    "category": "Maths"
+  },
+  {
+    "name": "math.tan()",
+    "desc": "The tan function returns the trigonometr",
+    "category": "Maths"
+  },
+  {
+    "name": "math.todegrees()",
+    "desc": "Returns an approximately equivalent angl",
+    "category": "Maths"
+  },
+  {
+    "name": "math.toradians()",
+    "desc": "Returns an approximately equivalent angl",
+    "category": "Maths"
+  },
+  {
+    "name": "na",
+    "desc": "A keyword signifying \"not available\", in",
+    "category": "Maths"
+  },
+  {
+    "name": "array.abs()",
+    "desc": "Returns an array containing the absolute",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.avg()",
+    "desc": "The function returns the mean of an arra",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.binary_search_leftmost()",
+    "desc": "The function returns the index of the va",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.binary_search_rightmost()",
+    "desc": "The function returns the index of the va",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.binary_search()",
+    "desc": "The function returns the index of the va",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.clear()",
+    "desc": "The function removes all elements from a",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.concat()",
+    "desc": "The function is used to merge two arrays",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.copy()",
+    "desc": "The function creates a copy of an existi",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.covariance()",
+    "desc": "The function returns the covariance of t",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.every()",
+    "desc": "Returns [true](#const_true) if all eleme",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.fill()",
+    "desc": "The function sets elements of an array t",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.first()",
+    "desc": "Returns the array's first element. Throw",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.from()",
+    "desc": "The function takes a variable number of ",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.get()",
+    "desc": "The function returns the value of the el",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.includes()",
+    "desc": "The function returns true if the value w",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.indexof()",
+    "desc": "The function returns the index of the fi",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.insert()",
+    "desc": "The function changes the contents of an ",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.join()",
+    "desc": "The function creates and returns a new s",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.last()",
+    "desc": "Returns the array's last element. Throws",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.lastindexof()",
+    "desc": "The function returns the index of the la",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.max()",
+    "desc": "The function returns the greatest value,",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.median()",
+    "desc": "The function returns the median of an ar",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.min()",
+    "desc": "The function returns the smallest value,",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.mode()",
+    "desc": "The function returns the mode of an arra",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.new_bool()",
+    "desc": "The function creates a new array object ",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.new_box()",
+    "desc": "The function creates a new array object ",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.new_color()",
+    "desc": "The function creates a new array object ",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.new_float()",
+    "desc": "The function creates a new array object ",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.new_int()",
+    "desc": "The function creates a new array object ",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.new_label()",
+    "desc": "The function creates a new array object ",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.new_line()",
+    "desc": "The function creates a new array object ",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.new_linefill()",
+    "desc": "The function creates a new array object ",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.new_string()",
+    "desc": "The function creates a new array object ",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.new_table()",
+    "desc": "The function creates a new array object ",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.new<type>()",
+    "desc": "The function creates a new array object ",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.percentile_linear_interpolation()",
+    "desc": "Returns the value for which the specifie",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.percentile_nearest_rank()",
+    "desc": "Returns the value for which the specifie",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.percentrank()",
+    "desc": "Returns the percentile rank of the eleme",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.pop()",
+    "desc": "The function removes the last element fr",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.push()",
+    "desc": "The function appends a value to an array",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.range()",
+    "desc": "The function returns the difference betw",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.remove()",
+    "desc": "The function changes the contents of an ",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.reverse()",
+    "desc": "The function reverses an array. The firs",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.set()",
+    "desc": "The function sets the value of the eleme",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.shift()",
+    "desc": "The function removes an array's first el",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.size()",
+    "desc": "The function returns the number of eleme",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.slice()",
+    "desc": "The function creates a slice from an exi",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.some()",
+    "desc": "Returns [true](#const_true) if at least ",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.sort_indices()",
+    "desc": "Returns an array of indices which, when ",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.sort()",
+    "desc": "The function sorts the elements of an ar",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.standardize()",
+    "desc": "The function returns the array of standa",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.stdev()",
+    "desc": "The function returns the standard deviat",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.sum()",
+    "desc": "The function returns the sum of an array",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.unshift()",
+    "desc": "The function inserts the value at the be",
+    "category": "Arrays"
+  },
+  {
+    "name": "array.variance()",
+    "desc": "The function returns the variance of an ",
+    "category": "Arrays"
+  },
+  {
+    "name": "matrix.add_col()",
+    "desc": "The function adds a column at the `colum",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.add_row()",
+    "desc": "The function adds a row at the `row` ind",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.avg()",
+    "desc": "The function calculates the average of a",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.col()",
+    "desc": "The function creates a one-dimensional a",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.columns()",
+    "desc": "The function returns the number of colum",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.concat()",
+    "desc": "The function appends the `m2` matrix to ",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.copy()",
+    "desc": "The function creates a new matrix which ",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.det()",
+    "desc": "The function returns the [determinant](h",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.diff()",
+    "desc": "The function returns a new matrix result",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.eigenvalues()",
+    "desc": "The function returns an array containing",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.eigenvectors()",
+    "desc": "Returns a matrix of [eigenvectors](https",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.elements_count()",
+    "desc": "The function returns the total number of",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.fill()",
+    "desc": "The function fills a rectangular area of",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.get()",
+    "desc": "The function returns the element with th",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.inv()",
+    "desc": "The function returns the [inverse](https",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.is_antidiagonal()",
+    "desc": "The function determines if the matrix is",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.is_antisymmetric()",
+    "desc": "The function determines if a matrix is [",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.is_binary()",
+    "desc": "The function determines if the matrix is",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.is_diagonal()",
+    "desc": "The function determines if the matrix is",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.is_identity()",
+    "desc": "The function determines if a matrix is a",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.is_square()",
+    "desc": "The function determines if the matrix is",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.is_stochastic()",
+    "desc": "The function determines if the matrix is",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.is_symmetric()",
+    "desc": "The function determines if a [square mat",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.is_triangular()",
+    "desc": "The function determines if the matrix is",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.is_zero()",
+    "desc": "The function determines if all elements ",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.kron()",
+    "desc": "The function returns the [Kronecker prod",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.max()",
+    "desc": "The function returns the largest value f",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.median()",
+    "desc": "The function calculates the [median](htt",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.min()",
+    "desc": "The function returns the smallest value ",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.mode()",
+    "desc": "The function calculates the [mode](https",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.mult()",
+    "desc": "The function returns a new matrix result",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.new<type>()",
+    "desc": "The function creates a new matrix object",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.pinv()",
+    "desc": "The function returns the [pseudoinverse]",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.pow()",
+    "desc": "The function calculates the product of t",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.rank()",
+    "desc": "The function calculates the [rank](https",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.remove_col()",
+    "desc": "The function removes the column at `colu",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.remove_row()",
+    "desc": "The function removes the row at `row` in",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.reshape()",
+    "desc": "The function rebuilds the `id` matrix to",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.reverse()",
+    "desc": "The function reverses the order of rows ",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.row()",
+    "desc": "The function creates a one-dimensional a",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.rows()",
+    "desc": "The function returns the number of rows ",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.set()",
+    "desc": "The function assigns `value` to the elem",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.sort()",
+    "desc": "The function rearranges the rows in the ",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.submatrix()",
+    "desc": "The function extracts a submatrix of the",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.sum()",
+    "desc": "The function returns a new matrix result",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.swap_columns()",
+    "desc": "The function swaps the columns at the in",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.swap_rows()",
+    "desc": "The function swaps the rows at the index",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.trace()",
+    "desc": "The function calculates the [trace](http",
+    "category": "Matrixes"
+  },
+  {
+    "name": "matrix.transpose()",
+    "desc": "The function creates a new, [transposed]",
+    "category": "Matrixes"
+  },
+  {
+    "name": "barstate.isconfirmed",
+    "desc": "Returns true if the script is calculatin",
+    "category": "Bar State"
+  },
+  {
+    "name": "barstate.isfirst",
+    "desc": "Returns true if current bar is first bar",
+    "category": "Bar State"
+  },
+  {
+    "name": "barstate.ishistory",
+    "desc": "Returns true if current bar is a histori",
+    "category": "Bar State"
+  },
+  {
+    "name": "barstate.islast",
+    "desc": "Returns true if current bar is the last ",
+    "category": "Bar State"
+  },
+  {
+    "name": "barstate.islastconfirmedhistory",
+    "desc": "Returns true if script is executing on t",
+    "category": "Bar State"
+  },
+  {
+    "name": "barstate.isnew",
+    "desc": "Returns true if script is currently calc",
+    "category": "Bar State"
+  },
+  {
+    "name": "barstate.isrealtime",
+    "desc": "Returns true if current bar is a real-ti",
+    "category": "Bar State"
+  },
+  {
+    "name": "chart.bg_color",
+    "desc": "Returns the color of the chart's backgro",
+    "category": "Chart Types"
+  },
+  {
+    "name": "chart.fg_color",
+    "desc": "Returns a color providing optimal contra",
+    "category": "Chart Types"
+  },
+  {
+    "name": "chart.is_heikinashi",
+    "desc": "",
+    "category": "Chart Types"
+  },
+  {
+    "name": "chart.is_kagi",
+    "desc": "",
+    "category": "Chart Types"
+  },
+  {
+    "name": "chart.is_linebreak",
+    "desc": "",
+    "category": "Chart Types"
+  },
+  {
+    "name": "chart.is_pnf",
+    "desc": "",
+    "category": "Chart Types"
+  },
+  {
+    "name": "chart.is_range",
+    "desc": "",
+    "category": "Chart Types"
+  },
+  {
+    "name": "chart.is_renko",
+    "desc": "",
+    "category": "Chart Types"
+  },
+  {
+    "name": "chart.is_standard",
+    "desc": "",
+    "category": "Chart Types"
+  },
+  {
+    "name": "chart.left_visible_bar_time",
+    "desc": "The [time](#var_time) of the leftmost ba",
+    "category": "Chart Types"
+  },
+  {
+    "name": "chart.point.copy()",
+    "desc": "Creates a copy of a [chart.point](#type_",
+    "category": "Chart Types"
+  },
+  {
+    "name": "chart.point.from_index()",
+    "desc": "Returns a [chart.point](#type_chart.poin",
+    "category": "Chart Types"
+  },
+  {
+    "name": "chart.point.from_time()",
+    "desc": "Returns a [chart.point](#type_chart.poin",
+    "category": "Chart Types"
+  },
+  {
+    "name": "chart.point.new()",
+    "desc": "Creates a new [chart.point](#type_chart",
+    "category": "Chart Types"
+  },
+  {
+    "name": "chart.point.now()",
+    "desc": "Returns a [chart.point](#type_chart.poin",
+    "category": "Chart Types"
+  },
+  {
+    "name": "chart.right_visible_bar_time",
+    "desc": "The [time](#var_time) of the rightmost b",
+    "category": "Chart Types"
+  },
+  {
+    "name": "currency.AUD",
+    "desc": "Australian dollar",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.BTC",
+    "desc": "Bitcoin",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.CAD",
+    "desc": "Canadian dollar",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.CHF",
+    "desc": "Swiss franc",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.ETH",
+    "desc": "Ethereum",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.EUR",
+    "desc": "Euro",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.GBP",
+    "desc": "Pound sterling",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.HKD",
+    "desc": "Hong Kong dollar",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.INR",
+    "desc": "Indian rupee",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.JPY",
+    "desc": "Japanese yen",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.KRW",
+    "desc": "South Korean won",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.MYR",
+    "desc": "Malaysian ringgit",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.NOK",
+    "desc": "Norwegian krone",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.NONE",
+    "desc": "Unspecified currency",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.NZD",
+    "desc": "New Zealand dollar",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.RUB",
+    "desc": "Russian ruble",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.SEK",
+    "desc": "Swedish krona",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.SGD",
+    "desc": "Singapore dollar",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.TRY",
+    "desc": "Turkish lira",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.USD",
+    "desc": "United States dollar",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.USDT",
+    "desc": "Tether",
+    "category": "Currency"
+  },
+  {
+    "name": "currency.ZAR",
+    "desc": "South African rand",
+    "category": "Currency"
+  },
+  {
+    "name": "dayofmonth",
+    "desc": "Date of current bar time in exchange tim",
+    "category": "Datetime"
+  },
+  {
+    "name": "dayofmonth()",
+    "desc": "",
+    "category": "Datetime"
+  },
+  {
+    "name": "dayofweek",
+    "desc": "Day of week for current bar time in exch",
+    "category": "Datetime"
+  },
+  {
+    "name": "dayofweek.friday",
+    "desc": "Is a named constant for return value of ",
+    "category": "Datetime"
+  },
+  {
+    "name": "dayofweek.monday",
+    "desc": "Is a named constant for return value of ",
+    "category": "Datetime"
+  },
+  {
+    "name": "dayofweek.saturday",
+    "desc": "Is a named constant for return value of ",
+    "category": "Datetime"
+  },
+  {
+    "name": "dayofweek.sunday",
+    "desc": "Is a named constant for return value of ",
+    "category": "Datetime"
+  },
+  {
+    "name": "dayofweek.thursday",
+    "desc": "Is a named constant for return value of ",
+    "category": "Datetime"
+  },
+  {
+    "name": "dayofweek.tuesday",
+    "desc": "Is a named constant for return value of ",
+    "category": "Datetime"
+  },
+  {
+    "name": "dayofweek.wednesday",
+    "desc": "Is a named constant for return value of ",
+    "category": "Datetime"
+  },
+  {
+    "name": "dayofweek()",
+    "desc": "",
+    "category": "Datetime"
+  },
+  {
+    "name": "hour",
+    "desc": "Current bar hour in exchange timezone",
+    "category": "Datetime"
+  },
+  {
+    "name": "hour()",
+    "desc": "",
+    "category": "Datetime"
+  },
+  {
+    "name": "minute",
+    "desc": "Current bar minute in exchange timezone",
+    "category": "Datetime"
+  },
+  {
+    "name": "minute()",
+    "desc": "",
+    "category": "Datetime"
+  },
+  {
+    "name": "month",
+    "desc": "Current bar month in exchange timezone",
+    "category": "Datetime"
+  },
+  {
+    "name": "month()",
+    "desc": "",
+    "category": "Datetime"
+  },
+  {
+    "name": "second",
+    "desc": "Current bar second in exchange timezone",
+    "category": "Datetime"
+  },
+  {
+    "name": "second()",
+    "desc": "",
+    "category": "Datetime"
+  },
+  {
+    "name": "time",
+    "desc": "Current bar time in UNIX format. It is t",
+    "category": "Datetime"
+  },
+  {
+    "name": "time_close",
+    "desc": "The time of the current bar's close in U",
+    "category": "Datetime"
+  },
+  {
+    "name": "time_tradingday",
+    "desc": "The beginning time of the trading day th",
+    "category": "Datetime"
+  },
+  {
+    "name": "timenow",
+    "desc": "Current time in UNIX format. It is the n",
+    "category": "Datetime"
+  },
+  {
+    "name": "weekofyear",
+    "desc": "Week number of current bar time in excha",
+    "category": "Datetime"
+  },
+  {
+    "name": "weekofyear()",
+    "desc": "",
+    "category": "Datetime"
+  },
+  {
+    "name": "year",
+    "desc": "Current bar year in exchange timezone",
+    "category": "Datetime"
+  },
+  {
+    "name": "year()",
+    "desc": "",
+    "category": "Datetime"
+  },
+  {
+    "name": "barcolor()",
+    "desc": "Set color of bars",
+    "category": "Plotting"
+  },
+  {
+    "name": "bgcolor()",
+    "desc": "Fill background of bars with specified c",
+    "category": "Plotting"
+  },
+  {
+    "name": "display.all",
+    "desc": "A named constant for use with the `displ",
+    "category": "Plotting"
+  },
+  {
+    "name": "display.data_window",
+    "desc": "A named constant for use with the `displ",
+    "category": "Plotting"
+  },
+  {
+    "name": "display.none",
+    "desc": "A named constant for use with the `displ",
+    "category": "Plotting"
+  },
+  {
+    "name": "display.pane",
+    "desc": "A named constant for use with the `displ",
+    "category": "Plotting"
+  },
+  {
+    "name": "display.price_scale",
+    "desc": "A named constant for use with the `displ",
+    "category": "Plotting"
+  },
+  {
+    "name": "display.status_line",
+    "desc": "A named constant for use with the `displ",
+    "category": "Plotting"
+  },
+  {
+    "name": "fill()",
+    "desc": "Fills background between two plots or hl",
+    "category": "Plotting"
+  },
+  {
+    "name": "hline.style_dashed",
+    "desc": "Is a named constant for dashed linestyle",
+    "category": "Plotting"
+  },
+  {
+    "name": "hline.style_dotted",
+    "desc": "Is a named constant for dotted linestyle",
+    "category": "Plotting"
+  },
+  {
+    "name": "hline.style_solid",
+    "desc": "Is a named constant for solid linestyle ",
+    "category": "Plotting"
+  },
+  {
+    "name": "hline()",
+    "desc": "Renders a horizontal line at a given fix",
+    "category": "Plotting"
+  },
+  {
+    "name": "plot.style_area",
+    "desc": "A named constant for the 'Area' style, t",
+    "category": "Plotting"
+  },
+  {
+    "name": "plot.style_areabr",
+    "desc": "A named constant for the 'Area With Brea",
+    "category": "Plotting"
+  },
+  {
+    "name": "plot.style_circles",
+    "desc": "A named constant for the 'Circles' style",
+    "category": "Plotting"
+  },
+  {
+    "name": "plot.style_columns",
+    "desc": "A named constant for the 'Columns' style",
+    "category": "Plotting"
+  },
+  {
+    "name": "plot.style_cross",
+    "desc": "A named constant for the 'Cross' style, ",
+    "category": "Plotting"
+  },
+  {
+    "name": "plot.style_histogram",
+    "desc": "A named constant for the 'Histogram' sty",
+    "category": "Plotting"
+  },
+  {
+    "name": "plot.style_line",
+    "desc": "A named constant for the 'Line' style, t",
+    "category": "Plotting"
+  },
+  {
+    "name": "plot.style_linebr",
+    "desc": "A named constant for the 'Line With Brea",
+    "category": "Plotting"
+  },
+  {
+    "name": "plot.style_stepline",
+    "desc": "A named constant for the 'Step Line' sty",
+    "category": "Plotting"
+  },
+  {
+    "name": "plot.style_stepline_diamond",
+    "desc": "A named constant for the 'Step Line With",
+    "category": "Plotting"
+  },
+  {
+    "name": "plot.style_steplinebr",
+    "desc": "A named constant for the 'Step line with",
+    "category": "Plotting"
+  },
+  {
+    "name": "plot()",
+    "desc": "Plots a series of data on the chart",
+    "category": "Plotting"
+  },
+  {
+    "name": "plotarrow()",
+    "desc": "Plots up and down arrows on the chart. U",
+    "category": "Plotting"
+  },
+  {
+    "name": "plotbar()",
+    "desc": "Plots ohlc bars on the chart",
+    "category": "Plotting"
+  },
+  {
+    "name": "plotcandle()",
+    "desc": "Plots candles on the chart",
+    "category": "Plotting"
+  },
+  {
+    "name": "plotchar()",
+    "desc": "Plots visual shapes using any given one ",
+    "category": "Plotting"
+  },
+  {
+    "name": "plotshape()",
+    "desc": "Plots visual shapes on the chart",
+    "category": "Plotting"
+  },
+  {
+    "name": "shape.arrowdown",
+    "desc": "Shape style for [plotshape](#fun_plotsha",
+    "category": "Plotting"
+  },
+  {
+    "name": "shape.arrowup",
+    "desc": "Shape style for [plotshape](#fun_plotsha",
+    "category": "Plotting"
+  },
+  {
+    "name": "shape.circle",
+    "desc": "Shape style for [plotshape](#fun_plotsha",
+    "category": "Plotting"
+  },
+  {
+    "name": "shape.cross",
+    "desc": "Shape style for [plotshape](#fun_plotsha",
+    "category": "Plotting"
+  },
+  {
+    "name": "shape.diamond",
+    "desc": "Shape style for [plotshape](#fun_plotsha",
+    "category": "Plotting"
+  },
+  {
+    "name": "shape.flag",
+    "desc": "Shape style for [plotshape](#fun_plotsha",
+    "category": "Plotting"
+  },
+  {
+    "name": "shape.labeldown",
+    "desc": "Shape style for [plotshape](#fun_plotsha",
+    "category": "Plotting"
+  },
+  {
+    "name": "shape.labelup",
+    "desc": "Shape style for [plotshape](#fun_plotsha",
+    "category": "Plotting"
+  },
+  {
+    "name": "shape.square",
+    "desc": "Shape style for [plotshape](#fun_plotsha",
+    "category": "Plotting"
+  },
+  {
+    "name": "shape.triangledown",
+    "desc": "Shape style for [plotshape](#fun_plotsha",
+    "category": "Plotting"
+  },
+  {
+    "name": "shape.triangleup",
+    "desc": "Shape style for [plotshape](#fun_plotsha",
+    "category": "Plotting"
+  },
+  {
+    "name": "shape.xcross",
+    "desc": "Shape style for [plotshape](#fun_plotsha",
+    "category": "Plotting"
+  },
+  {
+    "name": "ta.accdist",
+    "desc": "Accumulation/distribution index",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.alma()",
+    "desc": "Arnaud Legoux Moving Average. It uses Ga",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.atr()",
+    "desc": "Function atr (average true range) return",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.barssince()",
+    "desc": "Counts the number of bars since the last",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.bb()",
+    "desc": "Bollinger Bands. A Bollinger Band is a t",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.bbw()",
+    "desc": "Bollinger Bands Width. The Bollinger Ban",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.cci()",
+    "desc": "The CCI (commodity channel index) is cal",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.change()",
+    "desc": "Compares the current `source` value to i",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.cmo()",
+    "desc": "Chande Momentum Oscillator. Calculates t",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.cog()",
+    "desc": "The cog (center of gravity) is an indica",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.correlation()",
+    "desc": "Correlation coefficient. Describes the d",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.cross()",
+    "desc": "",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.crossover()",
+    "desc": "The `source1`-series is defined as havin",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.crossunder()",
+    "desc": "The `source1`-series is defined as havin",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.cum()",
+    "desc": "Cumulative (total) sum of `source`. In o",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.dev()",
+    "desc": "Measure of difference between the series",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.dmi()",
+    "desc": "The dmi function returns the directional",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.ema()",
+    "desc": "The ema function returns the exponential",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.falling()",
+    "desc": "Test if the `source` series is now falli",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.highest()",
+    "desc": "Highest value for a given number of bars",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.highestbars()",
+    "desc": "Highest value offset for a given number ",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.hma()",
+    "desc": "The hma function returns the Hull Moving",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.iii",
+    "desc": "Intraday Intensity Index",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.kc()",
+    "desc": "Keltner Channels. Keltner channel is a t",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.kcw()",
+    "desc": "Keltner Channels Width. The Keltner Chan",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.linreg()",
+    "desc": "Linear regression curve. A line that bes",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.lowest()",
+    "desc": "Lowest value for a given number of bars ",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.lowestbars()",
+    "desc": "Lowest value offset for a given number o",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.macd()",
+    "desc": "MACD (moving average convergence/diverge",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.max()",
+    "desc": "Returns the all-time high value of `sour",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.median()",
+    "desc": "Returns the median of the series",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.mfi()",
+    "desc": "Money Flow Index. The Money Flow Index (",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.min()",
+    "desc": "Returns the all-time low value of `sourc",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.mode()",
+    "desc": "Returns the [mode](https://en.wikipedia",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.mom()",
+    "desc": "Momentum of `source` price and `source` ",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.nvi",
+    "desc": "Negative Volume Index",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.obv",
+    "desc": "On Balance Volume",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.percentile_linear_interpolation()",
+    "desc": "Calculates percentile using method of li",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.percentile_nearest_rank()",
+    "desc": "Calculates percentile using method of Ne",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.percentrank()",
+    "desc": "Percent rank is the percents of how many",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.pivot_point_levels()",
+    "desc": "Calculates the pivot point levels using ",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.pivothigh()",
+    "desc": "This function returns price of the pivot",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.pivotlow()",
+    "desc": "This function returns price of the pivot",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.pvi",
+    "desc": "Positive Volume Index",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.pvt",
+    "desc": "Price-Volume Trend",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.range()",
+    "desc": "Returns the difference between the min a",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.rci()",
+    "desc": "Calculates the Rank Correlation Index (R",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.rising()",
+    "desc": "Test if the `source` series is now risin",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.rma()",
+    "desc": "Moving average used in RSI. It is the ex",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.roc()",
+    "desc": "Calculates the percentage of change (rat",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.rsi()",
+    "desc": "Relative strength index. It is calculate",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.sar()",
+    "desc": "Parabolic SAR (parabolic stop and revers",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.sma()",
+    "desc": "The sma function returns the moving aver",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.stdev()",
+    "desc": "",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.stoch()",
+    "desc": "Stochastic. It is calculated by a formul",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.supertrend()",
+    "desc": "The Supertrend Indicator. The Supertrend",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.swma()",
+    "desc": "Symmetrically weighted moving average wi",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.tr",
+    "desc": "True range, equivalent to `ta.tr(handle_",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.tr()",
+    "desc": "Calculates the current bar's true range",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.tsi()",
+    "desc": "True strength index. It uses moving aver",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.valuewhen()",
+    "desc": "Returns the value of the `source` series",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.variance()",
+    "desc": "Variance is the expectation of the squar",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.vwap",
+    "desc": "Volume Weighted Average Price. It uses [",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.vwap()",
+    "desc": "Volume weighted average price",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.vwma()",
+    "desc": "The vwma function returns volume-weighte",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.wad",
+    "desc": "Williams Accumulation/Distribution",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.wma()",
+    "desc": "The wma function returns weighted moving",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.wpr()",
+    "desc": "Williams %R. The oscillator shows the cu",
+    "category": "Indicators"
+  },
+  {
+    "name": "ta.wvad",
+    "desc": "Williams Variable Accumulation/Distribut",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.all",
+    "desc": "Returns an array filled with all the cur",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.cell_set_bgcolor()",
+    "desc": "The function sets the background color o",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.cell_set_height()",
+    "desc": "The function sets the height of cell",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.cell_set_text_color()",
+    "desc": "The function sets the color of the text ",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.cell_set_text_font_family()",
+    "desc": "The function sets the font family of the",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.cell_set_text_formatting()",
+    "desc": "Sets the formatting attributes the drawi",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.cell_set_text_halign()",
+    "desc": "The function sets the horizontal alignme",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.cell_set_text_size()",
+    "desc": "The function sets the size of the cell's",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.cell_set_text_valign()",
+    "desc": "The function sets the vertical alignment",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.cell_set_text()",
+    "desc": "The function sets the text in the specif",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.cell_set_tooltip()",
+    "desc": "The function sets the tooltip in the spe",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.cell_set_width()",
+    "desc": "The function sets the width of the cell",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.cell()",
+    "desc": "The function defines a cell in the table",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.clear()",
+    "desc": "The function removes a cell or a sequenc",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.delete()",
+    "desc": "The function deletes a table",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.merge_cells()",
+    "desc": "The function merges a sequence of cells ",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.new()",
+    "desc": "The function creates a new table",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.set_bgcolor()",
+    "desc": "The function sets the background color o",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.set_border_color()",
+    "desc": "The function sets the color of the borde",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.set_border_width()",
+    "desc": "The function sets the width of the borde",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.set_frame_color()",
+    "desc": "The function sets the color of the outer",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.set_frame_width()",
+    "desc": "The function set the width of the outer ",
+    "category": "Indicators"
+  },
+  {
+    "name": "table.set_position()",
+    "desc": "The function sets the position of a tabl",
+    "category": "Indicators"
+  },
+  {
+    "name": "table()",
+    "desc": "Casts na to table",
+    "category": "Indicators"
+  },
+  {
+    "name": "input.bool()",
+    "desc": "Adds an input to the Inputs tab of your ",
+    "category": "Inputs"
+  },
+  {
+    "name": "input.color()",
+    "desc": "Adds an input to the Inputs tab of your ",
+    "category": "Inputs"
+  },
+  {
+    "name": "input.enum()",
+    "desc": "Adds an input to the Inputs tab of your ",
+    "category": "Inputs"
+  },
+  {
+    "name": "input.float()",
+    "desc": "Adds an input to the Inputs tab of your ",
+    "category": "Inputs"
+  },
+  {
+    "name": "input.int()",
+    "desc": "Adds an input to the Inputs tab of your ",
+    "category": "Inputs"
+  },
+  {
+    "name": "input.price()",
+    "desc": "Adds a price input to the script's \"Sett",
+    "category": "Inputs"
+  },
+  {
+    "name": "input.session()",
+    "desc": "Adds an input to the Inputs tab of your ",
+    "category": "Inputs"
+  },
+  {
+    "name": "input.source()",
+    "desc": "Adds an input to the Inputs tab of your ",
+    "category": "Inputs"
+  },
+  {
+    "name": "input.string()",
+    "desc": "Adds an input to the Inputs tab of your ",
+    "category": "Inputs"
+  },
+  {
+    "name": "input.symbol()",
+    "desc": "Adds an input to the Inputs tab of your ",
+    "category": "Inputs"
+  },
+  {
+    "name": "input.text_area()",
+    "desc": "Adds an input to the Inputs tab of your ",
+    "category": "Inputs"
+  },
+  {
+    "name": "input.time()",
+    "desc": "Adds a time input to the script's \"Setti",
+    "category": "Inputs"
+  },
+  {
+    "name": "input.timeframe()",
+    "desc": "Adds an input to the Inputs tab of your ",
+    "category": "Inputs"
+  },
+  {
+    "name": "input()",
+    "desc": "Adds an input to the Inputs tab of your ",
+    "category": "Inputs"
+  },
+  {
+    "name": "label.all",
+    "desc": "Returns an array filled with all the cur",
+    "category": "Labels"
+  },
+  {
+    "name": "label.copy()",
+    "desc": "Clones the label object",
+    "category": "Labels"
+  },
+  {
+    "name": "label.delete()",
+    "desc": "Deletes the specified label object. If i",
+    "category": "Labels"
+  },
+  {
+    "name": "label.get_text()",
+    "desc": "Returns the text of this label object",
+    "category": "Labels"
+  },
+  {
+    "name": "label.get_x()",
+    "desc": "Returns UNIX time or bar index (dependin",
+    "category": "Labels"
+  },
+  {
+    "name": "label.get_y()",
+    "desc": "Returns price of this label's position",
+    "category": "Labels"
+  },
+  {
+    "name": "label.new()",
+    "desc": "Creates new label object",
+    "category": "Labels"
+  },
+  {
+    "name": "label.set_color()",
+    "desc": "Sets label border and arrow color",
+    "category": "Labels"
+  },
+  {
+    "name": "label.set_point()",
+    "desc": "Sets the location of the `id` label to `",
+    "category": "Labels"
+  },
+  {
+    "name": "label.set_size()",
+    "desc": "Sets arrow and text size of the specifie",
+    "category": "Labels"
+  },
+  {
+    "name": "label.set_style()",
+    "desc": "Sets label style",
+    "category": "Labels"
+  },
+  {
+    "name": "label.set_text_font_family()",
+    "desc": "The function sets the font family of the",
+    "category": "Labels"
+  },
+  {
+    "name": "label.set_text_formatting()",
+    "desc": "Sets the formatting attributes the drawi",
+    "category": "Labels"
+  },
+  {
+    "name": "label.set_text()",
+    "desc": "Sets label text",
+    "category": "Labels"
+  },
+  {
+    "name": "label.set_textalign()",
+    "desc": "Sets the alignment for the label text",
+    "category": "Labels"
+  },
+  {
+    "name": "label.set_textcolor()",
+    "desc": "Sets color of the label text",
+    "category": "Labels"
+  },
+  {
+    "name": "label.set_tooltip()",
+    "desc": "Sets the tooltip text",
+    "category": "Labels"
+  },
+  {
+    "name": "label.set_x()",
+    "desc": "Sets bar index or bar time (depending on",
+    "category": "Labels"
+  },
+  {
+    "name": "label.set_xloc()",
+    "desc": "Sets x-location and new bar index/time v",
+    "category": "Labels"
+  },
+  {
+    "name": "label.set_xy()",
+    "desc": "Sets bar index/time and price of the lab",
+    "category": "Labels"
+  },
+  {
+    "name": "label.set_y()",
+    "desc": "Sets price of the label position",
+    "category": "Labels"
+  },
+  {
+    "name": "label.set_yloc()",
+    "desc": "Sets new y-location calculation algorith",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_arrowdown",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_arrowup",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_circle",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_cross",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_diamond",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_flag",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_label_center",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_label_down",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_label_left",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_label_lower_left",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_label_lower_right",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_label_right",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_label_up",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_label_upper_left",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_label_upper_right",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_none",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_square",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_text_outline",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_triangledown",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_triangleup",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label.style_xcross",
+    "desc": "Label style for [label.new](#fun_label.n",
+    "category": "Labels"
+  },
+  {
+    "name": "label()",
+    "desc": "Casts na to label",
+    "category": "Labels"
+  },
+  {
+    "name": "yloc.abovebar",
+    "desc": "A named constant that specifies the algo",
+    "category": "Labels"
+  },
+  {
+    "name": "yloc.belowbar",
+    "desc": "A named constant that specifies the algo",
+    "category": "Labels"
+  },
+  {
+    "name": "yloc.price",
+    "desc": "A named constant that specifies the algo",
+    "category": "Labels"
+  },
+  {
+    "name": "line.all",
+    "desc": "Returns an array filled with all the cur",
+    "category": "Lines"
+  },
+  {
+    "name": "line.copy()",
+    "desc": "Clones the line object",
+    "category": "Lines"
+  },
+  {
+    "name": "line.delete()",
+    "desc": "Deletes the specified line object. If it",
+    "category": "Lines"
+  },
+  {
+    "name": "line.get_price()",
+    "desc": "Returns the price level of a line at a g",
+    "category": "Lines"
+  },
+  {
+    "name": "line.get_x1()",
+    "desc": "Returns UNIX time or bar index (dependin",
+    "category": "Lines"
+  },
+  {
+    "name": "line.get_x2()",
+    "desc": "Returns UNIX time or bar index (dependin",
+    "category": "Lines"
+  },
+  {
+    "name": "line.get_y1()",
+    "desc": "Returns price of the first point of the ",
+    "category": "Lines"
+  },
+  {
+    "name": "line.get_y2()",
+    "desc": "Returns price of the second point of the",
+    "category": "Lines"
+  },
+  {
+    "name": "line.new()",
+    "desc": "Creates new line object",
+    "category": "Lines"
+  },
+  {
+    "name": "line.set_color()",
+    "desc": "Sets the line color",
+    "category": "Lines"
+  },
+  {
+    "name": "line.set_extend()",
+    "desc": "Sets extending type of this line object",
+    "category": "Lines"
+  },
+  {
+    "name": "line.set_first_point()",
+    "desc": "Sets the first point of the `id` line to",
+    "category": "Lines"
+  },
+  {
+    "name": "line.set_second_point()",
+    "desc": "Sets the second point of the `id` line t",
+    "category": "Lines"
+  },
+  {
+    "name": "line.set_style()",
+    "desc": "Sets the line style",
+    "category": "Lines"
+  },
+  {
+    "name": "line.set_width()",
+    "desc": "Sets the line width",
+    "category": "Lines"
+  },
+  {
+    "name": "line.set_x1()",
+    "desc": "Sets bar index or bar time (depending on",
+    "category": "Lines"
+  },
+  {
+    "name": "line.set_x2()",
+    "desc": "Sets bar index or bar time (depending on",
+    "category": "Lines"
+  },
+  {
+    "name": "line.set_xloc()",
+    "desc": "Sets x-location and new bar index/time v",
+    "category": "Lines"
+  },
+  {
+    "name": "line.set_xy1()",
+    "desc": "Sets bar index/time and price of the fir",
+    "category": "Lines"
+  },
+  {
+    "name": "line.set_xy2()",
+    "desc": "Sets bar index/time and price of the sec",
+    "category": "Lines"
+  },
+  {
+    "name": "line.set_y1()",
+    "desc": "Sets price of the first point",
+    "category": "Lines"
+  },
+  {
+    "name": "line.set_y2()",
+    "desc": "Sets price of the second point",
+    "category": "Lines"
+  },
+  {
+    "name": "line.style_arrow_both",
+    "desc": "Line style for [line.new](#fun_line.new)",
+    "category": "Lines"
+  },
+  {
+    "name": "line.style_arrow_left",
+    "desc": "Line style for [line.new](#fun_line.new)",
+    "category": "Lines"
+  },
+  {
+    "name": "line.style_arrow_right",
+    "desc": "Line style for [line.new](#fun_line.new)",
+    "category": "Lines"
+  },
+  {
+    "name": "line.style_dashed",
+    "desc": "Line style for [line.new](#fun_line.new)",
+    "category": "Lines"
+  },
+  {
+    "name": "line.style_dotted",
+    "desc": "Line style for [line.new](#fun_line.new)",
+    "category": "Lines"
+  },
+  {
+    "name": "line.style_solid",
+    "desc": "Line style for [line.new](#fun_line.new)",
+    "category": "Lines"
+  },
+  {
+    "name": "line()",
+    "desc": "Casts na to line",
+    "category": "Lines"
+  },
+  {
+    "name": "linefill.all",
+    "desc": "Returns an array filled with all the cur",
+    "category": "Lines"
+  },
+  {
+    "name": "linefill.delete()",
+    "desc": "Deletes the specified linefill object. I",
+    "category": "Lines"
+  },
+  {
+    "name": "linefill.get_line1()",
+    "desc": "Returns the ID of the first line used in",
+    "category": "Lines"
+  },
+  {
+    "name": "linefill.get_line2()",
+    "desc": "Returns the ID of the second line used i",
+    "category": "Lines"
+  },
+  {
+    "name": "linefill.new()",
+    "desc": "Creates a new linefill object and displa",
+    "category": "Lines"
+  },
+  {
+    "name": "linefill.set_color()",
+    "desc": "The function sets the color of the linef",
+    "category": "Lines"
+  },
+  {
+    "name": "linefill()",
+    "desc": "Casts na to linefill",
+    "category": "Lines"
+  },
+  {
+    "name": "box.all",
+    "desc": "Returns an array filled with all the cur",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.copy()",
+    "desc": "Clones the box object",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.delete()",
+    "desc": "Deletes the specified box object. If it ",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.get_bottom()",
+    "desc": "Returns the price value of the bottom bo",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.get_left()",
+    "desc": "Returns the bar index or the UNIX time (",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.get_right()",
+    "desc": "Returns the bar index or the UNIX time (",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.get_top()",
+    "desc": "Returns the price value of the top borde",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.new()",
+    "desc": "Creates a new box object",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_bgcolor()",
+    "desc": "Sets the background color of the box",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_border_color()",
+    "desc": "Sets the border color of the box",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_border_style()",
+    "desc": "Sets the border style of the box",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_border_width()",
+    "desc": "Sets the border width of the box",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_bottom_right_point()",
+    "desc": "Sets the bottom-right corner location of",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_bottom()",
+    "desc": "Sets the bottom coordinate of the box",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_extend()",
+    "desc": "Sets extending type of the border of thi",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_left()",
+    "desc": "Sets the left coordinate of the box",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_lefttop()",
+    "desc": "Sets the left and top coordinates of the",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_right()",
+    "desc": "Sets the right coordinate of the box",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_rightbottom()",
+    "desc": "Sets the right and bottom coordinates of",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_text_color()",
+    "desc": "The function sets the color of the text ",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_text_font_family()",
+    "desc": "The function sets the font family of the",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_text_formatting()",
+    "desc": "Sets the formatting attributes the drawi",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_text_halign()",
+    "desc": "The function sets the horizontal alignme",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_text_size()",
+    "desc": "The function sets the size of the box's ",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_text_valign()",
+    "desc": "The function sets the vertical alignment",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_text_wrap()",
+    "desc": "The function sets the mode of wrapping o",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_text()",
+    "desc": "The function sets the text in the box",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_top_left_point()",
+    "desc": "Sets the top-left corner location of the",
+    "category": "Boxes"
+  },
+  {
+    "name": "box.set_top()",
+    "desc": "Sets the top coordinate of the box",
+    "category": "Boxes"
+  },
+  {
+    "name": "box()",
+    "desc": "Casts na to box",
+    "category": "Boxes"
+  },
+  {
+    "name": "polyline.all",
+    "desc": "Returns an array containing all current ",
+    "category": "Polylines"
+  },
+  {
+    "name": "polyline.delete()",
+    "desc": "Deletes the specified [polyline](#type_p",
+    "category": "Polylines"
+  },
+  {
+    "name": "polyline.new()",
+    "desc": "Creates a new [polyline](#type_polyline)",
+    "category": "Polylines"
+  },
+  {
+    "name": "alert.freq_all",
+    "desc": "A named constant for use with the `freq`",
+    "category": "Alerts"
+  },
+  {
+    "name": "alert.freq_once_per_bar",
+    "desc": "A named constant for use with the `freq`",
+    "category": "Alerts"
+  },
+  {
+    "name": "alert.freq_once_per_bar_close",
+    "desc": "A named constant for use with the `freq`",
+    "category": "Alerts"
+  },
+  {
+    "name": "alert()",
+    "desc": "Creates an alert trigger for an indicato",
+    "category": "Alerts"
+  },
+  {
+    "name": "alertcondition()",
+    "desc": "Creates alert condition, that is availab",
+    "category": "Alerts"
+  },
+  {
+    "name": "syminfo.basecurrency",
+    "desc": "Returns a string containing the code rep",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.country",
+    "desc": "Returns the two-letter code of the count",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.currency",
+    "desc": "Returns a string containing the code rep",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.description",
+    "desc": "Description for the current symbol",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.employees",
+    "desc": "The number of employees the company has",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.expiration_date",
+    "desc": "A UNIX timestamp representing the start ",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.industry",
+    "desc": "Returns the industry of the symbol, or [",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.main_tickerid",
+    "desc": "A ticker identifier representing the cur",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.mincontract",
+    "desc": "The smallest amount of the current symbo",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.minmove",
+    "desc": "Returns a whole number used to calculate",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.mintick",
+    "desc": "Min tick value for the current symbol",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.pointvalue",
+    "desc": "Point value for the current symbol",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.prefix",
+    "desc": "Prefix of current symbol name (i.e. for ",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.prefix()",
+    "desc": "Returns exchange prefix of the `symbol`,",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.pricescale",
+    "desc": "Returns a whole number used to calculate",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.recommendations_buy",
+    "desc": "The number of analysts who gave the curr",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.recommendations_buy_strong",
+    "desc": "The number of analysts who gave the curr",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.recommendations_date",
+    "desc": "The starting date of the last set of rec",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.recommendations_hold",
+    "desc": "The number of analysts who gave the curr",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.recommendations_sell",
+    "desc": "The number of analysts who gave the curr",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.recommendations_sell_strong",
+    "desc": "The number of analysts who gave the curr",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.recommendations_total",
+    "desc": "The total number of recommendations for ",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.root",
+    "desc": "Root for derivatives like futures contra",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.sector",
+    "desc": "Returns the sector of the symbol, or [na",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.session",
+    "desc": "Session type of the chart main series. P",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.shareholders",
+    "desc": "The number of shareholders the company h",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.shares_outstanding_float",
+    "desc": "The total number of shares outstanding a",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.shares_outstanding_total",
+    "desc": "The total number of shares outstanding a",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.target_price_average",
+    "desc": "The average of the last yearly price tar",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.target_price_date",
+    "desc": "The starting date of the last price targ",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.target_price_estimates",
+    "desc": "The latest total number of price target ",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.target_price_high",
+    "desc": "The last highest yearly price target for",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.target_price_low",
+    "desc": "The last lowest yearly price target for ",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.target_price_median",
+    "desc": "The median of the last yearly price targ",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.ticker",
+    "desc": "Symbol name without exchange prefix, e.g",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.ticker()",
+    "desc": "Returns `symbol` name without exchange p",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.tickerid",
+    "desc": "A ticker identifier representing the cha",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.timezone",
+    "desc": "Timezone of the exchange of the chart ma",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.type",
+    "desc": "The type of market the symbol belongs to",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "syminfo.volumetype",
+    "desc": "Volume type of the current symbol. Possi",
+    "category": "Symbol Info"
+  },
+  {
+    "name": "adjustment.dividends",
+    "desc": "Constant for dividends adjustment type (",
+    "category": "Requests"
+  },
+  {
+    "name": "adjustment.none",
+    "desc": "Constant for none adjustment type (no ad",
+    "category": "Requests"
+  },
+  {
+    "name": "adjustment.splits",
+    "desc": "Constant for splits adjustment type (spl",
+    "category": "Requests"
+  },
+  {
+    "name": "barmerge.gaps_off",
+    "desc": "Merge strategy for requested data. Data ",
+    "category": "Requests"
+  },
+  {
+    "name": "barmerge.gaps_on",
+    "desc": "Merge strategy for requested data. Data ",
+    "category": "Requests"
+  },
+  {
+    "name": "barmerge.lookahead_off",
+    "desc": "Merge strategy for the requested data po",
+    "category": "Requests"
+  },
+  {
+    "name": "barmerge.lookahead_on",
+    "desc": "Merge strategy for the requested data po",
+    "category": "Requests"
+  },
+  {
+    "name": "dividends.future_amount",
+    "desc": "Returns the payment amount of the upcomi",
+    "category": "Requests"
+  },
+  {
+    "name": "dividends.future_ex_date",
+    "desc": "Returns the Ex-dividend date (Ex-date) o",
+    "category": "Requests"
+  },
+  {
+    "name": "dividends.future_pay_date",
+    "desc": "Returns the Payment date (Pay date) of t",
+    "category": "Requests"
+  },
+  {
+    "name": "dividends.gross",
+    "desc": "A named constant for the [request.divide",
+    "category": "Requests"
+  },
+  {
+    "name": "dividends.net",
+    "desc": "A named constant for the [request.divide",
+    "category": "Requests"
+  },
+  {
+    "name": "earnings.actual",
+    "desc": "A named constant for the [request.earnin",
+    "category": "Requests"
+  },
+  {
+    "name": "earnings.estimate",
+    "desc": "A named constant for the [request.earnin",
+    "category": "Requests"
+  },
+  {
+    "name": "earnings.future_eps",
+    "desc": "Returns the estimated Earnings per Share",
+    "category": "Requests"
+  },
+  {
+    "name": "earnings.future_period_end_time",
+    "desc": "Checks the data for the next earnings re",
+    "category": "Requests"
+  },
+  {
+    "name": "earnings.future_revenue",
+    "desc": "Returns the estimated Revenue of the nex",
+    "category": "Requests"
+  },
+  {
+    "name": "earnings.future_time",
+    "desc": "Returns a UNIX timestamp indicating the ",
+    "category": "Requests"
+  },
+  {
+    "name": "earnings.standardized",
+    "desc": "A named constant for the [request.earnin",
+    "category": "Requests"
+  },
+  {
+    "name": "request.currency_rate()",
+    "desc": "Provides a daily rate that can be used t",
+    "category": "Requests"
+  },
+  {
+    "name": "request.dividends()",
+    "desc": "Requests dividends data for the specifie",
+    "category": "Requests"
+  },
+  {
+    "name": "request.earnings()",
+    "desc": "Requests earnings data for the specified",
+    "category": "Requests"
+  },
+  {
+    "name": "request.economic()",
+    "desc": "Requests economic data for a symbol. Eco",
+    "category": "Requests"
+  },
+  {
+    "name": "request.financial()",
+    "desc": "Requests financial series for symbol",
+    "category": "Requests"
+  },
+  {
+    "name": "request.quandl()",
+    "desc": "*Note:* This function has been deprecate",
+    "category": "Requests"
+  },
+  {
+    "name": "request.security_lower_tf()",
+    "desc": "Requests the results of an expression fr",
+    "category": "Requests"
+  },
+  {
+    "name": "request.security()",
+    "desc": "Requests the result of an expression fro",
+    "category": "Requests"
+  },
+  {
+    "name": "request.seed()",
+    "desc": "Requests data from a user-maintained Git",
+    "category": "Requests"
+  },
+  {
+    "name": "request.splits()",
+    "desc": "Requests splits data for the specified s",
+    "category": "Requests"
+  },
+  {
+    "name": "splits.denominator",
+    "desc": "A named constant for the [request.splits",
+    "category": "Requests"
+  },
+  {
+    "name": "splits.numerator",
+    "desc": "A named constant for the [request.splits",
+    "category": "Requests"
+  },
+  {
+    "name": "ticker.heikinashi()",
+    "desc": "Creates a ticker identifier for requesti",
+    "category": "Requests"
+  },
+  {
+    "name": "ticker.inherit()",
+    "desc": "Constructs a ticker ID for the specified",
+    "category": "Requests"
+  },
+  {
+    "name": "ticker.kagi()",
+    "desc": "Creates a ticker identifier for requesti",
+    "category": "Requests"
+  },
+  {
+    "name": "ticker.linebreak()",
+    "desc": "Creates a ticker identifier for requesti",
+    "category": "Requests"
+  },
+  {
+    "name": "ticker.modify()",
+    "desc": "Creates a ticker identifier for requesti",
+    "category": "Requests"
+  },
+  {
+    "name": "ticker.new()",
+    "desc": "Creates a ticker identifier for requesti",
+    "category": "Requests"
+  },
+  {
+    "name": "ticker.pointfigure()",
+    "desc": "Creates a ticker identifier for requesti",
+    "category": "Requests"
+  },
+  {
+    "name": "ticker.renko()",
+    "desc": "Creates a ticker identifier for requesti",
+    "category": "Requests"
+  },
+  {
+    "name": "ticker.standard()",
+    "desc": "Creates a ticker to request data from a ",
+    "category": "Requests"
+  },
+  {
+    "name": "session.extended",
+    "desc": "Constant for extended session type (with",
+    "category": "Sessions"
+  },
+  {
+    "name": "session.isfirstbar",
+    "desc": "Returns [true](#const_true) if the curre",
+    "category": "Sessions"
+  },
+  {
+    "name": "session.isfirstbar_regular",
+    "desc": "Returns [true](#const_true) on the first",
+    "category": "Sessions"
+  },
+  {
+    "name": "session.islastbar",
+    "desc": "Returns [true](#const_true) if the curre",
+    "category": "Sessions"
+  },
+  {
+    "name": "session.islastbar_regular",
+    "desc": "Returns [true](#const_true) on the last ",
+    "category": "Sessions"
+  },
+  {
+    "name": "session.ismarket",
+    "desc": "Returns [true](#const_true) if the curre",
+    "category": "Sessions"
+  },
+  {
+    "name": "session.ispostmarket",
+    "desc": "Returns [true](#const_true) if the curre",
+    "category": "Sessions"
+  },
+  {
+    "name": "session.ispremarket",
+    "desc": "Returns [true](#const_true) if the curre",
+    "category": "Sessions"
+  },
+  {
+    "name": "session.regular",
+    "desc": "Constant for regular session type (no ex",
+    "category": "Sessions"
+  },
+  {
+    "name": "timeframe.change()",
+    "desc": "Detects changes in the specified `timefr",
+    "category": "Timeframe"
+  },
+  {
+    "name": "timeframe.from_seconds()",
+    "desc": "Converts a number of seconds into a vali",
+    "category": "Timeframe"
+  },
+  {
+    "name": "timeframe.in_seconds()",
+    "desc": "Converts a timeframe string into seconds",
+    "category": "Timeframe"
+  },
+  {
+    "name": "timeframe.isdaily",
+    "desc": "Returns true if current resolution is a ",
+    "category": "Timeframe"
+  },
+  {
+    "name": "timeframe.isdwm",
+    "desc": "Returns true if current resolution is a ",
+    "category": "Timeframe"
+  },
+  {
+    "name": "timeframe.isintraday",
+    "desc": "Returns true if current resolution is an",
+    "category": "Timeframe"
+  },
+  {
+    "name": "timeframe.isminutes",
+    "desc": "Returns true if current resolution is a ",
+    "category": "Timeframe"
+  },
+  {
+    "name": "timeframe.ismonthly",
+    "desc": "Returns true if current resolution is a ",
+    "category": "Timeframe"
+  },
+  {
+    "name": "timeframe.isseconds",
+    "desc": "Returns true if current resolution is a ",
+    "category": "Timeframe"
+  },
+  {
+    "name": "timeframe.isticks",
+    "desc": "Returns true if current resolution is a ",
+    "category": "Timeframe"
+  },
+  {
+    "name": "timeframe.isweekly",
+    "desc": "Returns true if current resolution is a ",
+    "category": "Timeframe"
+  },
+  {
+    "name": "timeframe.main_period",
+    "desc": "A string representation of the script's ",
+    "category": "Timeframe"
+  },
+  {
+    "name": "timeframe.multiplier",
+    "desc": "Multiplier of resolution, e.g. '60' - 60",
+    "category": "Timeframe"
+  },
+  {
+    "name": "timeframe.period",
+    "desc": "A string representation of the script's ",
+    "category": "Timeframe"
+  },
+  {
+    "name": "strategy.account_currency",
+    "desc": "Returns the currency used to calculate r",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.avg_losing_trade",
+    "desc": "Returns the average amount of money lost",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.avg_losing_trade_percent",
+    "desc": "Returns the average percentage loss per ",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.avg_trade",
+    "desc": "Returns the average amount of money gain",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.avg_trade_percent",
+    "desc": "Returns the average percentage gain or l",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.avg_winning_trade",
+    "desc": "Returns the average amount of money gain",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.avg_winning_trade_percent",
+    "desc": "Returns the average percentage gain per ",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.cancel_all()",
+    "desc": "Cancels all pending or unfilled orders, ",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.cancel()",
+    "desc": "Cancels a pending or unfilled order with",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.cash",
+    "desc": "This is one of the arguments that can be",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.close_all()",
+    "desc": "Creates an order to close an open positi",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.close()",
+    "desc": "Creates an order to exit from the part o",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades",
+    "desc": "Number of trades, which were closed for ",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.commission()",
+    "desc": "Returns the sum of entry and exit fees p",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.entry_bar_index()",
+    "desc": "Returns the bar_index of the closed trad",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.entry_comment()",
+    "desc": "Returns the comment message of the close",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.entry_id()",
+    "desc": "Returns the id of the closed trade's ent",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.entry_price()",
+    "desc": "Returns the price of the closed trade's ",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.entry_time()",
+    "desc": "Returns the UNIX time of the closed trad",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.exit_bar_index()",
+    "desc": "Returns the bar_index of the closed trad",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.exit_comment()",
+    "desc": "Returns the comment message of the close",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.exit_id()",
+    "desc": "Returns the id of the closed trade's exi",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.exit_price()",
+    "desc": "Returns the price of the closed trade's ",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.exit_time()",
+    "desc": "Returns the UNIX time of the closed trad",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.first_index",
+    "desc": "The index, or trade number, of the first",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.max_drawdown_percent()",
+    "desc": "Returns the maximum drawdown of the clos",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.max_drawdown()",
+    "desc": "Returns the maximum drawdown of the clos",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.max_runup_percent()",
+    "desc": "Returns the maximum run-up of the closed",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.max_runup()",
+    "desc": "Returns the maximum run up of the closed",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.profit_percent()",
+    "desc": "Returns the profit/loss value of the clo",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.profit()",
+    "desc": "Returns the profit/loss of the closed tr",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.closedtrades.size()",
+    "desc": "Returns the direction and the number of ",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.commission.cash_per_contract",
+    "desc": "Commission type for an order. Money disp",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.commission.cash_per_order",
+    "desc": "Commission type for an order. Money disp",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.commission.percent",
+    "desc": "Commission type for an order. A percenta",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.convert_to_account()",
+    "desc": "Converts the value from the currency tha",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.convert_to_symbol()",
+    "desc": "Converts the value from the currency use",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.default_entry_qty()",
+    "desc": "Calculates the default quantity, in unit",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.direction.all",
+    "desc": "It allows strategy to open both long and",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.direction.long",
+    "desc": "It allows strategy to open only long pos",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.direction.short",
+    "desc": "It allows strategy to open only short po",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.entry()",
+    "desc": "Creates a new order to open or add to a ",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.equity",
+    "desc": "Current equity ([strategy.initial_capita",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.eventrades",
+    "desc": "Number of breakeven trades for the whole",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.exit()",
+    "desc": "Creates price-based orders to exit from ",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.fixed",
+    "desc": "This is one of the arguments that can be",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.grossloss",
+    "desc": "Total currency value of all completed lo",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.grossloss_percent",
+    "desc": "The total value of all completed losing ",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.grossprofit",
+    "desc": "Total currency value of all completed wi",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.grossprofit_percent",
+    "desc": "The total currency value of all complete",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.initial_capital",
+    "desc": "The amount of initial capital set in the",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.long",
+    "desc": "A named constant for use with the `direc",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.losstrades",
+    "desc": "Number of unprofitable trades for the wh",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.margin_liquidation_price",
+    "desc": "When margin is used in a strategy, retur",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.max_contracts_held_all",
+    "desc": "Maximum number of contracts/shares/lots/",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.max_contracts_held_long",
+    "desc": "Maximum number of contracts/shares/lots/",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.max_contracts_held_short",
+    "desc": "Maximum number of contracts/shares/lots/",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.max_drawdown",
+    "desc": "Maximum equity drawdown value for the wh",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.max_drawdown_percent",
+    "desc": "The maximum equity drawdown value for th",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.max_runup",
+    "desc": "Maximum equity run-up value for the whol",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.max_runup_percent",
+    "desc": "The maximum equity run-up value for the ",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.netprofit",
+    "desc": "Total currency value of all completed tr",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.netprofit_percent",
+    "desc": "The total value of all completed trades,",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.oca.cancel",
+    "desc": "A named constant for use with the `oca_t",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.oca.none",
+    "desc": "A named constant for use with the `oca_t",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.oca.reduce",
+    "desc": "A named constant for use with the `oca_t",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.openprofit",
+    "desc": "Current unrealized profit or loss for al",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.openprofit_percent",
+    "desc": "The current unrealized profit or loss fo",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.opentrades",
+    "desc": "Number of market position entries, which",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.opentrades.capital_held",
+    "desc": "Returns the capital amount currently hel",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.opentrades.commission()",
+    "desc": "Returns the sum of entry and exit fees p",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.opentrades.entry_bar_index()",
+    "desc": "Returns the bar_index of the open trade'",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.opentrades.entry_comment()",
+    "desc": "Returns the comment message of the open ",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.opentrades.entry_id()",
+    "desc": "Returns the id of the open trade's entry",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.opentrades.entry_price()",
+    "desc": "Returns the price of the open trade's en",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.opentrades.entry_time()",
+    "desc": "Returns the UNIX time of the open trade'",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.opentrades.max_drawdown_percent()",
+    "desc": "Returns the maximum drawdown of the open",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.opentrades.max_drawdown()",
+    "desc": "Returns the maximum drawdown of the open",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.opentrades.max_runup_percent()",
+    "desc": "Returns the maximum run-up of the open t",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.opentrades.max_runup()",
+    "desc": "Returns the maximum run up of the open t",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.opentrades.profit_percent()",
+    "desc": "Returns the profit/loss of the open trad",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.opentrades.profit()",
+    "desc": "Returns the profit/loss of the open trad",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.opentrades.size()",
+    "desc": "Returns the direction and the number of ",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.order()",
+    "desc": "Creates a new order to open, add to, or ",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.percent_of_equity",
+    "desc": "This is one of the arguments that can be",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.position_avg_price",
+    "desc": "Average entry price of current market po",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.position_entry_name",
+    "desc": "Name of the order that initially opened ",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.position_size",
+    "desc": "Direction and size of the current market",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.risk.allow_entry_in()",
+    "desc": "This function can be used to specify in ",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.risk.max_cons_loss_days()",
+    "desc": "The purpose of this rule is to cancel al",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.risk.max_drawdown()",
+    "desc": "The purpose of this rule is to determine",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.risk.max_intraday_filled_orders()",
+    "desc": "The purpose of this rule is to determine",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.risk.max_intraday_loss()",
+    "desc": "The maximum loss value allowed during a ",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.risk.max_position_size()",
+    "desc": "The purpose of this rule is to determine",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.short",
+    "desc": "A named constant for use with the `direc",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy.wintrades",
+    "desc": "Number of profitable trades for the whol",
+    "category": "Strategy"
+  },
+  {
+    "name": "strategy()",
+    "desc": "This declaration statement designates th",
+    "category": "Strategy"
+  }
+]
