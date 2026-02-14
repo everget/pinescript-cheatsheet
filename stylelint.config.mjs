@@ -12,6 +12,7 @@ export default {
 	reportNeedlessDisables: true,
 	reportUnscopedDisables: true,
 	rules: {
+		'import-notation': null,
 		'prettier/prettier': true,
 		'at-rule-no-unknown': [
 			true,

@@ -1,182 +1,182 @@
 [
   {
     "name": "array",
-    "desc": "Keyword used to explicitly declare the \"array\" type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"array\" type of a variable or a parameter",
     "category": "Types"
   },
   {
     "name": "bool",
-    "desc": "Keyword used to explicitly declare the \"bool\" (boolean) type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"bool\" (boolean) type of a variable or a parameter",
     "category": "Types"
   },
   {
     "name": "box",
-    "desc": "Keyword used to explicitly declare the \"box\" type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"box\" type of a variable or a parameter",
     "category": "Types"
   },
   {
     "name": "chart.point",
-    "desc": "Keyword to explicitly declare the type of a variable or parameter as chart.point.",
+    "desc": "Keyword to explicitly declare the type of a variable or parameter as chart.point",
     "category": "Types"
   },
   {
     "name": "color",
-    "desc": "Keyword used to explicitly declare the \"color\" type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"color\" type of a variable or a parameter",
     "category": "Types"
   },
   {
     "name": "const",
-    "desc": "The const keyword explicitly assigns the \"const\" type qualifier to variables and the parameters of non-exported functions.",
+    "desc": "The const keyword explicitly assigns the \"const\" type qualifier to variables and the parameters of non-exported functions",
     "category": "Types"
   },
   {
     "name": "float",
-    "desc": "Keyword used to explicitly declare the \"float\" (floating point) type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"float\" (floating point) type of a variable or a parameter",
     "category": "Types"
   },
   {
     "name": "int",
-    "desc": "Keyword used to explicitly declare the \"int\" (integer) type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"int\" (integer) type of a variable or a parameter",
     "category": "Types"
   },
   {
     "name": "label",
-    "desc": "Keyword used to explicitly declare the \"label\" type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"label\" type of a variable or a parameter",
     "category": "Types"
   },
   {
     "name": "line",
-    "desc": "Keyword used to explicitly declare the \"line\" type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"line\" type of a variable or a parameter",
     "category": "Types"
   },
   {
     "name": "linefill",
-    "desc": "Keyword used to explicitly declare the \"linefill\" type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"linefill\" type of a variable or a parameter",
     "category": "Types"
   },
   {
     "name": "map",
-    "desc": "Keyword used to explicitly declare the \"map\" type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"map\" type of a variable or a parameter",
     "category": "Types"
   },
   {
     "name": "matrix",
-    "desc": "Keyword used to explicitly declare the \"matrix\" type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"matrix\" type of a variable or a parameter",
     "category": "Types"
   },
   {
     "name": "polyline",
-    "desc": "Keyword to explicitly declare the type of a variable or parameter as polyline.",
+    "desc": "Keyword to explicitly declare the type of a variable or parameter as polyline",
     "category": "Types"
   },
   {
     "name": "series",
-    "desc": "The series keyword explicitly assigns the \"series\" type qualifier to variables and function parameters.",
+    "desc": "The series keyword explicitly assigns the \"series\" type qualifier to variables and function parameters",
     "category": "Types"
   },
   {
     "name": "simple",
-    "desc": "The simple keyword explicitly assigns the \"simple\" type qualifier to variables and function parameters.",
+    "desc": "The simple keyword explicitly assigns the \"simple\" type qualifier to variables and function parameters",
     "category": "Types"
   },
   {
     "name": "string",
-    "desc": "Keyword used to explicitly declare the \"string\" type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"string\" type of a variable or a parameter",
     "category": "Types"
   },
   {
     "name": "table",
-    "desc": "Keyword used to explicitly declare the \"table\" type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"table\" type of a variable or a parameter",
     "category": "Types"
   },
   {
     "name": "@description",
-    "desc": "Sets a custom description for scripts that use the library declaration statement.",
+    "desc": "Sets a custom description for scripts that use the library declaration statement",
     "category": "Annotations"
   },
   {
     "name": "@enum",
-    "desc": "If placed above an enum declaration, it adds a custom description for the enum.",
+    "desc": "If placed above an enum declaration, it adds a custom description for the enum",
     "category": "Annotations"
   },
   {
     "name": "@field",
-    "desc": "If placed above a type or enum declaration, it adds a custom description for a field of the type/enum.",
+    "desc": "If placed above a type or enum declaration, it adds a custom description for a field of the type/enum",
     "category": "Annotations"
   },
   {
     "name": "@function",
-    "desc": "If placed above a function declaration, it adds a custom description for the function.",
+    "desc": "If placed above a function declaration, it adds a custom description for the function",
     "category": "Annotations"
   },
   {
     "name": "@param",
-    "desc": "If placed above a function declaration, it adds a custom description for a function parameter.",
+    "desc": "If placed above a function declaration, it adds a custom description for a function parameter",
     "category": "Annotations"
   },
   {
     "name": "@returns",
-    "desc": "If placed above a function declaration, it adds a custom description for what that function returns.",
+    "desc": "If placed above a function declaration, it adds a custom description for what that function returns",
     "category": "Annotations"
   },
   {
     "name": "@strategy_alert_message",
-    "desc": "If used within a strategy script, it provides a default message to pre-fill the \"Message\" field in the alert creation dialogue.",
+    "desc": "If used within a strategy script, it provides a default message to pre-fill the \"Message\" field in the alert creation dialogue",
     "category": "Annotations"
   },
   {
     "name": "@type",
-    "desc": "If placed above a type declaration, it adds a custom description for the type.",
+    "desc": "If placed above a type declaration, it adds a custom description for the type",
     "category": "Annotations"
   },
   {
     "name": "@variable",
-    "desc": "If placed above a variable declaration, it adds a custom description for the variable.",
+    "desc": "If placed above a variable declaration, it adds a custom description for the variable",
     "category": "Annotations"
   },
   {
     "name": "@version=",
-    "desc": "Specifies the Pine Script® version that the script will use.",
+    "desc": "Specifies the Pine Script® version that the script will use",
     "category": "Annotations"
   },
   {
     "name": "and",
-    "desc": "Logical AND.",
+    "desc": "Logical AND",
     "category": "Keywords"
   },
   {
     "name": "as",
-    "desc": "",
+    "desc": "Used for type casting expressions",
     "category": "Keywords"
   },
   {
     "name": "break",
-    "desc": "",
+    "desc": "Exits the current for or while loop",
     "category": "Keywords"
   },
   {
     "name": "by",
-    "desc": "",
+    "desc": "Specifies the step value in a for loop",
     "category": "Keywords"
   },
   {
     "name": "continue",
-    "desc": "",
+    "desc": "Skips the current iteration in a for or while loop",
     "category": "Keywords"
   },
   {
     "name": "else",
-    "desc": "",
+    "desc": "Defines the block of code to execute when the if condition is false",
     "category": "Keywords"
   },
   {
     "name": "enum",
-    "desc": "This keyword allows the creation of an enumeration, enum for short.",
+    "desc": "This keyword allows the creation of an enumeration, enum for short",
     "category": "Keywords"
   },
   {
     "name": "export",
-    "desc": "Used in libraries to prefix the declaration of functions or user-defined type definitions that will be available from other scripts importing the library.",
+    "desc": "Used in libraries to prefix the declaration of functions or user-defined type definitions that will be available from other scripts importing the library",
     "category": "Keywords"
   },
   {
@@ -186,417 +186,417 @@
   },
   {
     "name": "for...in",
-    "desc": "The for...in structure allows the repeated execution of a number of statements for each element in an array.",
+    "desc": "The for...in structure allows the repeated execution of a number of statements for each element in an array",
     "category": "Keywords"
   },
   {
     "name": "if",
-    "desc": "If statement defines what block of statements must be executed when conditions of the expression are satisfied.",
+    "desc": "If statement defines what block of statements must be executed when conditions of the expression are satisfied",
     "category": "Keywords"
   },
   {
     "name": "import",
-    "desc": "Used to load an external library into a script and bind its functions to a namespace.",
+    "desc": "Used to load an external library into a script and bind its functions to a namespace",
     "category": "Keywords"
   },
   {
     "name": "in",
-    "desc": "",
+    "desc": "Used in for...in loops to iterate over array elements",
     "category": "Keywords"
   },
   {
     "name": "method",
-    "desc": "This keyword is used to prefix a function declaration, indicating it can then be invoked using dot notation by appending its name to a variable of the type of its first parameter and omitting that first parameter.",
+    "desc": "This keyword is used to prefix a function declaration, indicating it can then be invoked using dot notation by appending its name to a variable of the type of its first parameter and omitting that first parameter",
     "category": "Keywords"
   },
   {
     "name": "not",
-    "desc": "Logical negation (NOT).",
+    "desc": "Logical negation (NOT)",
     "category": "Keywords"
   },
   {
     "name": "or",
-    "desc": "Logical OR.",
+    "desc": "Logical OR",
     "category": "Keywords"
   },
   {
     "name": "switch",
-    "desc": "The switch operator transfers control to one of the several statements, depending on the values of a condition and expressions.",
+    "desc": "The switch operator transfers control to one of the several statements, depending on the values of a condition and expressions",
     "category": "Keywords"
   },
   {
     "name": "to",
-    "desc": "",
+    "desc": "Specifies the end value in a for loop",
     "category": "Keywords"
   },
   {
     "name": "type",
-    "desc": "This keyword allows the declaration of user-defined types (UDT) from which scripts can instantiate objects.",
+    "desc": "This keyword allows the declaration of user-defined types (UDT) from which scripts can instantiate objects",
     "category": "Keywords"
   },
   {
     "name": "var",
-    "desc": "var is the keyword used for assigning and one-time initializing of the variable.",
+    "desc": "var is the keyword used for assigning and one-time initializing of the variable",
     "category": "Keywords"
   },
   {
     "name": "varip",
-    "desc": "varip (var intrabar persist) is the keyword used for the assignment and one-time initialization of a variable or a field of a user-defined type.",
+    "desc": "varip (var intrabar persist) is the keyword used for the assignment and one-time initialization of a variable or a field of a user-defined type",
     "category": "Keywords"
   },
   {
     "name": "while",
-    "desc": "The while statement allows the conditional iteration of a local code block.",
+    "desc": "The while statement allows the conditional iteration of a local code block",
     "category": "Keywords"
   },
   {
     "name": "-",
-    "desc": "Subtraction or unary minus.",
+    "desc": "Subtraction or unary minus",
     "category": "Operators"
   },
   {
     "name": "-=",
-    "desc": "Subtraction assignment.",
+    "desc": "Subtraction assignment",
     "category": "Operators"
   },
   {
     "name": ":=",
-    "desc": "Reassignment operator.",
+    "desc": "Reassignment operator",
     "category": "Operators"
   },
   {
     "name": "!=",
-    "desc": "Not equal to.",
+    "desc": "Not equal to",
     "category": "Operators"
   },
   {
     "name": "?:",
-    "desc": "Ternary conditional operator.",
+    "desc": "Ternary conditional operator",
     "category": "Operators"
   },
   {
     "name": "[]",
-    "desc": "Series subscript.",
+    "desc": "Series subscript",
     "category": "Operators"
   },
   {
     "name": "*",
-    "desc": "Multiplication.",
+    "desc": "Multiplication",
     "category": "Operators"
   },
   {
     "name": "*=",
-    "desc": "Multiplication assignment.",
+    "desc": "Multiplication assignment",
     "category": "Operators"
   },
   {
     "name": "/",
-    "desc": "Division.",
+    "desc": "Division",
     "category": "Operators"
   },
   {
     "name": "/=",
-    "desc": "Division assignment.",
+    "desc": "Division assignment",
     "category": "Operators"
   },
   {
     "name": "%",
-    "desc": "Modulo (integer remainder).",
+    "desc": "Modulo (integer remainder)",
     "category": "Operators"
   },
   {
     "name": "%=",
-    "desc": "Modulo assignment.",
+    "desc": "Modulo assignment",
     "category": "Operators"
   },
   {
     "name": "+",
-    "desc": "Addition or unary plus.",
+    "desc": "Addition or unary plus",
     "category": "Operators"
   },
   {
     "name": "+=",
-    "desc": "Addition assignment.",
+    "desc": "Addition assignment",
     "category": "Operators"
   },
   {
     "name": "<",
-    "desc": "Less than.",
+    "desc": "Less than",
     "category": "Operators"
   },
   {
     "name": "<=",
-    "desc": "Less than or equal to.",
+    "desc": "Less than or equal to",
     "category": "Operators"
   },
   {
     "name": "==",
-    "desc": "Equal to.",
+    "desc": "Equal to",
     "category": "Operators"
   },
   {
     "name": "=>",
-    "desc": "The '=>' operator is used in user-defined function declarations and in switch statements.",
+    "desc": "The '=>' operator is used in user-defined function declarations and in switch statements",
     "category": "Operators"
   },
   {
     "name": ">",
-    "desc": "Greater than.",
+    "desc": "Greater than",
     "category": "Operators"
   },
   {
     "name": ">=",
-    "desc": "Greater than or equal to.",
+    "desc": "Greater than or equal to",
     "category": "Operators"
   },
   {
     "name": "bar_index",
-    "desc": "Current bar index.",
+    "desc": "Current bar index",
     "category": "Bar Data"
   },
   {
     "name": "close",
-    "desc": "Close price of the current bar when it has closed, or last traded price of a yet incomplete, realtime bar.",
+    "desc": "Close price of the current bar when it has closed, or last traded price of a yet incomplete, realtime bar",
     "category": "Bar Data"
   },
   {
     "name": "high",
-    "desc": "Current high price.",
+    "desc": "Current high price",
     "category": "Bar Data"
   },
   {
     "name": "low",
-    "desc": "Current low price.",
+    "desc": "Current low price",
     "category": "Bar Data"
   },
   {
     "name": "open",
-    "desc": "Current open price.",
+    "desc": "Current open price",
     "category": "Bar Data"
   },
   {
     "name": "volume",
-    "desc": "Current bar volume.",
+    "desc": "Current bar volume",
     "category": "Bar Data"
   },
   {
     "name": "color.aqua",
-    "desc": "Is a named constant for #00BCD4 color.",
+    "desc": "Is a named constant for #00BCD4 color",
     "category": "Colors"
   },
   {
     "name": "color.b()",
-    "desc": "Retrieves the value of the color's blue component.",
+    "desc": "Retrieves the value of the color's blue component",
     "category": "Colors"
   },
   {
     "name": "color.black",
-    "desc": "Is a named constant for #363A45 color.",
+    "desc": "Is a named constant for #363A45 color",
     "category": "Colors"
   },
   {
     "name": "color.blue",
-    "desc": "Is a named constant for #2962ff color.",
+    "desc": "Is a named constant for #2962ff color",
     "category": "Colors"
   },
   {
     "name": "color.from_gradient()",
-    "desc": "Based on the relative position of value in the bottom_value to top_value range, the function returns a color from the gradient defined by bottom_color to top_color.",
+    "desc": "Based on the relative position of value in the bottom_value to top_value range, the function returns a color from the gradient defined by bottom_color to top_color",
     "category": "Colors"
   },
   {
     "name": "color.fuchsia",
-    "desc": "Is a named constant for #E040FB color.",
+    "desc": "Is a named constant for #E040FB color",
     "category": "Colors"
   },
   {
     "name": "color.g()",
-    "desc": "Retrieves the value of the color's green component.",
+    "desc": "Retrieves the value of the color's green component",
     "category": "Colors"
   },
   {
     "name": "color.gray",
-    "desc": "Is a named constant for #787B86 color.",
+    "desc": "Is a named constant for #787B86 color",
     "category": "Colors"
   },
   {
     "name": "color.green",
-    "desc": "Is a named constant for #4CAF50 color.",
+    "desc": "Is a named constant for #4CAF50 color",
     "category": "Colors"
   },
   {
     "name": "color.lime",
-    "desc": "Is a named constant for #00E676 color.",
+    "desc": "Is a named constant for #00E676 color",
     "category": "Colors"
   },
   {
     "name": "color.maroon",
-    "desc": "Is a named constant for #880E4F color.",
+    "desc": "Is a named constant for #880E4F color",
     "category": "Colors"
   },
   {
     "name": "color.navy",
-    "desc": "Is a named constant for #311B92 color.",
+    "desc": "Is a named constant for #311B92 color",
     "category": "Colors"
   },
   {
     "name": "color.new()",
-    "desc": "Function color applies the specified transparency to the given color.",
+    "desc": "Function color applies the specified transparency to the given color",
     "category": "Colors"
   },
   {
     "name": "color.olive",
-    "desc": "Is a named constant for #808000 color.",
+    "desc": "Is a named constant for #808000 color",
     "category": "Colors"
   },
   {
     "name": "color.orange",
-    "desc": "Is a named constant for #FF9800 color.",
+    "desc": "Is a named constant for #FF9800 color",
     "category": "Colors"
   },
   {
     "name": "color.purple",
-    "desc": "Is a named constant for #9C27B0 color.",
+    "desc": "Is a named constant for #9C27B0 color",
     "category": "Colors"
   },
   {
     "name": "color.r()",
-    "desc": "Retrieves the value of the color's red component.",
+    "desc": "Retrieves the value of the color's red component",
     "category": "Colors"
   },
   {
     "name": "color.red",
-    "desc": "Is a named constant for #F23645 color.",
+    "desc": "Is a named constant for #F23645 color",
     "category": "Colors"
   },
   {
     "name": "color.rgb()",
-    "desc": "Creates a new color with transparency using the RGB color model.",
+    "desc": "Creates a new color with transparency using the RGB color model",
     "category": "Colors"
   },
   {
     "name": "color.silver",
-    "desc": "Is a named constant for #B2B5BE color.",
+    "desc": "Is a named constant for #B2B5BE color",
     "category": "Colors"
   },
   {
     "name": "color.t()",
-    "desc": "Retrieves the color's transparency.",
+    "desc": "Retrieves the color's transparency",
     "category": "Colors"
   },
   {
     "name": "color.teal",
-    "desc": "Is a named constant for #089981 color.",
+    "desc": "Is a named constant for #089981 color",
     "category": "Colors"
   },
   {
     "name": "color.white",
-    "desc": "Is a named constant for #FFFFFF color.",
+    "desc": "Is a named constant for #FFFFFF color",
     "category": "Colors"
   },
   {
     "name": "color.yellow",
-    "desc": "Is a named constant for #FDD835 color.",
+    "desc": "Is a named constant for #FDD835 color",
     "category": "Colors"
   },
   {
     "name": "color()",
-    "desc": "Keyword used to explicitly declare the \"color\" type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"color\" type of a variable or a parameter",
     "category": "Colors"
   },
   {
     "name": "str.contains()",
-    "desc": "Returns true if the source string contains the str substring, false otherwise.",
+    "desc": "Returns true if the source string contains the str substring, false otherwise",
     "category": "Strings"
   },
   {
     "name": "str.endswith()",
-    "desc": "Returns true if the source string ends with the substring specified in str, false otherwise.",
+    "desc": "Returns true if the source string ends with the substring specified in str, false otherwise",
     "category": "Strings"
   },
   {
     "name": "str.format_time()",
-    "desc": "Converts the time timestamp into a string formatted according to format and timezone.",
+    "desc": "Converts the time timestamp into a string formatted according to format and timezone",
     "category": "Strings"
   },
   {
     "name": "str.format()",
-    "desc": "Converts the formatting string and value(s) into a formatted string.",
+    "desc": "Converts the formatting string and value(s) into a formatted string",
     "category": "Strings"
   },
   {
     "name": "str.length()",
-    "desc": "Returns an integer corresponding to the amount of chars in that string.",
+    "desc": "Returns an integer corresponding to the amount of chars in that string",
     "category": "Strings"
   },
   {
     "name": "str.lower()",
-    "desc": "Returns a new string with all letters converted to lowercase.",
+    "desc": "Returns a new string with all letters converted to lowercase",
     "category": "Strings"
   },
   {
     "name": "str.match()",
-    "desc": "Returns the new substring of the source string if it matches a regex regular expression, an empty string otherwise.",
+    "desc": "Returns the new substring of the source string if it matches a regex regular expression, an empty string otherwise",
     "category": "Strings"
   },
   {
     "name": "str.pos()",
-    "desc": "Returns the position of the first occurrence of the str string in the source string, 'na' otherwise.",
+    "desc": "Returns the position of the first occurrence of the str string in the source string, 'na' otherwise",
     "category": "Strings"
   },
   {
     "name": "str.repeat()",
-    "desc": "Constructs a new string containing the source string repeated repeat times with the separator injected between each repeated instance.",
+    "desc": "Constructs a new string containing the source string repeated repeat times with the separator injected between each repeated instance",
     "category": "Strings"
   },
   {
     "name": "str.replace_all()",
-    "desc": "Replaces each occurrence of the target string in the source string with the replacement string.",
+    "desc": "Replaces each occurrence of the target string in the source string with the replacement string",
     "category": "Strings"
   },
   {
     "name": "str.replace()",
-    "desc": "Returns a new string with the Nth occurrence of the target string replaced by the replacement string, where N is specified in occurrence.",
+    "desc": "Returns a new string with the Nth occurrence of the target string replaced by the replacement string, where N is specified in occurrence",
     "category": "Strings"
   },
   {
     "name": "str.split()",
-    "desc": "Divides a string into an array of substrings and returns its array id.",
+    "desc": "Divides a string into an array of substrings and returns its array id",
     "category": "Strings"
   },
   {
     "name": "str.startswith()",
-    "desc": "Returns true if the source string starts with the substring specified in str, false otherwise.",
+    "desc": "Returns true if the source string starts with the substring specified in str, false otherwise",
     "category": "Strings"
   },
   {
     "name": "str.substring()",
-    "desc": "Returns a new string that is a substring of the source string.",
+    "desc": "Returns a new string that is a substring of the source string",
     "category": "Strings"
   },
   {
     "name": "str.tonumber()",
-    "desc": "Converts a value represented in string to its \"float\" equivalent.",
+    "desc": "Converts a value represented in string to its \"float\" equivalent",
     "category": "Strings"
   },
   {
     "name": "str.tostring()",
-    "desc": "",
+    "desc": "Converts a value to its string representation",
     "category": "Strings"
   },
   {
     "name": "str.trim()",
-    "desc": "Constructs a new string with all consecutive whitespaces and other control characters (e.g., “\\n”, “\\t”, etc.) removed from the left and right of the source.",
+    "desc": "Constructs a new string with all consecutive whitespaces and other control characters (e.g., “\\n”, “\\t”, etc.) removed from the left and right of the source",
     "category": "Strings"
   },
   {
     "name": "str.upper()",
-    "desc": "Returns a new string with all letters converted to uppercase.",
+    "desc": "Returns a new string with all letters converted to uppercase",
     "category": "Strings"
   },
   {
     "name": "strategy.close_all()",
-    "desc": "Creates an order to close an open position completely, regardless of the identifiers of the entry orders that opened or added to it.",
+    "desc": "Creates an order to close an open position completely, regardless of the identifiers of the entry orders that opened or added to it",
     "category": "Strings"
   },
   {
@@ -606,772 +606,772 @@
   },
   {
     "name": "math.abs()",
-    "desc": "Absolute value of number is number if number >= 0, or -number otherwise.",
+    "desc": "Absolute value of number is number if number >= 0, or -number otherwise",
     "category": "Maths"
   },
   {
     "name": "math.acos()",
-    "desc": "The acos function returns the arccosine (in radians) of number such that cos(acos(y)) = y for y in range [-1, 1].",
+    "desc": "The acos function returns the arccosine (in radians) of number such that cos(acos(y)) = y for y in range [-1, 1]",
     "category": "Maths"
   },
   {
     "name": "math.asin()",
-    "desc": "The asin function returns the arcsine (in radians) of number such that sin(asin(y)) = y for y in range [-1, 1].",
+    "desc": "The asin function returns the arcsine (in radians) of number such that sin(asin(y)) = y for y in range [-1, 1]",
     "category": "Maths"
   },
   {
     "name": "math.atan()",
-    "desc": "The atan function returns the arctangent (in radians) of number such that tan(atan(y)) = y for any y.",
+    "desc": "The atan function returns the arctangent (in radians) of number such that tan(atan(y)) = y for any y",
     "category": "Maths"
   },
   {
     "name": "math.avg()",
-    "desc": "Calculates average of all given series (elementwise).",
+    "desc": "Calculates average of all given series (elementwise)",
     "category": "Maths"
   },
   {
     "name": "math.ceil()",
-    "desc": "Rounds the specified number up to the smallest whole number (\"int\" value) that is greater than or equal to it.",
+    "desc": "Rounds the specified number up to the smallest whole number (\"int\" value) that is greater than or equal to it",
     "category": "Maths"
   },
   {
     "name": "math.cos()",
-    "desc": "The cos function returns the trigonometric cosine of an angle.",
+    "desc": "The cos function returns the trigonometric cosine of an angle",
     "category": "Maths"
   },
   {
     "name": "math.e",
-    "desc": "Is a named constant for Euler's number).",
+    "desc": "Is a named constant for Euler's number)",
     "category": "Maths"
   },
   {
     "name": "math.exp()",
-    "desc": "The exp function of number is e raised to the power of number, where e is Euler's number.",
+    "desc": "The exp function of number is e raised to the power of number, where e is Euler's number",
     "category": "Maths"
   },
   {
     "name": "math.floor()",
-    "desc": "Rounds the specified number down to the largest whole number (\"int\" value) that is less than or equal to it.",
+    "desc": "Rounds the specified number down to the largest whole number (\"int\" value) that is less than or equal to it",
     "category": "Maths"
   },
   {
     "name": "math.log()",
-    "desc": "Natural logarithm of any number > 0 is the unique y such that e^y = number.",
+    "desc": "Natural logarithm of any number > 0 is the unique y such that e^y = number",
     "category": "Maths"
   },
   {
     "name": "math.log10()",
-    "desc": "The common (or base 10) logarithm of number is the power to which 10 must be raised to obtain the number.",
+    "desc": "The common (or base 10) logarithm of number is the power to which 10 must be raised to obtain the number",
     "category": "Maths"
   },
   {
     "name": "math.max()",
-    "desc": "Returns the greatest of multiple values.",
+    "desc": "Returns the greatest of multiple values",
     "category": "Maths"
   },
   {
     "name": "math.min()",
-    "desc": "Returns the smallest of multiple values.",
+    "desc": "Returns the smallest of multiple values",
     "category": "Maths"
   },
   {
     "name": "math.phi",
-    "desc": "Is a named constant for the golden ratio.",
+    "desc": "Is a named constant for the golden ratio",
     "category": "Maths"
   },
   {
     "name": "math.pi",
-    "desc": "Is a named constant for Archimedes' constant.",
+    "desc": "Is a named constant for Archimedes' constant",
     "category": "Maths"
   },
   {
     "name": "math.pow()",
-    "desc": "Mathematical power function.",
+    "desc": "Mathematical power function",
     "category": "Maths"
   },
   {
     "name": "math.random()",
-    "desc": "Returns a pseudo-random value.",
+    "desc": "Returns a pseudo-random value",
     "category": "Maths"
   },
   {
     "name": "math.round_to_mintick()",
-    "desc": "Returns the value rounded to the symbol's mintick, i.e.",
+    "desc": "Returns the value rounded to the symbol's mintick, i.e",
     "category": "Maths"
   },
   {
     "name": "math.round()",
-    "desc": "Returns the value of number rounded to the nearest integer, with ties rounding up.",
+    "desc": "Returns the value of number rounded to the nearest integer, with ties rounding up",
     "category": "Maths"
   },
   {
     "name": "math.rphi",
-    "desc": "Is a named constant for the golden ratio conjugate.",
+    "desc": "Is a named constant for the golden ratio conjugate",
     "category": "Maths"
   },
   {
     "name": "math.sign()",
-    "desc": "Sign (signum) of number is zero if number is zero, 1.0 if number is greater than zero, -1.0 if number is less than zero.",
+    "desc": "Sign (signum) of number is zero if number is zero, 1.0 if number is greater than zero, -1.0 if number is less than zero",
     "category": "Maths"
   },
   {
     "name": "math.sin()",
-    "desc": "The sin function returns the trigonometric sine of an angle.",
+    "desc": "The sin function returns the trigonometric sine of an angle",
     "category": "Maths"
   },
   {
     "name": "math.sqrt()",
-    "desc": "Square root of any number >= 0 is the unique y >= 0 such that y^2 = number.",
+    "desc": "Square root of any number >= 0 is the unique y >= 0 such that y^2 = number",
     "category": "Maths"
   },
   {
     "name": "math.sum()",
-    "desc": "The sum function returns the sliding sum of last y values of x.",
+    "desc": "The sum function returns the sliding sum of last y values of x",
     "category": "Maths"
   },
   {
     "name": "math.tan()",
-    "desc": "The tan function returns the trigonometric tangent of an angle.",
+    "desc": "The tan function returns the trigonometric tangent of an angle",
     "category": "Maths"
   },
   {
     "name": "math.todegrees()",
-    "desc": "Returns an approximately equivalent angle in degrees from an angle measured in radians.",
+    "desc": "Returns an approximately equivalent angle in degrees from an angle measured in radians",
     "category": "Maths"
   },
   {
     "name": "math.toradians()",
-    "desc": "Returns an approximately equivalent angle in radians from an angle measured in degrees.",
+    "desc": "Returns an approximately equivalent angle in radians from an angle measured in degrees",
     "category": "Maths"
   },
   {
     "name": "na",
-    "desc": "Tests if x is na.",
+    "desc": "Tests if x is na",
     "category": "Maths"
   },
   {
     "name": "array.abs()",
-    "desc": "Returns an array containing the absolute value of each element in the original array.",
+    "desc": "Returns an array containing the absolute value of each element in the original array",
     "category": "Arrays"
   },
   {
     "name": "array.avg()",
-    "desc": "The function returns the mean of an array's elements.",
+    "desc": "The function returns the mean of an array's elements",
     "category": "Arrays"
   },
   {
     "name": "array.binary_search_leftmost()",
-    "desc": "The function returns the index of the value if it is found.",
+    "desc": "The function returns the index of the value if it is found",
     "category": "Arrays"
   },
   {
     "name": "array.binary_search_rightmost()",
-    "desc": "The function returns the index of the value if it is found.",
+    "desc": "The function returns the index of the value if it is found",
     "category": "Arrays"
   },
   {
     "name": "array.binary_search()",
-    "desc": "The function returns the index of the value, or -1 if the value is not found.",
+    "desc": "The function returns the index of the value, or -1 if the value is not found",
     "category": "Arrays"
   },
   {
     "name": "array.clear()",
-    "desc": "The function removes all elements from an array.",
+    "desc": "The function removes all elements from an array",
     "category": "Arrays"
   },
   {
     "name": "array.concat()",
-    "desc": "The function is used to merge two arrays.",
+    "desc": "The function is used to merge two arrays",
     "category": "Arrays"
   },
   {
     "name": "array.copy()",
-    "desc": "The function creates a copy of an existing array.",
+    "desc": "The function creates a copy of an existing array",
     "category": "Arrays"
   },
   {
     "name": "array.covariance()",
-    "desc": "The function returns the covariance of two arrays.",
+    "desc": "The function returns the covariance of two arrays",
     "category": "Arrays"
   },
   {
     "name": "array.every()",
-    "desc": "Returns true if all elements of the id array are true, false otherwise.",
+    "desc": "Returns true if all elements of the id array are true, false otherwise",
     "category": "Arrays"
   },
   {
     "name": "array.fill()",
-    "desc": "The function sets elements of an array to a single value.",
+    "desc": "The function sets elements of an array to a single value",
     "category": "Arrays"
   },
   {
     "name": "array.first()",
-    "desc": "Returns the array's first element.",
+    "desc": "Returns the array's first element",
     "category": "Arrays"
   },
   {
     "name": "array.from()",
-    "desc": "The function takes a variable number of arguments with one of the types: int, float, bool, string, label, line, color, box, table, linefill, and returns an array of the corresponding type.",
+    "desc": "The function takes a variable number of arguments with one of the types: int, float, bool, string, label, line, color, box, table, linefill, and returns an array of the corresponding type",
     "category": "Arrays"
   },
   {
     "name": "array.get()",
-    "desc": "The function returns the value of the element at the specified index.",
+    "desc": "The function returns the value of the element at the specified index",
     "category": "Arrays"
   },
   {
     "name": "array.includes()",
-    "desc": "The function returns true if the value was found in an array, false otherwise.",
+    "desc": "The function returns true if the value was found in an array, false otherwise",
     "category": "Arrays"
   },
   {
     "name": "array.indexof()",
-    "desc": "The function returns the index of the first occurrence of the value, or -1 if the value is not found.",
+    "desc": "The function returns the index of the first occurrence of the value, or -1 if the value is not found",
     "category": "Arrays"
   },
   {
     "name": "array.insert()",
-    "desc": "The function changes the contents of an array by adding new elements in place.",
+    "desc": "The function changes the contents of an array by adding new elements in place",
     "category": "Arrays"
   },
   {
     "name": "array.join()",
-    "desc": "The function creates and returns a new string by concatenating all the elements of an array, separated by the specified separator string.",
+    "desc": "The function creates and returns a new string by concatenating all the elements of an array, separated by the specified separator string",
     "category": "Arrays"
   },
   {
     "name": "array.last()",
-    "desc": "Returns the array's last element.",
+    "desc": "Returns the array's last element",
     "category": "Arrays"
   },
   {
     "name": "array.lastindexof()",
-    "desc": "The function returns the index of the last occurrence of the value, or -1 if the value is not found.",
+    "desc": "The function returns the index of the last occurrence of the value, or -1 if the value is not found",
     "category": "Arrays"
   },
   {
     "name": "array.max()",
-    "desc": "The function returns the greatest value, or the nth greatest value in a given array.",
+    "desc": "The function returns the greatest value, or the nth greatest value in a given array",
     "category": "Arrays"
   },
   {
     "name": "array.median()",
-    "desc": "The function returns the median of an array's elements.",
+    "desc": "The function returns the median of an array's elements",
     "category": "Arrays"
   },
   {
     "name": "array.min()",
-    "desc": "The function returns the smallest value, or the nth smallest value in a given array.",
+    "desc": "The function returns the smallest value, or the nth smallest value in a given array",
     "category": "Arrays"
   },
   {
     "name": "array.mode()",
-    "desc": "The function returns the mode of an array's elements.",
+    "desc": "The function returns the mode of an array's elements",
     "category": "Arrays"
   },
   {
     "name": "array.new_bool()",
-    "desc": "The function creates a new array object of bool type elements.",
+    "desc": "The function creates a new array object of bool type elements",
     "category": "Arrays"
   },
   {
     "name": "array.new_box()",
-    "desc": "The function creates a new array object of box type elements.",
+    "desc": "The function creates a new array object of box type elements",
     "category": "Arrays"
   },
   {
     "name": "array.new_color()",
-    "desc": "The function creates a new array object of color type elements.",
+    "desc": "The function creates a new array object of color type elements",
     "category": "Arrays"
   },
   {
     "name": "array.new_float()",
-    "desc": "The function creates a new array object of float type elements.",
+    "desc": "The function creates a new array object of float type elements",
     "category": "Arrays"
   },
   {
     "name": "array.new_int()",
-    "desc": "The function creates a new array object of int type elements.",
+    "desc": "The function creates a new array object of int type elements",
     "category": "Arrays"
   },
   {
     "name": "array.new_label()",
-    "desc": "The function creates a new array object of label type elements.",
+    "desc": "The function creates a new array object of label type elements",
     "category": "Arrays"
   },
   {
     "name": "array.new_line()",
-    "desc": "The function creates a new array object of line type elements.",
+    "desc": "The function creates a new array object of line type elements",
     "category": "Arrays"
   },
   {
     "name": "array.new_linefill()",
-    "desc": "The function creates a new array object of linefill type elements.",
+    "desc": "The function creates a new array object of linefill type elements",
     "category": "Arrays"
   },
   {
     "name": "array.new_string()",
-    "desc": "The function creates a new array object of string type elements.",
+    "desc": "The function creates a new array object of string type elements",
     "category": "Arrays"
   },
   {
     "name": "array.new_table()",
-    "desc": "The function creates a new array object of table type elements.",
+    "desc": "The function creates a new array object of table type elements",
     "category": "Arrays"
   },
   {
     "name": "array.new<type>()",
-    "desc": "The function creates a new array object of <type> elements.",
+    "desc": "The function creates a new array object of <type> elements",
     "category": "Arrays"
   },
   {
     "name": "array.percentile_linear_interpolation()",
-    "desc": "Returns the value for which the specified percentage of array values (percentile) are less than or equal to it, using linear interpolation.",
+    "desc": "Returns the value for which the specified percentage of array values (percentile) are less than or equal to it, using linear interpolation",
     "category": "Arrays"
   },
   {
     "name": "array.percentile_nearest_rank()",
-    "desc": "Returns the value for which the specified percentage of array values (percentile) are less than or equal to it, using the nearest-rank method.",
+    "desc": "Returns the value for which the specified percentage of array values (percentile) are less than or equal to it, using the nearest-rank method",
     "category": "Arrays"
   },
   {
     "name": "array.percentrank()",
-    "desc": "Returns the percentile rank of the element at the specified index.",
+    "desc": "Returns the percentile rank of the element at the specified index",
     "category": "Arrays"
   },
   {
     "name": "array.pop()",
-    "desc": "The function removes the last element from an array and returns its value.",
+    "desc": "The function removes the last element from an array and returns its value",
     "category": "Arrays"
   },
   {
     "name": "array.push()",
-    "desc": "The function appends a value to an array.",
+    "desc": "The function appends a value to an array",
     "category": "Arrays"
   },
   {
     "name": "array.range()",
-    "desc": "The function returns the difference between the min and max values from a given array.",
+    "desc": "The function returns the difference between the min and max values from a given array",
     "category": "Arrays"
   },
   {
     "name": "array.remove()",
-    "desc": "The function changes the contents of an array by removing the element with the specified index.",
+    "desc": "The function changes the contents of an array by removing the element with the specified index",
     "category": "Arrays"
   },
   {
     "name": "array.reverse()",
-    "desc": "The function reverses an array.",
+    "desc": "The function reverses an array",
     "category": "Arrays"
   },
   {
     "name": "array.set()",
-    "desc": "The function sets the value of the element at the specified index.",
+    "desc": "The function sets the value of the element at the specified index",
     "category": "Arrays"
   },
   {
     "name": "array.shift()",
-    "desc": "The function removes an array's first element and returns its value.",
+    "desc": "The function removes an array's first element and returns its value",
     "category": "Arrays"
   },
   {
     "name": "array.size()",
-    "desc": "The function returns the number of elements in an array.",
+    "desc": "The function returns the number of elements in an array",
     "category": "Arrays"
   },
   {
     "name": "array.slice()",
-    "desc": "The function creates a slice from an existing array.",
+    "desc": "The function creates a slice from an existing array",
     "category": "Arrays"
   },
   {
     "name": "array.some()",
-    "desc": "Returns true if at least one element of the id array is true, false otherwise.",
+    "desc": "Returns true if at least one element of the id array is true, false otherwise",
     "category": "Arrays"
   },
   {
     "name": "array.sort_indices()",
-    "desc": "Returns an array of indices which, when used to index the original array, will access its elements in their sorted order.",
+    "desc": "Returns an array of indices which, when used to index the original array, will access its elements in their sorted order",
     "category": "Arrays"
   },
   {
     "name": "array.sort()",
-    "desc": "The function sorts the elements of an array.",
+    "desc": "The function sorts the elements of an array",
     "category": "Arrays"
   },
   {
     "name": "array.standardize()",
-    "desc": "The function returns the array of standardized elements.",
+    "desc": "The function returns the array of standardized elements",
     "category": "Arrays"
   },
   {
     "name": "array.stdev()",
-    "desc": "The function returns the standard deviation of an array's elements.",
+    "desc": "The function returns the standard deviation of an array's elements",
     "category": "Arrays"
   },
   {
     "name": "array.sum()",
-    "desc": "The function returns the sum of an array's elements.",
+    "desc": "The function returns the sum of an array's elements",
     "category": "Arrays"
   },
   {
     "name": "array.unshift()",
-    "desc": "The function inserts the value at the beginning of the array.",
+    "desc": "The function inserts the value at the beginning of the array",
     "category": "Arrays"
   },
   {
     "name": "array.variance()",
-    "desc": "The function returns the variance of an array's elements.",
+    "desc": "The function returns the variance of an array's elements",
     "category": "Arrays"
   },
   {
     "name": "matrix.add_col()",
-    "desc": "The function adds a column at the column index of the id matrix.",
+    "desc": "The function adds a column at the column index of the id matrix",
     "category": "Matrixes"
   },
   {
     "name": "matrix.add_row()",
-    "desc": "The function adds a row at the row index of the id matrix.",
+    "desc": "The function adds a row at the row index of the id matrix",
     "category": "Matrixes"
   },
   {
     "name": "matrix.avg()",
-    "desc": "The function calculates the average of all elements in the matrix.",
+    "desc": "The function calculates the average of all elements in the matrix",
     "category": "Matrixes"
   },
   {
     "name": "matrix.col()",
-    "desc": "The function creates a one-dimensional array from the elements of a matrix column.",
+    "desc": "The function creates a one-dimensional array from the elements of a matrix column",
     "category": "Matrixes"
   },
   {
     "name": "matrix.columns()",
-    "desc": "The function returns the number of columns in the matrix.",
+    "desc": "The function returns the number of columns in the matrix",
     "category": "Matrixes"
   },
   {
     "name": "matrix.concat()",
-    "desc": "The function appends the m2 matrix to the m1 matrix.",
+    "desc": "The function appends the m2 matrix to the m1 matrix",
     "category": "Matrixes"
   },
   {
     "name": "matrix.copy()",
-    "desc": "The function creates a new matrix which is a copy of the original.",
+    "desc": "The function creates a new matrix which is a copy of the original",
     "category": "Matrixes"
   },
   {
     "name": "matrix.det()",
-    "desc": "The function returns the determinant of a square matrix.",
+    "desc": "The function returns the determinant of a square matrix",
     "category": "Matrixes"
   },
   {
     "name": "matrix.diff()",
-    "desc": "The function returns a new matrix resulting from the subtraction between matrices id1 and id2, or of matrix id1 and an id2 scalar (a numerical value).",
+    "desc": "The function returns a new matrix resulting from the subtraction between matrices id1 and id2, or of matrix id1 and an id2 scalar (a numerical value)",
     "category": "Matrixes"
   },
   {
     "name": "matrix.eigenvalues()",
-    "desc": "The function returns an array containing the eigenvalues of a square matrix.",
+    "desc": "The function returns an array containing the eigenvalues of a square matrix",
     "category": "Matrixes"
   },
   {
     "name": "matrix.eigenvectors()",
-    "desc": "Returns a matrix of eigenvectors, in which each column is an eigenvector of the id matrix.",
+    "desc": "Returns a matrix of eigenvectors, in which each column is an eigenvector of the id matrix",
     "category": "Matrixes"
   },
   {
     "name": "matrix.elements_count()",
-    "desc": "The function returns the total number of all matrix elements.",
+    "desc": "The function returns the total number of all matrix elements",
     "category": "Matrixes"
   },
   {
     "name": "matrix.fill()",
-    "desc": "The function fills a rectangular area of the id matrix defined by the indices from_column to to_column (not including it) and from_row to to_row(not including it) with the value.",
+    "desc": "The function fills a rectangular area of the id matrix defined by the indices from_column to to_column (not including it) and from_row to to_row(not including it) with the value",
     "category": "Matrixes"
   },
   {
     "name": "matrix.get()",
-    "desc": "The function returns the element with the specified index of the matrix.",
+    "desc": "The function returns the element with the specified index of the matrix",
     "category": "Matrixes"
   },
   {
     "name": "matrix.inv()",
-    "desc": "The function returns the inverse of a square matrix.",
+    "desc": "The function returns the inverse of a square matrix",
     "category": "Matrixes"
   },
   {
     "name": "matrix.is_antidiagonal()",
-    "desc": "The function determines if the matrix is anti-diagonal (all elements outside the secondary diagonal are zero).",
+    "desc": "The function determines if the matrix is anti-diagonal (all elements outside the secondary diagonal are zero)",
     "category": "Matrixes"
   },
   {
     "name": "matrix.is_antisymmetric()",
-    "desc": "The function determines if a matrix is antisymmetric (its transpose equals its negative).",
+    "desc": "The function determines if a matrix is antisymmetric (its transpose equals its negative)",
     "category": "Matrixes"
   },
   {
     "name": "matrix.is_binary()",
-    "desc": "The function determines if the matrix is binary (when all elements of the matrix are 0 or 1).",
+    "desc": "The function determines if the matrix is binary (when all elements of the matrix are 0 or 1)",
     "category": "Matrixes"
   },
   {
     "name": "matrix.is_diagonal()",
-    "desc": "The function determines if the matrix is diagonal (all elements outside the main diagonal are zero).",
+    "desc": "The function determines if the matrix is diagonal (all elements outside the main diagonal are zero)",
     "category": "Matrixes"
   },
   {
     "name": "matrix.is_identity()",
-    "desc": "The function determines if a matrix is an identity matrix (elements with ones on the main diagonal and zeros elsewhere).",
+    "desc": "The function determines if a matrix is an identity matrix (elements with ones on the main diagonal and zeros elsewhere)",
     "category": "Matrixes"
   },
   {
     "name": "matrix.is_square()",
-    "desc": "The function determines if the matrix is square (it has the same number of rows and columns).",
+    "desc": "The function determines if the matrix is square (it has the same number of rows and columns)",
     "category": "Matrixes"
   },
   {
     "name": "matrix.is_stochastic()",
-    "desc": "The function determines if the matrix is stochastic.",
+    "desc": "The function determines if the matrix is stochastic",
     "category": "Matrixes"
   },
   {
     "name": "matrix.is_symmetric()",
-    "desc": "The function determines if a square matrix is symmetric (elements are symmetric with respect to the main diagonal).",
+    "desc": "The function determines if a square matrix is symmetric (elements are symmetric with respect to the main diagonal)",
     "category": "Matrixes"
   },
   {
     "name": "matrix.is_triangular()",
-    "desc": "The function determines if the matrix is triangular (if all elements above or below the main diagonal are zero).",
+    "desc": "The function determines if the matrix is triangular (if all elements above or below the main diagonal are zero)",
     "category": "Matrixes"
   },
   {
     "name": "matrix.is_zero()",
-    "desc": "The function determines if all elements of the matrix are zero.",
+    "desc": "The function determines if all elements of the matrix are zero",
     "category": "Matrixes"
   },
   {
     "name": "matrix.kron()",
-    "desc": "The function returns the Kronecker product for the id1 and id2 matrices.",
+    "desc": "The function returns the Kronecker product for the id1 and id2 matrices",
     "category": "Matrixes"
   },
   {
     "name": "matrix.max()",
-    "desc": "The function returns the largest value from the matrix elements.",
+    "desc": "The function returns the largest value from the matrix elements",
     "category": "Matrixes"
   },
   {
     "name": "matrix.median()",
-    "desc": "The function calculates the median (\"the middle\" value) of matrix elements.",
+    "desc": "The function calculates the median (\"the middle\" value) of matrix elements",
     "category": "Matrixes"
   },
   {
     "name": "matrix.min()",
-    "desc": "The function returns the smallest value from the matrix elements.",
+    "desc": "The function returns the smallest value from the matrix elements",
     "category": "Matrixes"
   },
   {
     "name": "matrix.mode()",
-    "desc": "The function calculates the mode) of the matrix, which is the most frequently occurring value from the matrix elements.",
+    "desc": "The function calculates the mode) of the matrix, which is the most frequently occurring value from the matrix elements",
     "category": "Matrixes"
   },
   {
     "name": "matrix.mult()",
-    "desc": "The function returns a new matrix resulting from the product between the matrices id1 and id2, or between an id1 matrix and an id2 scalar (a numerical value), or between an id1 matrix and an id2 vector (an array of values).",
+    "desc": "The function returns a new matrix resulting from the product between the matrices id1 and id2, or between an id1 matrix and an id2 scalar (a numerical value), or between an id1 matrix and an id2 vector (an array of values)",
     "category": "Matrixes"
   },
   {
     "name": "matrix.new<type>()",
-    "desc": "The function creates a new matrix object.",
+    "desc": "The function creates a new matrix object",
     "category": "Matrixes"
   },
   {
     "name": "matrix.pinv()",
-    "desc": "The function returns the pseudoinverse of a matrix.",
+    "desc": "The function returns the pseudoinverse of a matrix",
     "category": "Matrixes"
   },
   {
     "name": "matrix.pow()",
-    "desc": "The function calculates the product of the matrix by itself power times.",
+    "desc": "The function calculates the product of the matrix by itself power times",
     "category": "Matrixes"
   },
   {
     "name": "matrix.rank()",
-    "desc": "The function calculates the rank) of the matrix.",
+    "desc": "The function calculates the rank) of the matrix",
     "category": "Matrixes"
   },
   {
     "name": "matrix.remove_col()",
-    "desc": "The function removes the column at column index of the id matrix and returns an array containing the removed column's values.",
+    "desc": "The function removes the column at column index of the id matrix and returns an array containing the removed column's values",
     "category": "Matrixes"
   },
   {
     "name": "matrix.remove_row()",
-    "desc": "The function removes the row at row index of the id matrix and returns an array containing the removed row's values.",
+    "desc": "The function removes the row at row index of the id matrix and returns an array containing the removed row's values",
     "category": "Matrixes"
   },
   {
     "name": "matrix.reshape()",
-    "desc": "The function rebuilds the id matrix to rows x cols dimensions.",
+    "desc": "The function rebuilds the id matrix to rows x cols dimensions",
     "category": "Matrixes"
   },
   {
     "name": "matrix.reverse()",
-    "desc": "The function reverses the order of rows and columns in the matrix id.",
+    "desc": "The function reverses the order of rows and columns in the matrix id",
     "category": "Matrixes"
   },
   {
     "name": "matrix.row()",
-    "desc": "The function creates a one-dimensional array from the elements of a matrix row.",
+    "desc": "The function creates a one-dimensional array from the elements of a matrix row",
     "category": "Matrixes"
   },
   {
     "name": "matrix.rows()",
-    "desc": "The function returns the number of rows in the matrix.",
+    "desc": "The function returns the number of rows in the matrix",
     "category": "Matrixes"
   },
   {
     "name": "matrix.set()",
-    "desc": "The function assigns value to the element at the row and column of the id matrix.",
+    "desc": "The function assigns value to the element at the row and column of the id matrix",
     "category": "Matrixes"
   },
   {
     "name": "matrix.sort()",
-    "desc": "The function rearranges the rows in the id matrix following the sorted order of the values in the column.",
+    "desc": "The function rearranges the rows in the id matrix following the sorted order of the values in the column",
     "category": "Matrixes"
   },
   {
     "name": "matrix.submatrix()",
-    "desc": "The function extracts a submatrix of the id matrix within the specified indices.",
+    "desc": "The function extracts a submatrix of the id matrix within the specified indices",
     "category": "Matrixes"
   },
   {
     "name": "matrix.sum()",
-    "desc": "The function returns a new matrix resulting from the sum of two matrices id1 and id2, or of an id1 matrix and an id2 scalar (a numerical value).",
+    "desc": "The function returns a new matrix resulting from the sum of two matrices id1 and id2, or of an id1 matrix and an id2 scalar (a numerical value)",
     "category": "Matrixes"
   },
   {
     "name": "matrix.swap_columns()",
-    "desc": "The function swaps the columns at the index column1 and column2 in the id matrix.",
+    "desc": "The function swaps the columns at the index column1 and column2 in the id matrix",
     "category": "Matrixes"
   },
   {
     "name": "matrix.swap_rows()",
-    "desc": "The function swaps the rows at the index row1 and row2 in the id matrix.",
+    "desc": "The function swaps the rows at the index row1 and row2 in the id matrix",
     "category": "Matrixes"
   },
   {
     "name": "matrix.trace()",
-    "desc": "The function calculates the trace) of a matrix (the sum of the main diagonal's elements).",
+    "desc": "The function calculates the trace) of a matrix (the sum of the main diagonal's elements)",
     "category": "Matrixes"
   },
   {
     "name": "matrix.transpose()",
-    "desc": "The function creates a new, transposed version of the id.",
+    "desc": "The function creates a new, transposed version of the id",
     "category": "Matrixes"
   },
   {
     "name": "barstate.isconfirmed",
-    "desc": "Returns true if the script is calculating the last (closing) update of the current bar.",
+    "desc": "Returns true if the script is calculating the last (closing) update of the current bar",
     "category": "Bar State"
   },
   {
     "name": "barstate.isfirst",
-    "desc": "Returns true if current bar is first bar in barset, false otherwise.",
+    "desc": "Returns true if current bar is first bar in barset, false otherwise",
     "category": "Bar State"
   },
   {
     "name": "barstate.ishistory",
-    "desc": "Returns true if current bar is a historical bar, false otherwise.",
+    "desc": "Returns true if current bar is a historical bar, false otherwise",
     "category": "Bar State"
   },
   {
     "name": "barstate.islast",
-    "desc": "Returns true if current bar is the last bar in barset, false otherwise.",
+    "desc": "Returns true if current bar is the last bar in barset, false otherwise",
     "category": "Bar State"
   },
   {
     "name": "barstate.islastconfirmedhistory",
-    "desc": "Returns true if script is executing on the dataset's last bar when market is closed, or script is executing on the bar immediately preceding the real-time bar, if market is open.",
+    "desc": "Returns true if script is executing on the dataset's last bar when market is closed, or script is executing on the bar immediately preceding the real-time bar, if market is open",
     "category": "Bar State"
   },
   {
     "name": "barstate.isnew",
-    "desc": "Returns true if script is currently calculating on new bar, false otherwise.",
+    "desc": "Returns true if script is currently calculating on new bar, false otherwise",
     "category": "Bar State"
   },
   {
     "name": "barstate.isrealtime",
-    "desc": "Returns true if current bar is a real-time bar, false otherwise.",
+    "desc": "Returns true if current bar is a real-time bar, false otherwise",
     "category": "Bar State"
   },
   {
     "name": "chart.bg_color",
-    "desc": "Returns the color of the chart's background from the \"Chart settings/Appearance/Background\" field.",
+    "desc": "Returns the color of the chart's background from the \"Chart settings/Appearance/Background\" field",
     "category": "Chart Types"
   },
   {
     "name": "chart.fg_color",
-    "desc": "Returns a color providing optimal contrast with chart.bg_color.",
+    "desc": "Returns a color providing optimal contrast with chart.bg_color",
     "category": "Chart Types"
   },
   {
     "name": "chart.is_heikinashi",
-    "desc": "",
+    "desc": "Returns true if the chart type is Heikin Ashi",
     "category": "Chart Types"
   },
   {
     "name": "chart.is_kagi",
-    "desc": "",
+    "desc": "Returns true if the chart type is Kagi",
     "category": "Chart Types"
   },
   {
     "name": "chart.is_linebreak",
-    "desc": "",
+    "desc": "Returns true if the chart type is Line Break",
     "category": "Chart Types"
   },
   {
     "name": "chart.is_pnf",
-    "desc": "",
+    "desc": "Returns true if the chart type is Point & Figure",
     "category": "Chart Types"
   },
   {
     "name": "chart.is_range",
-    "desc": "",
+    "desc": "Returns true if the chart type is Range",
     "category": "Chart Types"
   },
   {
     "name": "chart.is_renko",
-    "desc": "",
+    "desc": "Returns true if the chart type is Renko",
     "category": "Chart Types"
   },
   {
     "name": "chart.is_standard",
-    "desc": "",
+    "desc": "Returns true if the chart type is a standard candlestick chart",
     "category": "Chart Types"
   },
   {
     "name": "chart.left_visible_bar_time",
-    "desc": "The time of the leftmost bar currently visible on the chart.",
+    "desc": "The time of the leftmost bar currently visible on the chart",
     "category": "Chart Types"
   },
   {
     "name": "chart.point.copy()",
-    "desc": "Creates a copy of a chart.point object with the specified id.",
+    "desc": "Creates a copy of a chart.point object with the specified id",
     "category": "Chart Types"
   },
   {
     "name": "chart.point.from_index()",
-    "desc": "Returns a chart.point object with index as its x-coordinate and price as its y-coordinate.",
+    "desc": "Returns a chart.point object with index as its x-coordinate and price as its y-coordinate",
     "category": "Chart Types"
   },
   {
     "name": "chart.point.from_time()",
-    "desc": "Returns a chart.point object with time as its x-coordinate and price as its y-coordinate.",
+    "desc": "Returns a chart.point object with time as its x-coordinate and price as its y-coordinate",
     "category": "Chart Types"
   },
   {
     "name": "chart.point.new()",
-    "desc": "Creates a new chart.point object with the specified time, index, and price.",
+    "desc": "Creates a new chart.point object with the specified time, index, and price",
     "category": "Chart Types"
   },
   {
@@ -1381,537 +1381,537 @@
   },
   {
     "name": "chart.right_visible_bar_time",
-    "desc": "The time of the rightmost bar currently visible on the chart.",
+    "desc": "The time of the rightmost bar currently visible on the chart",
     "category": "Chart Types"
   },
   {
     "name": "currency.AUD",
-    "desc": "Australian dollar.",
+    "desc": "Australian dollar",
     "category": "Currency"
   },
   {
     "name": "currency.BTC",
-    "desc": "Bitcoin.",
+    "desc": "Bitcoin",
     "category": "Currency"
   },
   {
     "name": "currency.CAD",
-    "desc": "Canadian dollar.",
+    "desc": "Canadian dollar",
     "category": "Currency"
   },
   {
     "name": "currency.CHF",
-    "desc": "Swiss franc.",
+    "desc": "Swiss franc",
     "category": "Currency"
   },
   {
     "name": "currency.ETH",
-    "desc": "Ethereum.",
+    "desc": "Ethereum",
     "category": "Currency"
   },
   {
     "name": "currency.EUR",
-    "desc": "Euro.",
+    "desc": "Euro",
     "category": "Currency"
   },
   {
     "name": "currency.GBP",
-    "desc": "Pound sterling.",
+    "desc": "Pound sterling",
     "category": "Currency"
   },
   {
     "name": "currency.HKD",
-    "desc": "Hong Kong dollar.",
+    "desc": "Hong Kong dollar",
     "category": "Currency"
   },
   {
     "name": "currency.INR",
-    "desc": "Indian rupee.",
+    "desc": "Indian rupee",
     "category": "Currency"
   },
   {
     "name": "currency.JPY",
-    "desc": "Japanese yen.",
+    "desc": "Japanese yen",
     "category": "Currency"
   },
   {
     "name": "currency.KRW",
-    "desc": "South Korean won.",
+    "desc": "South Korean won",
     "category": "Currency"
   },
   {
     "name": "currency.MYR",
-    "desc": "Malaysian ringgit.",
+    "desc": "Malaysian ringgit",
     "category": "Currency"
   },
   {
     "name": "currency.NOK",
-    "desc": "Norwegian krone.",
+    "desc": "Norwegian krone",
     "category": "Currency"
   },
   {
     "name": "currency.NONE",
-    "desc": "Unspecified currency.",
+    "desc": "Unspecified currency",
     "category": "Currency"
   },
   {
     "name": "currency.NZD",
-    "desc": "New Zealand dollar.",
+    "desc": "New Zealand dollar",
     "category": "Currency"
   },
   {
     "name": "currency.RUB",
-    "desc": "Russian ruble.",
+    "desc": "Russian ruble",
     "category": "Currency"
   },
   {
     "name": "currency.SEK",
-    "desc": "Swedish krona.",
+    "desc": "Swedish krona",
     "category": "Currency"
   },
   {
     "name": "currency.SGD",
-    "desc": "Singapore dollar.",
+    "desc": "Singapore dollar",
     "category": "Currency"
   },
   {
     "name": "currency.TRY",
-    "desc": "Turkish lira.",
+    "desc": "Turkish lira",
     "category": "Currency"
   },
   {
     "name": "currency.USD",
-    "desc": "United States dollar.",
+    "desc": "United States dollar",
     "category": "Currency"
   },
   {
     "name": "currency.USDT",
-    "desc": "Tether.",
+    "desc": "Tether",
     "category": "Currency"
   },
   {
     "name": "currency.ZAR",
-    "desc": "South African rand.",
+    "desc": "South African rand",
     "category": "Currency"
   },
   {
     "name": "dayofmonth",
-    "desc": "Date of current bar time in exchange timezone.",
+    "desc": "Date of current bar time in exchange timezone",
     "category": "Datetime"
   },
   {
     "name": "dayofmonth()",
-    "desc": "Date of current bar time in exchange timezone.",
+    "desc": "Date of current bar time in exchange timezone",
     "category": "Datetime"
   },
   {
     "name": "dayofweek",
-    "desc": "Day of week for current bar time in exchange timezone.",
+    "desc": "Day of week for current bar time in exchange timezone",
     "category": "Datetime"
   },
   {
     "name": "dayofweek.friday",
-    "desc": "Is a named constant for return value of dayofweek function and value of dayofweek variable.",
+    "desc": "Is a named constant for return value of dayofweek function and value of dayofweek variable",
     "category": "Datetime"
   },
   {
     "name": "dayofweek.monday",
-    "desc": "Is a named constant for return value of dayofweek function and value of dayofweek variable.",
+    "desc": "Is a named constant for return value of dayofweek function and value of dayofweek variable",
     "category": "Datetime"
   },
   {
     "name": "dayofweek.saturday",
-    "desc": "Is a named constant for return value of dayofweek function and value of dayofweek variable.",
+    "desc": "Is a named constant for return value of dayofweek function and value of dayofweek variable",
     "category": "Datetime"
   },
   {
     "name": "dayofweek.sunday",
-    "desc": "Is a named constant for return value of dayofweek function and value of dayofweek variable.",
+    "desc": "Is a named constant for return value of dayofweek function and value of dayofweek variable",
     "category": "Datetime"
   },
   {
     "name": "dayofweek.thursday",
-    "desc": "Is a named constant for return value of dayofweek function and value of dayofweek variable.",
+    "desc": "Is a named constant for return value of dayofweek function and value of dayofweek variable",
     "category": "Datetime"
   },
   {
     "name": "dayofweek.tuesday",
-    "desc": "Is a named constant for return value of dayofweek function and value of dayofweek variable.",
+    "desc": "Is a named constant for return value of dayofweek function and value of dayofweek variable",
     "category": "Datetime"
   },
   {
     "name": "dayofweek.wednesday",
-    "desc": "Is a named constant for return value of dayofweek function and value of dayofweek variable.",
+    "desc": "Is a named constant for return value of dayofweek function and value of dayofweek variable",
     "category": "Datetime"
   },
   {
     "name": "dayofweek()",
-    "desc": "Day of week for current bar time in exchange timezone.",
+    "desc": "Day of week for current bar time in exchange timezone",
     "category": "Datetime"
   },
   {
     "name": "hour",
-    "desc": "Current bar hour in exchange timezone.",
+    "desc": "Current bar hour in exchange timezone",
     "category": "Datetime"
   },
   {
     "name": "hour()",
-    "desc": "Current bar hour in exchange timezone.",
+    "desc": "Current bar hour in exchange timezone",
     "category": "Datetime"
   },
   {
     "name": "minute",
-    "desc": "Current bar minute in exchange timezone.",
+    "desc": "Current bar minute in exchange timezone",
     "category": "Datetime"
   },
   {
     "name": "minute()",
-    "desc": "Current bar minute in exchange timezone.",
+    "desc": "Current bar minute in exchange timezone",
     "category": "Datetime"
   },
   {
     "name": "month",
-    "desc": "Current bar month in exchange timezone.",
+    "desc": "Current bar month in exchange timezone",
     "category": "Datetime"
   },
   {
     "name": "month()",
-    "desc": "Current bar month in exchange timezone.",
+    "desc": "Current bar month in exchange timezone",
     "category": "Datetime"
   },
   {
     "name": "second",
-    "desc": "Current bar second in exchange timezone.",
+    "desc": "Current bar second in exchange timezone",
     "category": "Datetime"
   },
   {
     "name": "second()",
-    "desc": "Current bar second in exchange timezone.",
+    "desc": "Current bar second in exchange timezone",
     "category": "Datetime"
   },
   {
     "name": "time",
-    "desc": "Current bar time in UNIX format.",
+    "desc": "Current bar time in UNIX format",
     "category": "Datetime"
   },
   {
     "name": "time_close",
-    "desc": "The time of the current bar's close in UNIX format.",
+    "desc": "The time of the current bar's close in UNIX format",
     "category": "Datetime"
   },
   {
     "name": "time_tradingday",
-    "desc": "The beginning time of the trading day the current bar belongs to, in UNIX format (the number of milliseconds that have elapsed since 00:00:00 UTC, 1 January 1970).",
+    "desc": "The beginning time of the trading day the current bar belongs to, in UNIX format (the number of milliseconds that have elapsed since 00:00:00 UTC, 1 January 1970)",
     "category": "Datetime"
   },
   {
     "name": "timenow",
-    "desc": "Current time in UNIX format.",
+    "desc": "Current time in UNIX format",
     "category": "Datetime"
   },
   {
     "name": "weekofyear",
-    "desc": "Week number of current bar time in exchange timezone.",
+    "desc": "Week number of current bar time in exchange timezone",
     "category": "Datetime"
   },
   {
     "name": "weekofyear()",
-    "desc": "Week number of current bar time in exchange timezone.",
+    "desc": "Week number of current bar time in exchange timezone",
     "category": "Datetime"
   },
   {
     "name": "year",
-    "desc": "Current bar year in exchange timezone.",
+    "desc": "Current bar year in exchange timezone",
     "category": "Datetime"
   },
   {
     "name": "year()",
-    "desc": "Current bar year in exchange timezone.",
+    "desc": "Current bar year in exchange timezone",
     "category": "Datetime"
   },
   {
     "name": "barcolor()",
-    "desc": "Set color of bars.",
+    "desc": "Set color of bars",
     "category": "Plotting"
   },
   {
     "name": "bgcolor()",
-    "desc": "Fill background of bars with specified color.",
+    "desc": "Fill background of bars with specified color",
     "category": "Plotting"
   },
   {
     "name": "display.all",
-    "desc": "A named constant for use with the display parameter of plot*() and input*() functions.",
+    "desc": "A named constant for use with the display parameter of plot*() and input*() functions",
     "category": "Plotting"
   },
   {
     "name": "display.data_window",
-    "desc": "A named constant for use with the display parameter of plot*() and input*() functions.",
+    "desc": "A named constant for use with the display parameter of plot*() and input*() functions",
     "category": "Plotting"
   },
   {
     "name": "display.none",
-    "desc": "A named constant for use with the display parameter of plot*() and input*() functions.",
+    "desc": "A named constant for use with the display parameter of plot*() and input*() functions",
     "category": "Plotting"
   },
   {
     "name": "display.pane",
-    "desc": "A named constant for use with the display parameter of plot*() functions.",
+    "desc": "A named constant for use with the display parameter of plot*() functions",
     "category": "Plotting"
   },
   {
     "name": "display.price_scale",
-    "desc": "A named constant for use with the display parameter of plot*() functions.",
+    "desc": "A named constant for use with the display parameter of plot*() functions",
     "category": "Plotting"
   },
   {
     "name": "display.status_line",
-    "desc": "A named constant for use with the display parameter of plot*() and input*() functions.",
+    "desc": "A named constant for use with the display parameter of plot*() and input*() functions",
     "category": "Plotting"
   },
   {
     "name": "fill()",
-    "desc": "Fills background between two plots or hlines with a given color.",
+    "desc": "Fills background between two plots or hlines with a given color",
     "category": "Plotting"
   },
   {
     "name": "hline.style_dashed",
-    "desc": "Is a named constant for dashed linestyle of hline function.",
+    "desc": "Is a named constant for dashed linestyle of hline function",
     "category": "Plotting"
   },
   {
     "name": "hline.style_dotted",
-    "desc": "Is a named constant for dotted linestyle of hline function.",
+    "desc": "Is a named constant for dotted linestyle of hline function",
     "category": "Plotting"
   },
   {
     "name": "hline.style_solid",
-    "desc": "Is a named constant for solid linestyle of hline function.",
+    "desc": "Is a named constant for solid linestyle of hline function",
     "category": "Plotting"
   },
   {
     "name": "hline()",
-    "desc": "Renders a horizontal line at a given fixed price level.",
+    "desc": "Renders a horizontal line at a given fixed price level",
     "category": "Plotting"
   },
   {
     "name": "plot.style_area",
-    "desc": "A named constant for the 'Area' style, to be used as an argument for the style parameter in the plot function.",
+    "desc": "A named constant for the 'Area' style, to be used as an argument for the style parameter in the plot function",
     "category": "Plotting"
   },
   {
     "name": "plot.style_areabr",
-    "desc": "A named constant for the 'Area With Breaks' style, to be used as an argument for the style parameter in the plot function.",
+    "desc": "A named constant for the 'Area With Breaks' style, to be used as an argument for the style parameter in the plot function",
     "category": "Plotting"
   },
   {
     "name": "plot.style_circles",
-    "desc": "A named constant for the 'Circles' style, to be used as an argument for the style parameter in the plot function.",
+    "desc": "A named constant for the 'Circles' style, to be used as an argument for the style parameter in the plot function",
     "category": "Plotting"
   },
   {
     "name": "plot.style_columns",
-    "desc": "A named constant for the 'Columns' style, to be used as an argument for the style parameter in the plot function.",
+    "desc": "A named constant for the 'Columns' style, to be used as an argument for the style parameter in the plot function",
     "category": "Plotting"
   },
   {
     "name": "plot.style_cross",
-    "desc": "A named constant for the 'Cross' style, to be used as an argument for the style parameter in the plot function.",
+    "desc": "A named constant for the 'Cross' style, to be used as an argument for the style parameter in the plot function",
     "category": "Plotting"
   },
   {
     "name": "plot.style_histogram",
-    "desc": "A named constant for the 'Histogram' style, to be used as an argument for the style parameter in the plot function.",
+    "desc": "A named constant for the 'Histogram' style, to be used as an argument for the style parameter in the plot function",
     "category": "Plotting"
   },
   {
     "name": "plot.style_line",
-    "desc": "A named constant for the 'Line' style, to be used as an argument for the style parameter in the plot function.",
+    "desc": "A named constant for the 'Line' style, to be used as an argument for the style parameter in the plot function",
     "category": "Plotting"
   },
   {
     "name": "plot.style_linebr",
-    "desc": "A named constant for the 'Line With Breaks' style, to be used as an argument for the style parameter in the plot function.",
+    "desc": "A named constant for the 'Line With Breaks' style, to be used as an argument for the style parameter in the plot function",
     "category": "Plotting"
   },
   {
     "name": "plot.style_stepline",
-    "desc": "A named constant for the 'Step Line' style, to be used as an argument for the style parameter in the plot function.",
+    "desc": "A named constant for the 'Step Line' style, to be used as an argument for the style parameter in the plot function",
     "category": "Plotting"
   },
   {
     "name": "plot.style_stepline_diamond",
-    "desc": "A named constant for the 'Step Line With Diamonds' style, to be used as an argument for the style parameter in the plot function.",
+    "desc": "A named constant for the 'Step Line With Diamonds' style, to be used as an argument for the style parameter in the plot function",
     "category": "Plotting"
   },
   {
     "name": "plot.style_steplinebr",
-    "desc": "A named constant for the 'Step line with Breaks' style, to be used as an argument for the style parameter in the plot function.",
+    "desc": "A named constant for the 'Step line with Breaks' style, to be used as an argument for the style parameter in the plot function",
     "category": "Plotting"
   },
   {
     "name": "plot()",
-    "desc": "Plots a series of data on the chart.",
+    "desc": "Plots a series of data on the chart",
     "category": "Plotting"
   },
   {
     "name": "plotarrow()",
-    "desc": "Plots up and down arrows on the chart.",
+    "desc": "Plots up and down arrows on the chart",
     "category": "Plotting"
   },
   {
     "name": "plotbar()",
-    "desc": "Plots ohlc bars on the chart.",
+    "desc": "Plots ohlc bars on the chart",
     "category": "Plotting"
   },
   {
     "name": "plotcandle()",
-    "desc": "Plots candles on the chart.",
+    "desc": "Plots candles on the chart",
     "category": "Plotting"
   },
   {
     "name": "plotchar()",
-    "desc": "Plots visual shapes using any given one Unicode character on the chart.",
+    "desc": "Plots visual shapes using any given one Unicode character on the chart",
     "category": "Plotting"
   },
   {
     "name": "plotshape()",
-    "desc": "Plots visual shapes on the chart.",
+    "desc": "Plots visual shapes on the chart",
     "category": "Plotting"
   },
   {
     "name": "shape.arrowdown",
-    "desc": "Shape style for plotshape function.",
+    "desc": "Shape style for plotshape function",
     "category": "Plotting"
   },
   {
     "name": "shape.arrowup",
-    "desc": "Shape style for plotshape function.",
+    "desc": "Shape style for plotshape function",
     "category": "Plotting"
   },
   {
     "name": "shape.circle",
-    "desc": "Shape style for plotshape function.",
+    "desc": "Shape style for plotshape function",
     "category": "Plotting"
   },
   {
     "name": "shape.cross",
-    "desc": "Shape style for plotshape function.",
+    "desc": "Shape style for plotshape function",
     "category": "Plotting"
   },
   {
     "name": "shape.diamond",
-    "desc": "Shape style for plotshape function.",
+    "desc": "Shape style for plotshape function",
     "category": "Plotting"
   },
   {
     "name": "shape.flag",
-    "desc": "Shape style for plotshape function.",
+    "desc": "Shape style for plotshape function",
     "category": "Plotting"
   },
   {
     "name": "shape.labeldown",
-    "desc": "Shape style for plotshape function.",
+    "desc": "Shape style for plotshape function",
     "category": "Plotting"
   },
   {
     "name": "shape.labelup",
-    "desc": "Shape style for plotshape function.",
+    "desc": "Shape style for plotshape function",
     "category": "Plotting"
   },
   {
     "name": "shape.square",
-    "desc": "Shape style for plotshape function.",
+    "desc": "Shape style for plotshape function",
     "category": "Plotting"
   },
   {
     "name": "shape.triangledown",
-    "desc": "Shape style for plotshape function.",
+    "desc": "Shape style for plotshape function",
     "category": "Plotting"
   },
   {
     "name": "shape.triangleup",
-    "desc": "Shape style for plotshape function.",
+    "desc": "Shape style for plotshape function",
     "category": "Plotting"
   },
   {
     "name": "shape.xcross",
-    "desc": "Shape style for plotshape function.",
+    "desc": "Shape style for plotshape function",
     "category": "Plotting"
   },
   {
     "name": "ta.accdist",
-    "desc": "Accumulation/distribution index.",
+    "desc": "Accumulation/distribution index",
     "category": "Indicators"
   },
   {
     "name": "ta.alma()",
-    "desc": "Arnaud Legoux Moving Average.",
+    "desc": "Arnaud Legoux Moving Average",
     "category": "Indicators"
   },
   {
     "name": "ta.atr()",
-    "desc": "Function atr (average true range) returns the RMA of true range.",
+    "desc": "Function atr (average true range) returns the RMA of true range",
     "category": "Indicators"
   },
   {
     "name": "ta.barssince()",
-    "desc": "Counts the number of bars since the last time the condition was true.",
+    "desc": "Counts the number of bars since the last time the condition was true",
     "category": "Indicators"
   },
   {
     "name": "ta.bb()",
-    "desc": "Bollinger Bands.",
+    "desc": "Bollinger Bands",
     "category": "Indicators"
   },
   {
     "name": "ta.bbw()",
-    "desc": "Bollinger Bands Width.",
+    "desc": "Bollinger Bands Width",
     "category": "Indicators"
   },
   {
     "name": "ta.cci()",
-    "desc": "The CCI (commodity channel index) is calculated as the difference between the typical price of a commodity and its simple moving average, divided by the mean absolute deviation of the typical price.",
+    "desc": "The CCI (commodity channel index) is calculated as the difference between the typical price of a commodity and its simple moving average, divided by the mean absolute deviation of the typical price",
     "category": "Indicators"
   },
   {
     "name": "ta.change()",
-    "desc": "Compares the current source value to its value length bars ago and returns the difference.",
+    "desc": "Compares the current source value to its value length bars ago and returns the difference",
     "category": "Indicators"
   },
   {
     "name": "ta.cmo()",
-    "desc": "Chande Momentum Oscillator.",
+    "desc": "Chande Momentum Oscillator",
     "category": "Indicators"
   },
   {
     "name": "ta.cog()",
-    "desc": "The cog (center of gravity) is an indicator based on statistics and the Fibonacci golden ratio.",
+    "desc": "The cog (center of gravity) is an indicator based on statistics and the Fibonacci golden ratio",
     "category": "Indicators"
   },
   {
     "name": "ta.correlation()",
-    "desc": "Correlation coefficient.",
+    "desc": "Correlation coefficient",
     "category": "Indicators"
   },
   {
     "name": "ta.cross()",
-    "desc": "",
+    "desc": "Returns true if two series have crossed each other",
     "category": "Indicators"
   },
   {
     "name": "ta.crossover()",
-    "desc": "The source1-series is defined as having crossed over source2-series if, on the current bar, the value of source1 is greater than the value of source2, and on the previous bar, the value of source1 was less than or equal to the value of source2.",
+    "desc": "The source1-series is defined as having crossed over source2-series if, on the current bar, the value of source1 is greater than the value of source2, and on the previous bar, the value of source1 was less than or equal to the value of source2",
     "category": "Indicators"
   },
   {
     "name": "ta.crossunder()",
-    "desc": "The source1-series is defined as having crossed under source2-series if, on the current bar, the value of source1 is less than the value of source2, and on the previous bar, the value of source1 was greater than or equal to the value of source2.",
+    "desc": "The source1-series is defined as having crossed under source2-series if, on the current bar, the value of source1 is less than the value of source2, and on the previous bar, the value of source1 was greater than or equal to the value of source2",
     "category": "Indicators"
   },
   {
     "name": "ta.cum()",
-    "desc": "Cumulative (total) sum of source.",
+    "desc": "Cumulative (total) sum of source",
     "category": "Indicators"
   },
   {
@@ -1921,522 +1921,522 @@
   },
   {
     "name": "ta.dmi()",
-    "desc": "The dmi function returns the directional movement index.",
+    "desc": "The dmi function returns the directional movement index",
     "category": "Indicators"
   },
   {
     "name": "ta.ema()",
-    "desc": "The ema function returns the exponentially weighted moving average.",
+    "desc": "The ema function returns the exponentially weighted moving average",
     "category": "Indicators"
   },
   {
     "name": "ta.falling()",
-    "desc": "Test if the source series is now falling for length bars long.",
+    "desc": "Test if the source series is now falling for length bars long",
     "category": "Indicators"
   },
   {
     "name": "ta.highest()",
-    "desc": "Highest value for a given number of bars back.",
+    "desc": "Highest value for a given number of bars back",
     "category": "Indicators"
   },
   {
     "name": "ta.highestbars()",
-    "desc": "Highest value offset for a given number of bars back.",
+    "desc": "Highest value offset for a given number of bars back",
     "category": "Indicators"
   },
   {
     "name": "ta.hma()",
-    "desc": "The hma function returns the Hull Moving Average.",
+    "desc": "The hma function returns the Hull Moving Average",
     "category": "Indicators"
   },
   {
     "name": "ta.iii",
-    "desc": "Intraday Intensity Index.",
+    "desc": "Intraday Intensity Index",
     "category": "Indicators"
   },
   {
     "name": "ta.kc()",
-    "desc": "Keltner Channels.",
+    "desc": "Keltner Channels",
     "category": "Indicators"
   },
   {
     "name": "ta.kcw()",
-    "desc": "Keltner Channels Width.",
+    "desc": "Keltner Channels Width",
     "category": "Indicators"
   },
   {
     "name": "ta.linreg()",
-    "desc": "Linear regression curve.",
+    "desc": "Linear regression curve",
     "category": "Indicators"
   },
   {
     "name": "ta.lowest()",
-    "desc": "Lowest value for a given number of bars back.",
+    "desc": "Lowest value for a given number of bars back",
     "category": "Indicators"
   },
   {
     "name": "ta.lowestbars()",
-    "desc": "Lowest value offset for a given number of bars back.",
+    "desc": "Lowest value offset for a given number of bars back",
     "category": "Indicators"
   },
   {
     "name": "ta.macd()",
-    "desc": "MACD (moving average convergence/divergence).",
+    "desc": "MACD (moving average convergence/divergence)",
     "category": "Indicators"
   },
   {
     "name": "ta.max()",
-    "desc": "Returns the all-time high value of source from the beginning of the chart up to the current bar.",
+    "desc": "Returns the all-time high value of source from the beginning of the chart up to the current bar",
     "category": "Indicators"
   },
   {
     "name": "ta.median()",
-    "desc": "Returns the median of the series.",
+    "desc": "Returns the median of the series",
     "category": "Indicators"
   },
   {
     "name": "ta.mfi()",
-    "desc": "Money Flow Index.",
+    "desc": "Money Flow Index",
     "category": "Indicators"
   },
   {
     "name": "ta.min()",
-    "desc": "Returns the all-time low value of source from the beginning of the chart up to the current bar.",
+    "desc": "Returns the all-time low value of source from the beginning of the chart up to the current bar",
     "category": "Indicators"
   },
   {
     "name": "ta.mode()",
-    "desc": "Returns the mode) of the series.",
+    "desc": "Returns the mode) of the series",
     "category": "Indicators"
   },
   {
     "name": "ta.mom()",
-    "desc": "Momentum of source price and source price length bars ago.",
+    "desc": "Momentum of source price and source price length bars ago",
     "category": "Indicators"
   },
   {
     "name": "ta.nvi",
-    "desc": "Negative Volume Index.",
+    "desc": "Negative Volume Index",
     "category": "Indicators"
   },
   {
     "name": "ta.obv",
-    "desc": "On Balance Volume.",
+    "desc": "On Balance Volume",
     "category": "Indicators"
   },
   {
     "name": "ta.percentile_linear_interpolation()",
-    "desc": "Calculates percentile using method of linear interpolation between the two nearest ranks.",
+    "desc": "Calculates percentile using method of linear interpolation between the two nearest ranks",
     "category": "Indicators"
   },
   {
     "name": "ta.percentile_nearest_rank()",
-    "desc": "Calculates percentile using method of Nearest Rank.",
+    "desc": "Calculates percentile using method of Nearest Rank",
     "category": "Indicators"
   },
   {
     "name": "ta.percentrank()",
-    "desc": "Percent rank is the percents of how many previous values was less than or equal to the current value of given series.",
+    "desc": "Percent rank is the percents of how many previous values was less than or equal to the current value of given series",
     "category": "Indicators"
   },
   {
     "name": "ta.pivot_point_levels()",
-    "desc": "Calculates the pivot point levels using the specified type and anchor.",
+    "desc": "Calculates the pivot point levels using the specified type and anchor",
     "category": "Indicators"
   },
   {
     "name": "ta.pivothigh()",
-    "desc": "This function returns price of the pivot high point.",
+    "desc": "This function returns price of the pivot high point",
     "category": "Indicators"
   },
   {
     "name": "ta.pivotlow()",
-    "desc": "This function returns price of the pivot low point.",
+    "desc": "This function returns price of the pivot low point",
     "category": "Indicators"
   },
   {
     "name": "ta.pvi",
-    "desc": "Positive Volume Index.",
+    "desc": "Positive Volume Index",
     "category": "Indicators"
   },
   {
     "name": "ta.pvt",
-    "desc": "Price-Volume Trend.",
+    "desc": "Price-Volume Trend",
     "category": "Indicators"
   },
   {
     "name": "ta.range()",
-    "desc": "Returns the difference between the min and max values in a series.",
+    "desc": "Returns the difference between the min and max values in a series",
     "category": "Indicators"
   },
   {
     "name": "ta.rci()",
-    "desc": "Calculates the Rank Correlation Index (RCI), which measures the directional consistency of price movements.",
+    "desc": "Calculates the Rank Correlation Index (RCI), which measures the directional consistency of price movements",
     "category": "Indicators"
   },
   {
     "name": "ta.rising()",
-    "desc": "Test if the source series is now rising for length bars long.",
+    "desc": "Test if the source series is now rising for length bars long",
     "category": "Indicators"
   },
   {
     "name": "ta.rma()",
-    "desc": "Moving average used in RSI.",
+    "desc": "Moving average used in RSI",
     "category": "Indicators"
   },
   {
     "name": "ta.roc()",
-    "desc": "Calculates the percentage of change (rate of change) between the current value of source and its value length bars ago.",
+    "desc": "Calculates the percentage of change (rate of change) between the current value of source and its value length bars ago",
     "category": "Indicators"
   },
   {
     "name": "ta.rsi()",
-    "desc": "Relative strength index.",
+    "desc": "Relative strength index",
     "category": "Indicators"
   },
   {
     "name": "ta.sar()",
-    "desc": "Parabolic SAR (parabolic stop and reverse) is a method devised by J.",
+    "desc": "Parabolic SAR (parabolic stop and reverse) is a method devised by J",
     "category": "Indicators"
   },
   {
     "name": "ta.sma()",
-    "desc": "The sma function returns the moving average, that is the sum of last y values of x, divided by y.",
+    "desc": "The sma function returns the moving average, that is the sum of last y values of x, divided by y",
     "category": "Indicators"
   },
   {
     "name": "ta.stdev()",
-    "desc": "",
+    "desc": "Returns the standard deviation of a series",
     "category": "Indicators"
   },
   {
     "name": "ta.stoch()",
-    "desc": "Stochastic.",
+    "desc": "Stochastic",
     "category": "Indicators"
   },
   {
     "name": "ta.supertrend()",
-    "desc": "The Supertrend Indicator.",
+    "desc": "The Supertrend Indicator",
     "category": "Indicators"
   },
   {
     "name": "ta.swma()",
-    "desc": "Symmetrically weighted moving average with fixed length: 4.",
+    "desc": "Symmetrically weighted moving average with fixed length: 4",
     "category": "Indicators"
   },
   {
     "name": "ta.tr",
-    "desc": "True range, equivalent to ta.tr(handle_na = false).",
+    "desc": "True range, equivalent to ta.tr(handle_na = false)",
     "category": "Indicators"
   },
   {
     "name": "ta.tr()",
-    "desc": "True range, equivalent to ta.tr(handle_na = false).",
+    "desc": "True range, equivalent to ta.tr(handle_na = false)",
     "category": "Indicators"
   },
   {
     "name": "ta.tsi()",
-    "desc": "True strength index.",
+    "desc": "True strength index",
     "category": "Indicators"
   },
   {
     "name": "ta.valuewhen()",
-    "desc": "Returns the value of the source series on the bar where the condition was true on the nth most recent occurrence.",
+    "desc": "Returns the value of the source series on the bar where the condition was true on the nth most recent occurrence",
     "category": "Indicators"
   },
   {
     "name": "ta.variance()",
-    "desc": "Variance is the expectation of the squared deviation of a series from its mean (ta.sma), and it informally measures how far a set of numbers are spread out from their mean.",
+    "desc": "Variance is the expectation of the squared deviation of a series from its mean (ta.sma), and it informally measures how far a set of numbers are spread out from their mean",
     "category": "Indicators"
   },
   {
     "name": "ta.vwap",
-    "desc": "Volume Weighted Average Price.",
+    "desc": "Volume Weighted Average Price",
     "category": "Indicators"
   },
   {
     "name": "ta.vwap()",
-    "desc": "Volume Weighted Average Price.",
+    "desc": "Volume Weighted Average Price",
     "category": "Indicators"
   },
   {
     "name": "ta.vwma()",
-    "desc": "The vwma function returns volume-weighted moving average of source for length bars back.",
+    "desc": "The vwma function returns volume-weighted moving average of source for length bars back",
     "category": "Indicators"
   },
   {
     "name": "ta.wad",
-    "desc": "Williams Accumulation/Distribution.",
+    "desc": "Williams Accumulation/Distribution",
     "category": "Indicators"
   },
   {
     "name": "ta.wma()",
-    "desc": "The wma function returns weighted moving average of source for length bars back.",
+    "desc": "The wma function returns weighted moving average of source for length bars back",
     "category": "Indicators"
   },
   {
     "name": "ta.wpr()",
-    "desc": "Williams %R.",
+    "desc": "Williams %R",
     "category": "Indicators"
   },
   {
     "name": "ta.wvad",
-    "desc": "Williams Variable Accumulation/Distribution.",
+    "desc": "Williams Variable Accumulation/Distribution",
     "category": "Indicators"
   },
   {
     "name": "table.all",
-    "desc": "Returns an array filled with all the current tables drawn by the script.",
+    "desc": "Returns an array filled with all the current tables drawn by the script",
     "category": "Indicators"
   },
   {
     "name": "table.cell_set_bgcolor()",
-    "desc": "The function sets the background color of the cell.",
+    "desc": "The function sets the background color of the cell",
     "category": "Indicators"
   },
   {
     "name": "table.cell_set_height()",
-    "desc": "The function sets the height of cell.",
+    "desc": "The function sets the height of cell",
     "category": "Indicators"
   },
   {
     "name": "table.cell_set_text_color()",
-    "desc": "The function sets the color of the text inside the cell.",
+    "desc": "The function sets the color of the text inside the cell",
     "category": "Indicators"
   },
   {
     "name": "table.cell_set_text_font_family()",
-    "desc": "The function sets the font family of the text inside the cell.",
+    "desc": "The function sets the font family of the text inside the cell",
     "category": "Indicators"
   },
   {
     "name": "table.cell_set_text_formatting()",
-    "desc": "Sets the formatting attributes the drawing applies to displayed text.",
+    "desc": "Sets the formatting attributes the drawing applies to displayed text",
     "category": "Indicators"
   },
   {
     "name": "table.cell_set_text_halign()",
-    "desc": "The function sets the horizontal alignment of the cell's text.",
+    "desc": "The function sets the horizontal alignment of the cell's text",
     "category": "Indicators"
   },
   {
     "name": "table.cell_set_text_size()",
-    "desc": "The function sets the size of the cell's text.",
+    "desc": "The function sets the size of the cell's text",
     "category": "Indicators"
   },
   {
     "name": "table.cell_set_text_valign()",
-    "desc": "The function sets the vertical alignment of a cell's text.",
+    "desc": "The function sets the vertical alignment of a cell's text",
     "category": "Indicators"
   },
   {
     "name": "table.cell_set_text()",
-    "desc": "The function sets the text in the specified cell.",
+    "desc": "The function sets the text in the specified cell",
     "category": "Indicators"
   },
   {
     "name": "table.cell_set_tooltip()",
-    "desc": "The function sets the tooltip in the specified cell.",
+    "desc": "The function sets the tooltip in the specified cell",
     "category": "Indicators"
   },
   {
     "name": "table.cell_set_width()",
-    "desc": "The function sets the width of the cell.",
+    "desc": "The function sets the width of the cell",
     "category": "Indicators"
   },
   {
     "name": "table.cell()",
-    "desc": "The function defines a cell in the table and sets its attributes.",
+    "desc": "The function defines a cell in the table and sets its attributes",
     "category": "Indicators"
   },
   {
     "name": "table.clear()",
-    "desc": "The function removes a cell or a sequence of cells from the table.",
+    "desc": "The function removes a cell or a sequence of cells from the table",
     "category": "Indicators"
   },
   {
     "name": "table.delete()",
-    "desc": "The function deletes a table.",
+    "desc": "The function deletes a table",
     "category": "Indicators"
   },
   {
     "name": "table.merge_cells()",
-    "desc": "The function merges a sequence of cells in the table into one cell.",
+    "desc": "The function merges a sequence of cells in the table into one cell",
     "category": "Indicators"
   },
   {
     "name": "table.new()",
-    "desc": "The function creates a new table.",
+    "desc": "The function creates a new table",
     "category": "Indicators"
   },
   {
     "name": "table.set_bgcolor()",
-    "desc": "The function sets the background color of a table.",
+    "desc": "The function sets the background color of a table",
     "category": "Indicators"
   },
   {
     "name": "table.set_border_color()",
-    "desc": "The function sets the color of the borders (excluding the outer frame) of the table's cells.",
+    "desc": "The function sets the color of the borders (excluding the outer frame) of the table's cells",
     "category": "Indicators"
   },
   {
     "name": "table.set_border_width()",
-    "desc": "The function sets the width of the borders (excluding the outer frame) of the table's cells.",
+    "desc": "The function sets the width of the borders (excluding the outer frame) of the table's cells",
     "category": "Indicators"
   },
   {
     "name": "table.set_frame_color()",
-    "desc": "The function sets the color of the outer frame of a table.",
+    "desc": "The function sets the color of the outer frame of a table",
     "category": "Indicators"
   },
   {
     "name": "table.set_frame_width()",
-    "desc": "The function set the width of the outer frame of a table.",
+    "desc": "The function set the width of the outer frame of a table",
     "category": "Indicators"
   },
   {
     "name": "table.set_position()",
-    "desc": "The function sets the position of a table.",
+    "desc": "The function sets the position of a table",
     "category": "Indicators"
   },
   {
     "name": "table()",
-    "desc": "Keyword used to explicitly declare the \"table\" type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"table\" type of a variable or a parameter",
     "category": "Indicators"
   },
   {
     "name": "input.bool()",
-    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users.",
+    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users",
     "category": "Inputs"
   },
   {
     "name": "input.color()",
-    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users.",
+    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users",
     "category": "Inputs"
   },
   {
     "name": "input.enum()",
-    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users.",
+    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users",
     "category": "Inputs"
   },
   {
     "name": "input.float()",
-    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users.",
+    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users",
     "category": "Inputs"
   },
   {
     "name": "input.int()",
-    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users.",
+    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users",
     "category": "Inputs"
   },
   {
     "name": "input.price()",
-    "desc": "Adds a price input to the script's \"Settings/Inputs\" tab.",
+    "desc": "Adds a price input to the script's \"Settings/Inputs\" tab",
     "category": "Inputs"
   },
   {
     "name": "input.session()",
-    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users.",
+    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users",
     "category": "Inputs"
   },
   {
     "name": "input.source()",
-    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users.",
+    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users",
     "category": "Inputs"
   },
   {
     "name": "input.string()",
-    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users.",
+    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users",
     "category": "Inputs"
   },
   {
     "name": "input.symbol()",
-    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users.",
+    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users",
     "category": "Inputs"
   },
   {
     "name": "input.text_area()",
-    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users.",
+    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users",
     "category": "Inputs"
   },
   {
     "name": "input.time()",
-    "desc": "Adds a time input to the script's \"Settings/Inputs\" tab.",
+    "desc": "Adds a time input to the script's \"Settings/Inputs\" tab",
     "category": "Inputs"
   },
   {
     "name": "input.timeframe()",
-    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users.",
+    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users",
     "category": "Inputs"
   },
   {
     "name": "input()",
-    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users.",
+    "desc": "Adds an input to the Inputs tab of your script's Settings, which allows you to provide configuration options to script users",
     "category": "Inputs"
   },
   {
     "name": "label.all",
-    "desc": "Returns an array filled with all the current labels drawn by the script.",
+    "desc": "Returns an array filled with all the current labels drawn by the script",
     "category": "Labels"
   },
   {
     "name": "label.copy()",
-    "desc": "Clones the label object.",
+    "desc": "Clones the label object",
     "category": "Labels"
   },
   {
     "name": "label.delete()",
-    "desc": "Deletes the specified label object.",
+    "desc": "Deletes the specified label object",
     "category": "Labels"
   },
   {
     "name": "label.get_text()",
-    "desc": "Returns the text of this label object.",
+    "desc": "Returns the text of this label object",
     "category": "Labels"
   },
   {
     "name": "label.get_x()",
-    "desc": "Returns UNIX time or bar index (depending on the last xloc value set) of this label's position.",
+    "desc": "Returns UNIX time or bar index (depending on the last xloc value set) of this label's position",
     "category": "Labels"
   },
   {
     "name": "label.get_y()",
-    "desc": "Returns price of this label's position.",
+    "desc": "Returns price of this label's position",
     "category": "Labels"
   },
   {
     "name": "label.new()",
-    "desc": "Creates new label object.",
+    "desc": "Creates new label object",
     "category": "Labels"
   },
   {
     "name": "label.set_color()",
-    "desc": "Sets label border and arrow color.",
+    "desc": "Sets label border and arrow color",
     "category": "Labels"
   },
   {
     "name": "label.set_point()",
-    "desc": "Sets the location of the id label to point.",
+    "desc": "Sets the location of the id label to point",
     "category": "Labels"
   },
   {
     "name": "label.set_size()",
-    "desc": "Sets arrow and text size of the specified label object.",
+    "desc": "Sets arrow and text size of the specified label object",
     "category": "Labels"
   },
   {
     "name": "label.set_style()",
-    "desc": "Sets label style.",
+    "desc": "Sets label style",
     "category": "Labels"
   },
   {
     "name": "label.set_text_font_family()",
-    "desc": "The function sets the font family of the text inside the label.",
+    "desc": "The function sets the font family of the text inside the label",
     "category": "Labels"
   },
   {
     "name": "label.set_text_formatting()",
-    "desc": "Sets the formatting attributes the drawing applies to displayed text.",
+    "desc": "Sets the formatting attributes the drawing applies to displayed text",
     "category": "Labels"
   },
   {
@@ -2446,32 +2446,32 @@
   },
   {
     "name": "label.set_textalign()",
-    "desc": "Sets the alignment for the label text.",
+    "desc": "Sets the alignment for the label text",
     "category": "Labels"
   },
   {
     "name": "label.set_textcolor()",
-    "desc": "Sets color of the label text.",
+    "desc": "Sets color of the label text",
     "category": "Labels"
   },
   {
     "name": "label.set_tooltip()",
-    "desc": "Sets the tooltip text.",
+    "desc": "Sets the tooltip text",
     "category": "Labels"
   },
   {
     "name": "label.set_x()",
-    "desc": "Sets bar index or bar time (depending on the xloc) of the label position.",
+    "desc": "Sets bar index or bar time (depending on the xloc) of the label position",
     "category": "Labels"
   },
   {
     "name": "label.set_xloc()",
-    "desc": "Sets x-location and new bar index/time value.",
+    "desc": "Sets x-location and new bar index/time value",
     "category": "Labels"
   },
   {
     "name": "label.set_xy()",
-    "desc": "Sets bar index/time and price of the label position.",
+    "desc": "Sets bar index/time and price of the label position",
     "category": "Labels"
   },
   {
@@ -2481,177 +2481,177 @@
   },
   {
     "name": "label.set_yloc()",
-    "desc": "Sets new y-location calculation algorithm.",
+    "desc": "Sets new y-location calculation algorithm",
     "category": "Labels"
   },
   {
     "name": "label.style_arrowdown",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_arrowup",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_circle",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_cross",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_diamond",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_flag",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_label_center",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_label_down",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_label_left",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_label_lower_left",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_label_lower_right",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_label_right",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_label_up",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_label_upper_left",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_label_upper_right",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_none",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_square",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_text_outline",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_triangledown",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_triangleup",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label.style_xcross",
-    "desc": "Label style for label.new and label.set_style functions.",
+    "desc": "Label style for label.new and label.set_style functions",
     "category": "Labels"
   },
   {
     "name": "label()",
-    "desc": "Keyword used to explicitly declare the \"label\" type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"label\" type of a variable or a parameter",
     "category": "Labels"
   },
   {
     "name": "yloc.abovebar",
-    "desc": "A named constant that specifies the algorithm of interpretation of y-value in function label.new.",
+    "desc": "A named constant that specifies the algorithm of interpretation of y-value in function label.new",
     "category": "Labels"
   },
   {
     "name": "yloc.belowbar",
-    "desc": "A named constant that specifies the algorithm of interpretation of y-value in function label.new.",
+    "desc": "A named constant that specifies the algorithm of interpretation of y-value in function label.new",
     "category": "Labels"
   },
   {
     "name": "yloc.price",
-    "desc": "A named constant that specifies the algorithm of interpretation of y-value in function label.new.",
+    "desc": "A named constant that specifies the algorithm of interpretation of y-value in function label.new",
     "category": "Labels"
   },
   {
     "name": "line.all",
-    "desc": "Returns an array filled with all the current lines drawn by the script.",
+    "desc": "Returns an array filled with all the current lines drawn by the script",
     "category": "Lines"
   },
   {
     "name": "line.copy()",
-    "desc": "Clones the line object.",
+    "desc": "Clones the line object",
     "category": "Lines"
   },
   {
     "name": "line.delete()",
-    "desc": "Deletes the specified line object.",
+    "desc": "Deletes the specified line object",
     "category": "Lines"
   },
   {
     "name": "line.get_price()",
-    "desc": "Returns the price level of a line at a given bar index.",
+    "desc": "Returns the price level of a line at a given bar index",
     "category": "Lines"
   },
   {
     "name": "line.get_x1()",
-    "desc": "Returns UNIX time or bar index (depending on the last xloc value set) of the first point of the line.",
+    "desc": "Returns UNIX time or bar index (depending on the last xloc value set) of the first point of the line",
     "category": "Lines"
   },
   {
     "name": "line.get_x2()",
-    "desc": "Returns UNIX time or bar index (depending on the last xloc value set) of the second point of the line.",
+    "desc": "Returns UNIX time or bar index (depending on the last xloc value set) of the second point of the line",
     "category": "Lines"
   },
   {
     "name": "line.get_y1()",
-    "desc": "Returns price of the first point of the line.",
+    "desc": "Returns price of the first point of the line",
     "category": "Lines"
   },
   {
     "name": "line.get_y2()",
-    "desc": "Returns price of the second point of the line.",
+    "desc": "Returns price of the second point of the line",
     "category": "Lines"
   },
   {
     "name": "line.new()",
-    "desc": "Creates new line object.",
+    "desc": "Creates new line object",
     "category": "Lines"
   },
   {
@@ -2661,17 +2661,17 @@
   },
   {
     "name": "line.set_extend()",
-    "desc": "Sets extending type of this line object.",
+    "desc": "Sets extending type of this line object",
     "category": "Lines"
   },
   {
     "name": "line.set_first_point()",
-    "desc": "Sets the first point of the id line to point.",
+    "desc": "Sets the first point of the id line to point",
     "category": "Lines"
   },
   {
     "name": "line.set_second_point()",
-    "desc": "Sets the second point of the id line to point.",
+    "desc": "Sets the second point of the id line to point",
     "category": "Lines"
   },
   {
@@ -2681,27 +2681,27 @@
   },
   {
     "name": "line.set_width()",
-    "desc": "Sets the line width.",
+    "desc": "Sets the line width",
     "category": "Lines"
   },
   {
     "name": "line.set_x1()",
-    "desc": "Sets bar index or bar time (depending on the xloc) of the first point.",
+    "desc": "Sets bar index or bar time (depending on the xloc) of the first point",
     "category": "Lines"
   },
   {
     "name": "line.set_x2()",
-    "desc": "Sets bar index or bar time (depending on the xloc) of the second point.",
+    "desc": "Sets bar index or bar time (depending on the xloc) of the second point",
     "category": "Lines"
   },
   {
     "name": "line.set_xloc()",
-    "desc": "Sets x-location and new bar index/time values.",
+    "desc": "Sets x-location and new bar index/time values",
     "category": "Lines"
   },
   {
     "name": "line.set_xy1()",
-    "desc": "Sets bar index/time and price of the first point.",
+    "desc": "Sets bar index/time and price of the first point",
     "category": "Lines"
   },
   {
@@ -2716,1267 +2716,1267 @@
   },
   {
     "name": "line.set_y2()",
-    "desc": "Sets price of the second point.",
+    "desc": "Sets price of the second point",
     "category": "Lines"
   },
   {
     "name": "line.style_arrow_both",
-    "desc": "Line style for line.new and line.set_style functions.",
+    "desc": "Line style for line.new and line.set_style functions",
     "category": "Lines"
   },
   {
     "name": "line.style_arrow_left",
-    "desc": "Line style for line.new and line.set_style functions.",
+    "desc": "Line style for line.new and line.set_style functions",
     "category": "Lines"
   },
   {
     "name": "line.style_arrow_right",
-    "desc": "Line style for line.new and line.set_style functions.",
+    "desc": "Line style for line.new and line.set_style functions",
     "category": "Lines"
   },
   {
     "name": "line.style_dashed",
-    "desc": "Line style for line.new and line.set_style functions.",
+    "desc": "Line style for line.new and line.set_style functions",
     "category": "Lines"
   },
   {
     "name": "line.style_dotted",
-    "desc": "Line style for line.new and line.set_style functions.",
+    "desc": "Line style for line.new and line.set_style functions",
     "category": "Lines"
   },
   {
     "name": "line.style_solid",
-    "desc": "Line style for line.new and line.set_style functions.",
+    "desc": "Line style for line.new and line.set_style functions",
     "category": "Lines"
   },
   {
     "name": "line()",
-    "desc": "Keyword used to explicitly declare the \"line\" type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"line\" type of a variable or a parameter",
     "category": "Lines"
   },
   {
     "name": "linefill.all",
-    "desc": "Returns an array filled with all the current linefill objects drawn by the script.",
+    "desc": "Returns an array filled with all the current linefill objects drawn by the script",
     "category": "Lines"
   },
   {
     "name": "linefill.delete()",
-    "desc": "Deletes the specified linefill object.",
+    "desc": "Deletes the specified linefill object",
     "category": "Lines"
   },
   {
     "name": "linefill.get_line1()",
-    "desc": "Returns the ID of the first line used in the id linefill.",
+    "desc": "Returns the ID of the first line used in the id linefill",
     "category": "Lines"
   },
   {
     "name": "linefill.get_line2()",
-    "desc": "Returns the ID of the second line used in the id linefill.",
+    "desc": "Returns the ID of the second line used in the id linefill",
     "category": "Lines"
   },
   {
     "name": "linefill.new()",
-    "desc": "Creates a new linefill object and displays it on the chart, filling the space between line1 and line2 with the color specified in color.",
+    "desc": "Creates a new linefill object and displays it on the chart, filling the space between line1 and line2 with the color specified in color",
     "category": "Lines"
   },
   {
     "name": "linefill.set_color()",
-    "desc": "The function sets the color of the linefill object passed to it.",
+    "desc": "The function sets the color of the linefill object passed to it",
     "category": "Lines"
   },
   {
     "name": "linefill()",
-    "desc": "Keyword used to explicitly declare the \"linefill\" type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"linefill\" type of a variable or a parameter",
     "category": "Lines"
   },
   {
     "name": "box.all",
-    "desc": "Returns an array filled with all the current boxes drawn by the script.",
+    "desc": "Returns an array filled with all the current boxes drawn by the script",
     "category": "Boxes"
   },
   {
     "name": "box.copy()",
-    "desc": "Clones the box object.",
+    "desc": "Clones the box object",
     "category": "Boxes"
   },
   {
     "name": "box.delete()",
-    "desc": "Deletes the specified box object.",
+    "desc": "Deletes the specified box object",
     "category": "Boxes"
   },
   {
     "name": "box.get_bottom()",
-    "desc": "Returns the price value of the bottom border of the box.",
+    "desc": "Returns the price value of the bottom border of the box",
     "category": "Boxes"
   },
   {
     "name": "box.get_left()",
-    "desc": "Returns the bar index or the UNIX time (depending on the last value used for 'xloc') of the left border of the box.",
+    "desc": "Returns the bar index or the UNIX time (depending on the last value used for 'xloc') of the left border of the box",
     "category": "Boxes"
   },
   {
     "name": "box.get_right()",
-    "desc": "Returns the bar index or the UNIX time (depending on the last value used for 'xloc') of the right border of the box.",
+    "desc": "Returns the bar index or the UNIX time (depending on the last value used for 'xloc') of the right border of the box",
     "category": "Boxes"
   },
   {
     "name": "box.get_top()",
-    "desc": "Returns the price value of the top border of the box.",
+    "desc": "Returns the price value of the top border of the box",
     "category": "Boxes"
   },
   {
     "name": "box.new()",
-    "desc": "Creates a new box object.",
+    "desc": "Creates a new box object",
     "category": "Boxes"
   },
   {
     "name": "box.set_bgcolor()",
-    "desc": "Sets the background color of the box.",
+    "desc": "Sets the background color of the box",
     "category": "Boxes"
   },
   {
     "name": "box.set_border_color()",
-    "desc": "Sets the border color of the box.",
+    "desc": "Sets the border color of the box",
     "category": "Boxes"
   },
   {
     "name": "box.set_border_style()",
-    "desc": "Sets the border style of the box.",
+    "desc": "Sets the border style of the box",
     "category": "Boxes"
   },
   {
     "name": "box.set_border_width()",
-    "desc": "Sets the border width of the box.",
+    "desc": "Sets the border width of the box",
     "category": "Boxes"
   },
   {
     "name": "box.set_bottom_right_point()",
-    "desc": "Sets the bottom-right corner location of the id box to point.",
+    "desc": "Sets the bottom-right corner location of the id box to point",
     "category": "Boxes"
   },
   {
     "name": "box.set_bottom()",
-    "desc": "Sets the bottom coordinate of the box.",
+    "desc": "Sets the bottom coordinate of the box",
     "category": "Boxes"
   },
   {
     "name": "box.set_extend()",
-    "desc": "Sets extending type of the border of this box object.",
+    "desc": "Sets extending type of the border of this box object",
     "category": "Boxes"
   },
   {
     "name": "box.set_left()",
-    "desc": "Sets the left coordinate of the box.",
+    "desc": "Sets the left coordinate of the box",
     "category": "Boxes"
   },
   {
     "name": "box.set_lefttop()",
-    "desc": "Sets the left and top coordinates of the box.",
+    "desc": "Sets the left and top coordinates of the box",
     "category": "Boxes"
   },
   {
     "name": "box.set_right()",
-    "desc": "Sets the right coordinate of the box.",
+    "desc": "Sets the right coordinate of the box",
     "category": "Boxes"
   },
   {
     "name": "box.set_rightbottom()",
-    "desc": "Sets the right and bottom coordinates of the box.",
+    "desc": "Sets the right and bottom coordinates of the box",
     "category": "Boxes"
   },
   {
     "name": "box.set_text_color()",
-    "desc": "The function sets the color of the text inside the box.",
+    "desc": "The function sets the color of the text inside the box",
     "category": "Boxes"
   },
   {
     "name": "box.set_text_font_family()",
-    "desc": "The function sets the font family of the text inside the box.",
+    "desc": "The function sets the font family of the text inside the box",
     "category": "Boxes"
   },
   {
     "name": "box.set_text_formatting()",
-    "desc": "Sets the formatting attributes the drawing applies to displayed text.",
+    "desc": "Sets the formatting attributes the drawing applies to displayed text",
     "category": "Boxes"
   },
   {
     "name": "box.set_text_halign()",
-    "desc": "The function sets the horizontal alignment of the box's text.",
+    "desc": "The function sets the horizontal alignment of the box's text",
     "category": "Boxes"
   },
   {
     "name": "box.set_text_size()",
-    "desc": "The function sets the size of the box's text.",
+    "desc": "The function sets the size of the box's text",
     "category": "Boxes"
   },
   {
     "name": "box.set_text_valign()",
-    "desc": "The function sets the vertical alignment of a box's text.",
+    "desc": "The function sets the vertical alignment of a box's text",
     "category": "Boxes"
   },
   {
     "name": "box.set_text_wrap()",
-    "desc": "The function sets the mode of wrapping of the text inside the box.",
+    "desc": "The function sets the mode of wrapping of the text inside the box",
     "category": "Boxes"
   },
   {
     "name": "box.set_text()",
-    "desc": "The function sets the text in the box.",
+    "desc": "The function sets the text in the box",
     "category": "Boxes"
   },
   {
     "name": "box.set_top_left_point()",
-    "desc": "Sets the top-left corner location of the id box to point.",
+    "desc": "Sets the top-left corner location of the id box to point",
     "category": "Boxes"
   },
   {
     "name": "box.set_top()",
-    "desc": "Sets the top coordinate of the box.",
+    "desc": "Sets the top coordinate of the box",
     "category": "Boxes"
   },
   {
     "name": "box()",
-    "desc": "Keyword used to explicitly declare the \"box\" type of a variable or a parameter.",
+    "desc": "Keyword used to explicitly declare the \"box\" type of a variable or a parameter",
     "category": "Boxes"
   },
   {
     "name": "polyline.all",
-    "desc": "Returns an array containing all current polyline instances drawn by the script.",
+    "desc": "Returns an array containing all current polyline instances drawn by the script",
     "category": "Polylines"
   },
   {
     "name": "polyline.delete()",
-    "desc": "Deletes the specified polyline object.",
+    "desc": "Deletes the specified polyline object",
     "category": "Polylines"
   },
   {
     "name": "polyline.new()",
-    "desc": "Creates a new polyline instance and displays it on the chart, sequentially connecting all of the points in the points array with line segments.",
+    "desc": "Creates a new polyline instance and displays it on the chart, sequentially connecting all of the points in the points array with line segments",
     "category": "Polylines"
   },
   {
     "name": "alert.freq_all",
-    "desc": "A named constant for use with the freq parameter of the alert() function.",
+    "desc": "A named constant for use with the freq parameter of the alert() function",
     "category": "Alerts"
   },
   {
     "name": "alert.freq_once_per_bar",
-    "desc": "A named constant for use with the freq parameter of the alert() function.",
+    "desc": "A named constant for use with the freq parameter of the alert() function",
     "category": "Alerts"
   },
   {
     "name": "alert.freq_once_per_bar_close",
-    "desc": "A named constant for use with the freq parameter of the alert() function.",
+    "desc": "A named constant for use with the freq parameter of the alert() function",
     "category": "Alerts"
   },
   {
     "name": "alert()",
-    "desc": "Creates an alert trigger for an indicator or strategy, with a specified frequency, when called on the latest realtime bar.",
+    "desc": "Creates an alert trigger for an indicator or strategy, with a specified frequency, when called on the latest realtime bar",
     "category": "Alerts"
   },
   {
     "name": "alertcondition()",
-    "desc": "Creates alert condition, that is available in Create Alert dialog.",
+    "desc": "Creates alert condition, that is available in Create Alert dialog",
     "category": "Alerts"
   },
   {
     "name": "syminfo.basecurrency",
-    "desc": "Returns a string containing the code representing the symbol's base currency (i.e., the traded currency or coin) if the instrument is a Forex or Crypto pair or a derivative based on such a pair.",
+    "desc": "Returns a string containing the code representing the symbol's base currency (i.e., the traded currency or coin) if the instrument is a Forex or Crypto pair or a derivative based on such a pair",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.country",
-    "desc": "Returns the two-letter code of the country where the symbol is traded, in the ISO 3166-1 alpha-2 format, or na if the exchange is not directly tied to a specific country.",
+    "desc": "Returns the two-letter code of the country where the symbol is traded, in the ISO 3166-1 alpha-2 format, or na if the exchange is not directly tied to a specific country",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.currency",
-    "desc": "Returns a string containing the code representing the currency of the symbol's prices.",
+    "desc": "Returns a string containing the code representing the currency of the symbol's prices",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.description",
-    "desc": "Description for the current symbol.",
+    "desc": "Description for the current symbol",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.employees",
-    "desc": "The number of employees the company has.",
+    "desc": "The number of employees the company has",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.expiration_date",
-    "desc": "A UNIX timestamp representing the start of the last day of the current futures contract.",
+    "desc": "A UNIX timestamp representing the start of the last day of the current futures contract",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.industry",
-    "desc": "Returns the industry of the symbol, or na if the symbol has no industry.",
+    "desc": "Returns the industry of the symbol, or na if the symbol has no industry",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.main_tickerid",
-    "desc": "A ticker identifier representing the current chart's symbol.",
+    "desc": "A ticker identifier representing the current chart's symbol",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.mincontract",
-    "desc": "The smallest amount of the current symbol that can be traded.",
+    "desc": "The smallest amount of the current symbol that can be traded",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.minmove",
-    "desc": "Returns a whole number used to calculate the smallest increment between a symbol's price movements (syminfo.mintick).",
+    "desc": "Returns a whole number used to calculate the smallest increment between a symbol's price movements (syminfo.mintick)",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.mintick",
-    "desc": "Min tick value for the current symbol.",
+    "desc": "Min tick value for the current symbol",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.pointvalue",
-    "desc": "Point value for the current symbol.",
+    "desc": "Point value for the current symbol",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.prefix",
-    "desc": "Prefix of current symbol name (i.e.",
+    "desc": "Prefix of current symbol name (i.e",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.prefix()",
-    "desc": "Prefix of current symbol name (i.e.",
+    "desc": "Prefix of current symbol name (i.e",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.pricescale",
-    "desc": "Returns a whole number used to calculate the smallest increment between a symbol's price movements (syminfo.mintick).",
+    "desc": "Returns a whole number used to calculate the smallest increment between a symbol's price movements (syminfo.mintick)",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.recommendations_buy",
-    "desc": "The number of analysts who gave the current symbol a \"Buy\" rating.",
+    "desc": "The number of analysts who gave the current symbol a \"Buy\" rating",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.recommendations_buy_strong",
-    "desc": "The number of analysts who gave the current symbol a \"Strong Buy\" rating.",
+    "desc": "The number of analysts who gave the current symbol a \"Strong Buy\" rating",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.recommendations_date",
-    "desc": "The starting date of the last set of recommendations for the current symbol.",
+    "desc": "The starting date of the last set of recommendations for the current symbol",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.recommendations_hold",
-    "desc": "The number of analysts who gave the current symbol a \"Hold\" rating.",
+    "desc": "The number of analysts who gave the current symbol a \"Hold\" rating",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.recommendations_sell",
-    "desc": "The number of analysts who gave the current symbol a \"Sell\" rating.",
+    "desc": "The number of analysts who gave the current symbol a \"Sell\" rating",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.recommendations_sell_strong",
-    "desc": "The number of analysts who gave the current symbol a \"Strong Sell\" rating.",
+    "desc": "The number of analysts who gave the current symbol a \"Strong Sell\" rating",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.recommendations_total",
-    "desc": "The total number of recommendations for the current symbol.",
+    "desc": "The total number of recommendations for the current symbol",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.root",
-    "desc": "Root for derivatives like futures contract.",
+    "desc": "Root for derivatives like futures contract",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.sector",
-    "desc": "Returns the sector of the symbol, or na if the symbol has no sector.",
+    "desc": "Returns the sector of the symbol, or na if the symbol has no sector",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.session",
-    "desc": "Session type of the chart main series.",
+    "desc": "Session type of the chart main series",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.shareholders",
-    "desc": "The number of shareholders the company has.",
+    "desc": "The number of shareholders the company has",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.shares_outstanding_float",
-    "desc": "The total number of shares outstanding a company has available, excluding any of its restricted shares.",
+    "desc": "The total number of shares outstanding a company has available, excluding any of its restricted shares",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.shares_outstanding_total",
-    "desc": "The total number of shares outstanding a company has available, including restricted shares held by insiders, major shareholders, and employees.",
+    "desc": "The total number of shares outstanding a company has available, including restricted shares held by insiders, major shareholders, and employees",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.target_price_average",
-    "desc": "The average of the last yearly price targets for the symbol predicted by analysts.",
+    "desc": "The average of the last yearly price targets for the symbol predicted by analysts",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.target_price_date",
-    "desc": "The starting date of the last price target prediction for the current symbol.",
+    "desc": "The starting date of the last price target prediction for the current symbol",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.target_price_estimates",
-    "desc": "The latest total number of price target predictions for the current symbol.",
+    "desc": "The latest total number of price target predictions for the current symbol",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.target_price_high",
-    "desc": "The last highest yearly price target for the symbol predicted by analysts.",
+    "desc": "The last highest yearly price target for the symbol predicted by analysts",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.target_price_low",
-    "desc": "The last lowest yearly price target for the symbol predicted by analysts.",
+    "desc": "The last lowest yearly price target for the symbol predicted by analysts",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.target_price_median",
-    "desc": "The median of the last yearly price targets for the symbol predicted by analysts.",
+    "desc": "The median of the last yearly price targets for the symbol predicted by analysts",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.ticker",
-    "desc": "Symbol name without exchange prefix, e.g.",
+    "desc": "Symbol name without exchange prefix, e.g",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.ticker()",
-    "desc": "Symbol name without exchange prefix, e.g.",
+    "desc": "Symbol name without exchange prefix, e.g",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.tickerid",
-    "desc": "A ticker identifier representing the chart's symbol or a requested symbol, depending on how the script uses it.",
+    "desc": "A ticker identifier representing the chart's symbol or a requested symbol, depending on how the script uses it",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.timezone",
-    "desc": "Timezone of the exchange of the chart main series.",
+    "desc": "Timezone of the exchange of the chart main series",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.type",
-    "desc": "The type of market the symbol belongs to.",
+    "desc": "The type of market the symbol belongs to",
     "category": "Symbol Info"
   },
   {
     "name": "syminfo.volumetype",
-    "desc": "Volume type of the current symbol.",
+    "desc": "Volume type of the current symbol",
     "category": "Symbol Info"
   },
   {
     "name": "adjustment.dividends",
-    "desc": "Constant for dividends adjustment type (dividends adjustment is applied).",
+    "desc": "Constant for dividends adjustment type (dividends adjustment is applied)",
     "category": "Requests"
   },
   {
     "name": "adjustment.none",
-    "desc": "Constant for none adjustment type (no adjustment is applied).",
+    "desc": "Constant for none adjustment type (no adjustment is applied)",
     "category": "Requests"
   },
   {
     "name": "adjustment.splits",
-    "desc": "Constant for splits adjustment type (splits adjustment is applied).",
+    "desc": "Constant for splits adjustment type (splits adjustment is applied)",
     "category": "Requests"
   },
   {
     "name": "barmerge.gaps_off",
-    "desc": "Merge strategy for requested data.",
+    "desc": "Merge strategy for requested data",
     "category": "Requests"
   },
   {
     "name": "barmerge.gaps_on",
-    "desc": "Merge strategy for requested data.",
+    "desc": "Merge strategy for requested data",
     "category": "Requests"
   },
   {
     "name": "barmerge.lookahead_off",
-    "desc": "Merge strategy for the requested data position.",
+    "desc": "Merge strategy for the requested data position",
     "category": "Requests"
   },
   {
     "name": "barmerge.lookahead_on",
-    "desc": "Merge strategy for the requested data position.",
+    "desc": "Merge strategy for the requested data position",
     "category": "Requests"
   },
   {
     "name": "dividends.future_amount",
-    "desc": "Returns the payment amount of the upcoming dividend in the currency of the current instrument, or na if this data isn't available.",
+    "desc": "Returns the payment amount of the upcoming dividend in the currency of the current instrument, or na if this data isn't available",
     "category": "Requests"
   },
   {
     "name": "dividends.future_ex_date",
-    "desc": "Returns the Ex-dividend date (Ex-date) of the current instrument's next dividend payment, or na if this data isn't available.",
+    "desc": "Returns the Ex-dividend date (Ex-date) of the current instrument's next dividend payment, or na if this data isn't available",
     "category": "Requests"
   },
   {
     "name": "dividends.future_pay_date",
-    "desc": "Returns the Payment date (Pay date) of the current instrument's next dividend payment, or na if this data isn't available.",
+    "desc": "Returns the Payment date (Pay date) of the current instrument's next dividend payment, or na if this data isn't available",
     "category": "Requests"
   },
   {
     "name": "dividends.gross",
-    "desc": "A named constant for the request.dividends function.",
+    "desc": "A named constant for the request.dividends function",
     "category": "Requests"
   },
   {
     "name": "dividends.net",
-    "desc": "A named constant for the request.dividends function.",
+    "desc": "A named constant for the request.dividends function",
     "category": "Requests"
   },
   {
     "name": "earnings.actual",
-    "desc": "A named constant for the request.earnings function.",
+    "desc": "A named constant for the request.earnings function",
     "category": "Requests"
   },
   {
     "name": "earnings.estimate",
-    "desc": "A named constant for the request.earnings function.",
+    "desc": "A named constant for the request.earnings function",
     "category": "Requests"
   },
   {
     "name": "earnings.future_eps",
-    "desc": "Returns the estimated Earnings per Share of the next earnings report in the currency of the instrument, or na if this data isn't available.",
+    "desc": "Returns the estimated Earnings per Share of the next earnings report in the currency of the instrument, or na if this data isn't available",
     "category": "Requests"
   },
   {
     "name": "earnings.future_period_end_time",
-    "desc": "Checks the data for the next earnings report and returns the UNIX timestamp of the day when the financial period covered by those earnings ends, or na if this data isn't available.",
+    "desc": "Checks the data for the next earnings report and returns the UNIX timestamp of the day when the financial period covered by those earnings ends, or na if this data isn't available",
     "category": "Requests"
   },
   {
     "name": "earnings.future_revenue",
-    "desc": "Returns the estimated Revenue of the next earnings report in the currency of the instrument, or na if this data isn't available.",
+    "desc": "Returns the estimated Revenue of the next earnings report in the currency of the instrument, or na if this data isn't available",
     "category": "Requests"
   },
   {
     "name": "earnings.future_time",
-    "desc": "Returns a UNIX timestamp indicating the expected time of the next earnings report, or na if this data isn't available.",
+    "desc": "Returns a UNIX timestamp indicating the expected time of the next earnings report, or na if this data isn't available",
     "category": "Requests"
   },
   {
     "name": "earnings.standardized",
-    "desc": "A named constant for the request.earnings function.",
+    "desc": "A named constant for the request.earnings function",
     "category": "Requests"
   },
   {
     "name": "request.currency_rate()",
-    "desc": "Provides a daily rate that can be used to convert a value expressed in the from currency to another in the to currency.",
+    "desc": "Provides a daily rate that can be used to convert a value expressed in the from currency to another in the to currency",
     "category": "Requests"
   },
   {
     "name": "request.dividends()",
-    "desc": "Requests dividends data for the specified symbol.",
+    "desc": "Requests dividends data for the specified symbol",
     "category": "Requests"
   },
   {
     "name": "request.earnings()",
-    "desc": "Requests earnings data for the specified symbol.",
+    "desc": "Requests earnings data for the specified symbol",
     "category": "Requests"
   },
   {
     "name": "request.economic()",
-    "desc": "Requests economic data for a symbol.",
+    "desc": "Requests economic data for a symbol",
     "category": "Requests"
   },
   {
     "name": "request.financial()",
-    "desc": "Requests financial series for symbol.",
+    "desc": "Requests financial series for symbol",
     "category": "Requests"
   },
   {
     "name": "request.quandl()",
-    "desc": "*Note:* This function has been deprecated due to the API change from NASDAQ Data Link.",
+    "desc": "*Note:* This function has been deprecated due to the API change from NASDAQ Data Link",
     "category": "Requests"
   },
   {
     "name": "request.security_lower_tf()",
-    "desc": "Requests the results of an expression from a specified symbol on a timeframe lower than or equal to the chart's timeframe.",
+    "desc": "Requests the results of an expression from a specified symbol on a timeframe lower than or equal to the chart's timeframe",
     "category": "Requests"
   },
   {
     "name": "request.security()",
-    "desc": "Requests the result of an expression from a specified context (symbol and timeframe).",
+    "desc": "Requests the result of an expression from a specified context (symbol and timeframe)",
     "category": "Requests"
   },
   {
     "name": "request.seed()",
-    "desc": "Requests data from a user-maintained GitHub repository and returns it as a series.",
+    "desc": "Requests data from a user-maintained GitHub repository and returns it as a series",
     "category": "Requests"
   },
   {
     "name": "request.splits()",
-    "desc": "Requests splits data for the specified symbol.",
+    "desc": "Requests splits data for the specified symbol",
     "category": "Requests"
   },
   {
     "name": "splits.denominator",
-    "desc": "A named constant for the request.splits function.",
+    "desc": "A named constant for the request.splits function",
     "category": "Requests"
   },
   {
     "name": "splits.numerator",
-    "desc": "A named constant for the request.splits function.",
+    "desc": "A named constant for the request.splits function",
     "category": "Requests"
   },
   {
     "name": "ticker.heikinashi()",
-    "desc": "Creates a ticker identifier for requesting Heikin Ashi bar values.",
+    "desc": "Creates a ticker identifier for requesting Heikin Ashi bar values",
     "category": "Requests"
   },
   {
     "name": "ticker.inherit()",
-    "desc": "Constructs a ticker ID for the specified symbol with additional parameters inherited from the ticker ID passed into the function call, allowing the script to request a symbol's data using the same modifiers that the from_tickerid has, including extended session, dividend adjustment, currency conversion, non-standard chart types, back-adjustment, settlement-as-close, etc.",
+    "desc": "Constructs a ticker ID for the specified symbol with additional parameters inherited from the ticker ID passed into the function call, allowing the script to request a symbol's data using the same modifiers that the from_tickerid has, including extended session, dividend adjustment, currency conversion, non-standard chart types, back-adjustment, settlement-as-close, etc",
     "category": "Requests"
   },
   {
     "name": "ticker.kagi()",
-    "desc": "Creates a ticker identifier for requesting Kagi values.",
+    "desc": "Creates a ticker identifier for requesting Kagi values",
     "category": "Requests"
   },
   {
     "name": "ticker.linebreak()",
-    "desc": "Creates a ticker identifier for requesting Line Break values.",
+    "desc": "Creates a ticker identifier for requesting Line Break values",
     "category": "Requests"
   },
   {
     "name": "ticker.modify()",
-    "desc": "Creates a ticker identifier for requesting additional data for the script.",
+    "desc": "Creates a ticker identifier for requesting additional data for the script",
     "category": "Requests"
   },
   {
     "name": "ticker.new()",
-    "desc": "Creates a ticker identifier for requesting additional data for the script.",
+    "desc": "Creates a ticker identifier for requesting additional data for the script",
     "category": "Requests"
   },
   {
     "name": "ticker.pointfigure()",
-    "desc": "Creates a ticker identifier for requesting Point & Figure values.",
+    "desc": "Creates a ticker identifier for requesting Point & Figure values",
     "category": "Requests"
   },
   {
     "name": "ticker.renko()",
-    "desc": "Creates a ticker identifier for requesting Renko values.",
+    "desc": "Creates a ticker identifier for requesting Renko values",
     "category": "Requests"
   },
   {
     "name": "ticker.standard()",
-    "desc": "Creates a ticker to request data from a standard chart that is unaffected by modifiers like extended session, dividend adjustment, currency conversion, and the calculations of non-standard chart types: Heikin Ashi, Renko, etc.",
+    "desc": "Creates a ticker to request data from a standard chart that is unaffected by modifiers like extended session, dividend adjustment, currency conversion, and the calculations of non-standard chart types: Heikin Ashi, Renko, etc",
     "category": "Requests"
   },
   {
     "name": "session.extended",
-    "desc": "Constant for extended session type (with extended hours data).",
+    "desc": "Constant for extended session type (with extended hours data)",
     "category": "Sessions"
   },
   {
     "name": "session.isfirstbar",
-    "desc": "Returns true if the current bar is the first bar of the day's session, false otherwise.",
+    "desc": "Returns true if the current bar is the first bar of the day's session, false otherwise",
     "category": "Sessions"
   },
   {
     "name": "session.isfirstbar_regular",
-    "desc": "Returns true on the first regular session bar of the day, false otherwise.",
+    "desc": "Returns true on the first regular session bar of the day, false otherwise",
     "category": "Sessions"
   },
   {
     "name": "session.islastbar",
-    "desc": "Returns true if the current bar is the last bar of the day's session, false otherwise.",
+    "desc": "Returns true if the current bar is the last bar of the day's session, false otherwise",
     "category": "Sessions"
   },
   {
     "name": "session.islastbar_regular",
-    "desc": "Returns true on the last regular session bar of the day, false otherwise.",
+    "desc": "Returns true on the last regular session bar of the day, false otherwise",
     "category": "Sessions"
   },
   {
     "name": "session.ismarket",
-    "desc": "Returns true if the current bar is a part of the regular trading hours (i.e.",
+    "desc": "Returns true if the current bar is a part of the regular trading hours (i.e",
     "category": "Sessions"
   },
   {
     "name": "session.ispostmarket",
-    "desc": "Returns true if the current bar is a part of the post-market, false otherwise.",
+    "desc": "Returns true if the current bar is a part of the post-market, false otherwise",
     "category": "Sessions"
   },
   {
     "name": "session.ispremarket",
-    "desc": "Returns true if the current bar is a part of the pre-market, false otherwise.",
+    "desc": "Returns true if the current bar is a part of the pre-market, false otherwise",
     "category": "Sessions"
   },
   {
     "name": "session.regular",
-    "desc": "Constant for regular session type (no extended hours data).",
+    "desc": "Constant for regular session type (no extended hours data)",
     "category": "Sessions"
   },
   {
     "name": "timeframe.change()",
-    "desc": "Detects changes in the specified timeframe.",
+    "desc": "Detects changes in the specified timeframe",
     "category": "Timeframe"
   },
   {
     "name": "timeframe.from_seconds()",
-    "desc": "Converts a number of seconds into a valid timeframe string.",
+    "desc": "Converts a number of seconds into a valid timeframe string",
     "category": "Timeframe"
   },
   {
     "name": "timeframe.in_seconds()",
-    "desc": "Converts a timeframe string into seconds.",
+    "desc": "Converts a timeframe string into seconds",
     "category": "Timeframe"
   },
   {
     "name": "timeframe.isdaily",
-    "desc": "Returns true if current resolution is a daily resolution, false otherwise.",
+    "desc": "Returns true if current resolution is a daily resolution, false otherwise",
     "category": "Timeframe"
   },
   {
     "name": "timeframe.isdwm",
-    "desc": "Returns true if current resolution is a daily or weekly or monthly resolution, false otherwise.",
+    "desc": "Returns true if current resolution is a daily or weekly or monthly resolution, false otherwise",
     "category": "Timeframe"
   },
   {
     "name": "timeframe.isintraday",
-    "desc": "Returns true if current resolution is an intraday (minutes or seconds) resolution, false otherwise.",
+    "desc": "Returns true if current resolution is an intraday (minutes or seconds) resolution, false otherwise",
     "category": "Timeframe"
   },
   {
     "name": "timeframe.isminutes",
-    "desc": "Returns true if current resolution is a minutes resolution, false otherwise.",
+    "desc": "Returns true if current resolution is a minutes resolution, false otherwise",
     "category": "Timeframe"
   },
   {
     "name": "timeframe.ismonthly",
-    "desc": "Returns true if current resolution is a monthly resolution, false otherwise.",
+    "desc": "Returns true if current resolution is a monthly resolution, false otherwise",
     "category": "Timeframe"
   },
   {
     "name": "timeframe.isseconds",
-    "desc": "Returns true if current resolution is a seconds resolution, false otherwise.",
+    "desc": "Returns true if current resolution is a seconds resolution, false otherwise",
     "category": "Timeframe"
   },
   {
     "name": "timeframe.isticks",
-    "desc": "Returns true if current resolution is a ticks resolution, false otherwise.",
+    "desc": "Returns true if current resolution is a ticks resolution, false otherwise",
     "category": "Timeframe"
   },
   {
     "name": "timeframe.isweekly",
-    "desc": "Returns true if current resolution is a weekly resolution, false otherwise.",
+    "desc": "Returns true if current resolution is a weekly resolution, false otherwise",
     "category": "Timeframe"
   },
   {
     "name": "timeframe.main_period",
-    "desc": "A string representation of the script's main timeframe.",
+    "desc": "A string representation of the script's main timeframe",
     "category": "Timeframe"
   },
   {
     "name": "timeframe.multiplier",
-    "desc": "Multiplier of resolution, e.g.",
+    "desc": "Multiplier of resolution, e.g",
     "category": "Timeframe"
   },
   {
     "name": "timeframe.period",
-    "desc": "A string representation of the script's main timeframe or a requested timeframe, depending on how the script uses it.",
+    "desc": "A string representation of the script's main timeframe or a requested timeframe, depending on how the script uses it",
     "category": "Timeframe"
   },
   {
     "name": "strategy.account_currency",
-    "desc": "Returns the currency used to calculate results, which can be set in the strategy's properties.",
+    "desc": "Returns the currency used to calculate results, which can be set in the strategy's properties",
     "category": "Strategy"
   },
   {
     "name": "strategy.avg_losing_trade",
-    "desc": "Returns the average amount of money lost per losing trade.",
+    "desc": "Returns the average amount of money lost per losing trade",
     "category": "Strategy"
   },
   {
     "name": "strategy.avg_losing_trade_percent",
-    "desc": "Returns the average percentage loss per losing trade.",
+    "desc": "Returns the average percentage loss per losing trade",
     "category": "Strategy"
   },
   {
     "name": "strategy.avg_trade",
-    "desc": "Returns the average amount of money gained or lost per trade.",
+    "desc": "Returns the average amount of money gained or lost per trade",
     "category": "Strategy"
   },
   {
     "name": "strategy.avg_trade_percent",
-    "desc": "Returns the average percentage gain or loss per trade.",
+    "desc": "Returns the average percentage gain or loss per trade",
     "category": "Strategy"
   },
   {
     "name": "strategy.avg_winning_trade",
-    "desc": "Returns the average amount of money gained per winning trade.",
+    "desc": "Returns the average amount of money gained per winning trade",
     "category": "Strategy"
   },
   {
     "name": "strategy.avg_winning_trade_percent",
-    "desc": "Returns the average percentage gain per winning trade.",
+    "desc": "Returns the average percentage gain per winning trade",
     "category": "Strategy"
   },
   {
     "name": "strategy.cancel_all()",
-    "desc": "Cancels all pending or unfilled orders, regardless of their identifiers.",
+    "desc": "Cancels all pending or unfilled orders, regardless of their identifiers",
     "category": "Strategy"
   },
   {
     "name": "strategy.cancel()",
-    "desc": "Cancels a pending or unfilled order with a specific identifier.",
+    "desc": "Cancels a pending or unfilled order with a specific identifier",
     "category": "Strategy"
   },
   {
     "name": "strategy.cash",
-    "desc": "This is one of the arguments that can be supplied to the default_qty_type parameter in the strategy declaration statement.",
+    "desc": "This is one of the arguments that can be supplied to the default_qty_type parameter in the strategy declaration statement",
     "category": "Strategy"
   },
   {
     "name": "strategy.close_all()",
-    "desc": "Creates an order to close an open position completely, regardless of the identifiers of the entry orders that opened or added to it.",
+    "desc": "Creates an order to close an open position completely, regardless of the identifiers of the entry orders that opened or added to it",
     "category": "Strategy"
   },
   {
     "name": "strategy.close()",
-    "desc": "Creates an order to exit from the part of a position opened by entry orders with a specific identifier.",
+    "desc": "Creates an order to exit from the part of a position opened by entry orders with a specific identifier",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades",
-    "desc": "Number of trades, which were closed for the whole trading range.",
+    "desc": "Number of trades, which were closed for the whole trading range",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.commission()",
-    "desc": "Returns the sum of entry and exit fees paid in the closed trade, expressed in strategy.account_currency.",
+    "desc": "Returns the sum of entry and exit fees paid in the closed trade, expressed in strategy.account_currency",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.entry_bar_index()",
-    "desc": "Returns the bar_index of the closed trade's entry.",
+    "desc": "Returns the bar_index of the closed trade's entry",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.entry_comment()",
-    "desc": "Returns the comment message of the closed trade's entry, or na\nif there is no entry with this trade_num.",
+    "desc": "Returns the comment message of the closed trade's entry, or na\nif there is no entry with this trade_num",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.entry_id()",
-    "desc": "Returns the id of the closed trade's entry.",
+    "desc": "Returns the id of the closed trade's entry",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.entry_price()",
-    "desc": "Returns the price of the closed trade's entry.",
+    "desc": "Returns the price of the closed trade's entry",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.entry_time()",
-    "desc": "Returns the UNIX time of the closed trade's entry, expressed in milliseconds..",
+    "desc": "Returns the UNIX time of the closed trade's entry, expressed in milliseconds",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.exit_bar_index()",
-    "desc": "Returns the bar_index of the closed trade's exit.",
+    "desc": "Returns the bar_index of the closed trade's exit",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.exit_comment()",
-    "desc": "Returns the comment message of the closed trade's exit, or\nna if there is no entry with this trade_num.",
+    "desc": "Returns the comment message of the closed trade's exit, or\nna if there is no entry with this trade_num",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.exit_id()",
-    "desc": "Returns the id of the closed trade's exit.",
+    "desc": "Returns the id of the closed trade's exit",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.exit_price()",
-    "desc": "Returns the price of the closed trade's exit.",
+    "desc": "Returns the price of the closed trade's exit",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.exit_time()",
-    "desc": "Returns the UNIX time of the closed trade's exit, expressed in milliseconds.",
+    "desc": "Returns the UNIX time of the closed trade's exit, expressed in milliseconds",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.first_index",
-    "desc": "The index, or trade number, of the first (oldest) trade listed in the List of Trades.",
+    "desc": "The index, or trade number, of the first (oldest) trade listed in the List of Trades",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.max_drawdown_percent()",
-    "desc": "Returns the maximum drawdown of the closed trade, i.e., the maximum possible loss during the trade, expressed as a percentage and calculated by formula: Lowest Value During Trade / (Entry Price x Quantity) * 100.",
+    "desc": "Returns the maximum drawdown of the closed trade, i.e., the maximum possible loss during the trade, expressed as a percentage and calculated by formula: Lowest Value During Trade / (Entry Price x Quantity) * 100",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.max_drawdown()",
-    "desc": "Returns the maximum drawdown of the closed trade, i.e., the maximum possible loss during the trade, expressed in strategy.account_currency.",
+    "desc": "Returns the maximum drawdown of the closed trade, i.e., the maximum possible loss during the trade, expressed in strategy.account_currency",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.max_runup_percent()",
-    "desc": "Returns the maximum run-up of the closed trade, i.e., the maximum possible profit during the trade, expressed as a percentage and calculated by formula: Highest Value During Trade / (Entry Price x Quantity) * 100.",
+    "desc": "Returns the maximum run-up of the closed trade, i.e., the maximum possible profit during the trade, expressed as a percentage and calculated by formula: Highest Value During Trade / (Entry Price x Quantity) * 100",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.max_runup()",
-    "desc": "Returns the maximum run up of the closed trade, i.e., the maximum possible profit during the trade, expressed in strategy.account_currency.",
+    "desc": "Returns the maximum run up of the closed trade, i.e., the maximum possible profit during the trade, expressed in strategy.account_currency",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.profit_percent()",
-    "desc": "Returns the profit/loss value of the closed trade, expressed as a percentage.",
+    "desc": "Returns the profit/loss value of the closed trade, expressed as a percentage",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.profit()",
-    "desc": "Returns the profit/loss of the closed trade, expressed in strategy.account_currency.",
+    "desc": "Returns the profit/loss of the closed trade, expressed in strategy.account_currency",
     "category": "Strategy"
   },
   {
     "name": "strategy.closedtrades.size()",
-    "desc": "Returns the direction and the number of contracts traded in the closed trade.",
+    "desc": "Returns the direction and the number of contracts traded in the closed trade",
     "category": "Strategy"
   },
   {
     "name": "strategy.commission.cash_per_contract",
-    "desc": "Commission type for an order.",
+    "desc": "Commission type for an order",
     "category": "Strategy"
   },
   {
     "name": "strategy.commission.cash_per_order",
-    "desc": "Commission type for an order.",
+    "desc": "Commission type for an order",
     "category": "Strategy"
   },
   {
     "name": "strategy.commission.percent",
-    "desc": "Commission type for an order.",
+    "desc": "Commission type for an order",
     "category": "Strategy"
   },
   {
     "name": "strategy.convert_to_account()",
-    "desc": "Converts the value from the currency that the symbol on the chart is traded in (syminfo.currency) to the currency used by the strategy (strategy.account_currency).",
+    "desc": "Converts the value from the currency that the symbol on the chart is traded in (syminfo.currency) to the currency used by the strategy (strategy.account_currency)",
     "category": "Strategy"
   },
   {
     "name": "strategy.convert_to_symbol()",
-    "desc": "Converts the value from the currency used by the strategy (strategy.account_currency) to the currency that the symbol on the chart is traded in (syminfo.currency).",
+    "desc": "Converts the value from the currency used by the strategy (strategy.account_currency) to the currency that the symbol on the chart is traded in (syminfo.currency)",
     "category": "Strategy"
   },
   {
     "name": "strategy.default_entry_qty()",
-    "desc": "Calculates the default quantity, in units, of an entry order from strategy.entry or strategy.order if it were to fill at the specified fill_price value.",
+    "desc": "Calculates the default quantity, in units, of an entry order from strategy.entry or strategy.order if it were to fill at the specified fill_price value",
     "category": "Strategy"
   },
   {
     "name": "strategy.direction.all",
-    "desc": "It allows strategy to open both long and short positions.",
+    "desc": "It allows strategy to open both long and short positions",
     "category": "Strategy"
   },
   {
     "name": "strategy.direction.long",
-    "desc": "It allows strategy to open only long positions.",
+    "desc": "It allows strategy to open only long positions",
     "category": "Strategy"
   },
   {
     "name": "strategy.direction.short",
-    "desc": "It allows strategy to open only short positions.",
+    "desc": "It allows strategy to open only short positions",
     "category": "Strategy"
   },
   {
     "name": "strategy.entry()",
-    "desc": "Creates a new order to open or add to a position.",
+    "desc": "Creates a new order to open or add to a position",
     "category": "Strategy"
   },
   {
     "name": "strategy.equity",
-    "desc": "Current equity (strategy.initial_capital + strategy.netprofit + strategy.openprofit).",
+    "desc": "Current equity (strategy.initial_capital + strategy.netprofit + strategy.openprofit)",
     "category": "Strategy"
   },
   {
     "name": "strategy.eventrades",
-    "desc": "Number of breakeven trades for the whole trading range.",
+    "desc": "Number of breakeven trades for the whole trading range",
     "category": "Strategy"
   },
   {
     "name": "strategy.exit()",
-    "desc": "Creates price-based orders to exit from an open position.",
+    "desc": "Creates price-based orders to exit from an open position",
     "category": "Strategy"
   },
   {
     "name": "strategy.fixed",
-    "desc": "This is one of the arguments that can be supplied to the default_qty_type parameter in the strategy declaration statement.",
+    "desc": "This is one of the arguments that can be supplied to the default_qty_type parameter in the strategy declaration statement",
     "category": "Strategy"
   },
   {
     "name": "strategy.grossloss",
-    "desc": "Total currency value of all completed losing trades.",
+    "desc": "Total currency value of all completed losing trades",
     "category": "Strategy"
   },
   {
     "name": "strategy.grossloss_percent",
-    "desc": "The total value of all completed losing trades, expressed as a percentage of the initial capital.",
+    "desc": "The total value of all completed losing trades, expressed as a percentage of the initial capital",
     "category": "Strategy"
   },
   {
     "name": "strategy.grossprofit",
-    "desc": "Total currency value of all completed winning trades.",
+    "desc": "Total currency value of all completed winning trades",
     "category": "Strategy"
   },
   {
     "name": "strategy.grossprofit_percent",
-    "desc": "The total currency value of all completed winning trades, expressed as a percentage of the initial capital.",
+    "desc": "The total currency value of all completed winning trades, expressed as a percentage of the initial capital",
     "category": "Strategy"
   },
   {
     "name": "strategy.initial_capital",
-    "desc": "The amount of initial capital set in the strategy properties.",
+    "desc": "The amount of initial capital set in the strategy properties",
     "category": "Strategy"
   },
   {
     "name": "strategy.long",
-    "desc": "A named constant for use with the direction parameter of the strategy.entry and strategy.order commands.",
+    "desc": "A named constant for use with the direction parameter of the strategy.entry and strategy.order commands",
     "category": "Strategy"
   },
   {
     "name": "strategy.losstrades",
-    "desc": "Number of unprofitable trades for the whole trading range.",
+    "desc": "Number of unprofitable trades for the whole trading range",
     "category": "Strategy"
   },
   {
     "name": "strategy.margin_liquidation_price",
-    "desc": "When margin is used in a strategy, returns the price point where a simulated margin call will occur and liquidate enough of the position to meet the margin requirements.",
+    "desc": "When margin is used in a strategy, returns the price point where a simulated margin call will occur and liquidate enough of the position to meet the margin requirements",
     "category": "Strategy"
   },
   {
     "name": "strategy.max_contracts_held_all",
-    "desc": "Maximum number of contracts/shares/lots/units in one trade for the whole trading range.",
+    "desc": "Maximum number of contracts/shares/lots/units in one trade for the whole trading range",
     "category": "Strategy"
   },
   {
     "name": "strategy.max_contracts_held_long",
-    "desc": "Maximum number of contracts/shares/lots/units in one long trade for the whole trading range.",
+    "desc": "Maximum number of contracts/shares/lots/units in one long trade for the whole trading range",
     "category": "Strategy"
   },
   {
     "name": "strategy.max_contracts_held_short",
-    "desc": "Maximum number of contracts/shares/lots/units in one short trade for the whole trading range.",
+    "desc": "Maximum number of contracts/shares/lots/units in one short trade for the whole trading range",
     "category": "Strategy"
   },
   {
     "name": "strategy.max_drawdown",
-    "desc": "Maximum equity drawdown value for the whole trading range.",
+    "desc": "Maximum equity drawdown value for the whole trading range",
     "category": "Strategy"
   },
   {
     "name": "strategy.max_drawdown_percent",
-    "desc": "The maximum equity drawdown value for the whole trading range, expressed as a percentage and calculated by formula: Lowest Value During Trade / (Entry Price x Quantity) * 100.",
+    "desc": "The maximum equity drawdown value for the whole trading range, expressed as a percentage and calculated by formula: Lowest Value During Trade / (Entry Price x Quantity) * 100",
     "category": "Strategy"
   },
   {
     "name": "strategy.max_runup",
-    "desc": "Maximum equity run-up value for the whole trading range.",
+    "desc": "Maximum equity run-up value for the whole trading range",
     "category": "Strategy"
   },
   {
     "name": "strategy.max_runup_percent",
-    "desc": "The maximum equity run-up value for the whole trading range, expressed as a percentage and calculated by formula: Highest Value During Trade / (Entry Price x Quantity) * 100.",
+    "desc": "The maximum equity run-up value for the whole trading range, expressed as a percentage and calculated by formula: Highest Value During Trade / (Entry Price x Quantity) * 100",
     "category": "Strategy"
   },
   {
     "name": "strategy.netprofit",
-    "desc": "Total currency value of all completed trades.",
+    "desc": "Total currency value of all completed trades",
     "category": "Strategy"
   },
   {
     "name": "strategy.netprofit_percent",
-    "desc": "The total value of all completed trades, expressed as a percentage of the initial capital.",
+    "desc": "The total value of all completed trades, expressed as a percentage of the initial capital",
     "category": "Strategy"
   },
   {
     "name": "strategy.oca.cancel",
-    "desc": "A named constant for use with the oca_type parameter of the strategy.entry and strategy.order commands.",
+    "desc": "A named constant for use with the oca_type parameter of the strategy.entry and strategy.order commands",
     "category": "Strategy"
   },
   {
     "name": "strategy.oca.none",
-    "desc": "A named constant for use with the oca_type parameter of the strategy.entry and strategy.order commands.",
+    "desc": "A named constant for use with the oca_type parameter of the strategy.entry and strategy.order commands",
     "category": "Strategy"
   },
   {
     "name": "strategy.oca.reduce",
-    "desc": "A named constant for use with the oca_type parameter of the strategy.entry and strategy.order commands.",
+    "desc": "A named constant for use with the oca_type parameter of the strategy.entry and strategy.order commands",
     "category": "Strategy"
   },
   {
     "name": "strategy.openprofit",
-    "desc": "Current unrealized profit or loss for all open positions.",
+    "desc": "Current unrealized profit or loss for all open positions",
     "category": "Strategy"
   },
   {
     "name": "strategy.openprofit_percent",
-    "desc": "The current unrealized profit or loss for all open positions, expressed as a percentage and calculated by formula: openPL / realizedEquity * 100.",
+    "desc": "The current unrealized profit or loss for all open positions, expressed as a percentage and calculated by formula: openPL / realizedEquity * 100",
     "category": "Strategy"
   },
   {
     "name": "strategy.opentrades",
-    "desc": "Number of market position entries, which were not closed and remain opened.",
+    "desc": "Number of market position entries, which were not closed and remain opened",
     "category": "Strategy"
   },
   {
     "name": "strategy.opentrades.capital_held",
-    "desc": "Returns the capital amount currently held by open trades.",
+    "desc": "Returns the capital amount currently held by open trades",
     "category": "Strategy"
   },
   {
     "name": "strategy.opentrades.commission()",
-    "desc": "Returns the sum of entry and exit fees paid in the open trade, expressed in strategy.account_currency.",
+    "desc": "Returns the sum of entry and exit fees paid in the open trade, expressed in strategy.account_currency",
     "category": "Strategy"
   },
   {
     "name": "strategy.opentrades.entry_bar_index()",
-    "desc": "Returns the bar_index of the open trade's entry.",
+    "desc": "Returns the bar_index of the open trade's entry",
     "category": "Strategy"
   },
   {
     "name": "strategy.opentrades.entry_comment()",
-    "desc": "Returns the comment message of the open trade's entry, or\nna if there is no entry with this trade_num.",
+    "desc": "Returns the comment message of the open trade's entry, or\nna if there is no entry with this trade_num",
     "category": "Strategy"
   },
   {
     "name": "strategy.opentrades.entry_id()",
-    "desc": "Returns the id of the open trade's entry.",
+    "desc": "Returns the id of the open trade's entry",
     "category": "Strategy"
   },
   {
     "name": "strategy.opentrades.entry_price()",
-    "desc": "Returns the price of the open trade's entry.",
+    "desc": "Returns the price of the open trade's entry",
     "category": "Strategy"
   },
   {
     "name": "strategy.opentrades.entry_time()",
-    "desc": "Returns the UNIX time of the open trade's entry, expressed in milliseconds.",
+    "desc": "Returns the UNIX time of the open trade's entry, expressed in milliseconds",
     "category": "Strategy"
   },
   {
     "name": "strategy.opentrades.max_drawdown_percent()",
-    "desc": "Returns the maximum drawdown of the open trade, i.e., the maximum possible loss during the trade, expressed as a percentage and calculated by formula: Lowest Value During Trade / (Entry Price x Quantity) * 100.",
+    "desc": "Returns the maximum drawdown of the open trade, i.e., the maximum possible loss during the trade, expressed as a percentage and calculated by formula: Lowest Value During Trade / (Entry Price x Quantity) * 100",
     "category": "Strategy"
   },
   {
     "name": "strategy.opentrades.max_drawdown()",
-    "desc": "Returns the maximum drawdown of the open trade, i.e., the maximum possible loss during the trade, expressed in strategy.account_currency.",
+    "desc": "Returns the maximum drawdown of the open trade, i.e., the maximum possible loss during the trade, expressed in strategy.account_currency",
     "category": "Strategy"
   },
   {
     "name": "strategy.opentrades.max_runup_percent()",
-    "desc": "Returns the maximum run-up of the open trade, i.e., the maximum possible profit during the trade, expressed as a percentage and calculated by formula: Highest Value During Trade / (Entry Price x Quantity) * 100.",
+    "desc": "Returns the maximum run-up of the open trade, i.e., the maximum possible profit during the trade, expressed as a percentage and calculated by formula: Highest Value During Trade / (Entry Price x Quantity) * 100",
     "category": "Strategy"
   },
   {
     "name": "strategy.opentrades.max_runup()",
-    "desc": "Returns the maximum run up of the open trade, i.e., the maximum possible profit during the trade, expressed in strategy.account_currency.",
+    "desc": "Returns the maximum run up of the open trade, i.e., the maximum possible profit during the trade, expressed in strategy.account_currency",
     "category": "Strategy"
   },
   {
     "name": "strategy.opentrades.profit_percent()",
-    "desc": "Returns the profit/loss of the open trade, expressed as a percentage.",
+    "desc": "Returns the profit/loss of the open trade, expressed as a percentage",
     "category": "Strategy"
   },
   {
     "name": "strategy.opentrades.profit()",
-    "desc": "Returns the profit/loss of the open trade, expressed in strategy.account_currency.",
+    "desc": "Returns the profit/loss of the open trade, expressed in strategy.account_currency",
     "category": "Strategy"
   },
   {
     "name": "strategy.opentrades.size()",
-    "desc": "Returns the direction and the number of contracts traded in the open trade.",
+    "desc": "Returns the direction and the number of contracts traded in the open trade",
     "category": "Strategy"
   },
   {
     "name": "strategy.order()",
-    "desc": "Creates a new order to open, add to, or exit from a position.",
+    "desc": "Creates a new order to open, add to, or exit from a position",
     "category": "Strategy"
   },
   {
     "name": "strategy.percent_of_equity",
-    "desc": "This is one of the arguments that can be supplied to the default_qty_type parameter in the strategy declaration statement.",
+    "desc": "This is one of the arguments that can be supplied to the default_qty_type parameter in the strategy declaration statement",
     "category": "Strategy"
   },
   {
     "name": "strategy.position_avg_price",
-    "desc": "Average entry price of current market position.",
+    "desc": "Average entry price of current market position",
     "category": "Strategy"
   },
   {
     "name": "strategy.position_entry_name",
-    "desc": "Name of the order that initially opened current market position.",
+    "desc": "Name of the order that initially opened current market position",
     "category": "Strategy"
   },
   {
     "name": "strategy.position_size",
-    "desc": "Direction and size of the current market position.",
+    "desc": "Direction and size of the current market position",
     "category": "Strategy"
   },
   {
     "name": "strategy.risk.allow_entry_in()",
-    "desc": "This function can be used to specify in which market direction the strategy.entry function is allowed to open positions.",
+    "desc": "This function can be used to specify in which market direction the strategy.entry function is allowed to open positions",
     "category": "Strategy"
   },
   {
     "name": "strategy.risk.max_cons_loss_days()",
-    "desc": "The purpose of this rule is to cancel all pending orders, close all open positions and stop placing orders after a specified number of consecutive days with losses.",
+    "desc": "The purpose of this rule is to cancel all pending orders, close all open positions and stop placing orders after a specified number of consecutive days with losses",
     "category": "Strategy"
   },
   {
     "name": "strategy.risk.max_drawdown()",
-    "desc": "The purpose of this rule is to determine maximum drawdown.",
+    "desc": "The purpose of this rule is to determine maximum drawdown",
     "category": "Strategy"
   },
   {
     "name": "strategy.risk.max_intraday_filled_orders()",
-    "desc": "The purpose of this rule is to determine maximum number of filled orders per 1 day (per 1 bar, if chart resolution is higher than 1 day).",
+    "desc": "The purpose of this rule is to determine maximum number of filled orders per 1 day (per 1 bar, if chart resolution is higher than 1 day)",
     "category": "Strategy"
   },
   {
     "name": "strategy.risk.max_intraday_loss()",
-    "desc": "The maximum loss value allowed during a day.",
+    "desc": "The maximum loss value allowed during a day",
     "category": "Strategy"
   },
   {
     "name": "strategy.risk.max_position_size()",
-    "desc": "The purpose of this rule is to determine maximum size of a market position.",
+    "desc": "The purpose of this rule is to determine maximum size of a market position",
     "category": "Strategy"
   },
   {
     "name": "strategy.short",
-    "desc": "A named constant for use with the direction parameter of the strategy.entry and strategy.order commands.",
+    "desc": "A named constant for use with the direction parameter of the strategy.entry and strategy.order commands",
     "category": "Strategy"
   },
   {
     "name": "strategy.wintrades",
-    "desc": "Number of profitable trades for the whole trading range.",
+    "desc": "Number of profitable trades for the whole trading range",
     "category": "Strategy"
   },
   {
     "name": "strategy()",
-    "desc": "This declaration statement designates the script as a strategy and sets a number of strategy-related properties.",
+    "desc": "This declaration statement designates the script as a strategy and sets a number of strategy-related properties",
     "category": "Strategy"
   }
 ]
