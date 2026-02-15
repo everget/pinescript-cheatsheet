@@ -7,6 +7,9 @@ const MODE = process.argv.includes('--dev')
 		? 'prod'
 		: null;
 
+const isDev = () => MODE === 'dev';
+const isProd = () => MODE === 'prod';
+
 if (!MODE) {
 	console.warn('No mode specified. Will toggle between dev and prod.');
 }
@@ -25,12 +28,7 @@ function getFileNamesFromDirectory(dirPath) {
 function getAssetPaths(assetFiles) {
 	const jsPath = assetFiles.find((file) => /\.jsx?$/.test(file));
 	const cssPath = assetFiles.find((file) => file.endsWith('.css'));
-	const faviconPath = assetFiles.find((file) => file.startsWith('vite') && file.endsWith('.svg'));
 	const paths = {};
-
-	if (faviconPath) {
-		paths.favicon = faviconPath;
-	}
 
 	if (jsPath) {
 		paths.js = jsPath;
@@ -63,9 +61,9 @@ function changeToDev(htmlContent) {
 function updateIndexHtml(htmlContent, assetFiles) {
 	const assetPaths = getAssetPaths(assetFiles);
 
-	if (MODE === 'prod') {
+	if (isProd()) {
 		return changeToProd(htmlContent, assetPaths);
-	} else if (MODE === 'dev') {
+	} else if (isDev()) {
 		return changeToDev(htmlContent);
 	} else {
 		if (distAssetPattern.test(htmlContent)) {
