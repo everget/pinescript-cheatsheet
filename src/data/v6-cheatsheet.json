@@ -1,5 +1,20 @@
 [
   {
+    "name": "indicator",
+    "desc": "Declaration statement that designates the script as an indicator",
+    "category": "Script Types"
+  },
+  {
+    "name": "strategy",
+    "desc": "Declaration statement that designates the script as a strategy",
+    "category": "Script Types"
+  },
+  {
+    "name": "library",
+    "desc": "Declaration statement identifying a script as a library",
+    "category": "Script Types"
+  },
+  {
     "name": "array",
     "desc": "Keyword used to explicitly declare the \"array\" type of a variable or a parameter",
     "category": "Types"
@@ -380,6 +395,41 @@
     "category": "Bar Data"
   },
   {
+    "name": "hl2",
+    "desc": "Is a shortcut for (high + low)/2",
+    "category": "Bar Data"
+  },
+  {
+    "name": "hlc3",
+    "desc": "Is a shortcut for (high + low + close)/3",
+    "category": "Bar Data"
+  },
+  {
+    "name": "hlcc4",
+    "desc": "Is a shortcut for (high + low + close + close)/4",
+    "category": "Bar Data"
+  },
+  {
+    "name": "ohlc4",
+    "desc": "Is a shortcut for (open + high + low + close)/4",
+    "category": "Bar Data"
+  },
+  {
+    "name": "last_bar_index",
+    "desc": "Bar index of the last chart bar. Bar indices begin at zero on the first bar",
+    "category": "Bar Data"
+  },
+  {
+    "name": "last_bar_time",
+    "desc": "Time in UNIX format of the last chart bar",
+    "category": "Bar Data"
+  },
+  {
+    "name": "timestamp",
+    "desc": "Returns UNIX time of specified date and time",
+    "category": "Bar Data"
+  },
+  {
     "name": "color.aqua",
     "desc": "Is a named constant for #00BCD4 color",
     "category": "Colors"
@@ -748,6 +798,71 @@
     "name": "na",
     "desc": "Tests if x is na",
     "category": "Maths"
+  },
+  {
+    "name": "fixnan",
+    "desc": "For a given series replaces NaN values with previous nearest non-NaN value",
+    "category": "Maths"
+  },
+  {
+    "name": "nz",
+    "desc": "Replaces NaN values with zeros (or given value) in a series",
+    "category": "Maths"
+  },
+  {
+    "name": "map.new<keyType, valueType>",
+    "desc": "Creates a new map object: a collection that consists of key-value pairs",
+    "category": "Maps"
+  },
+  {
+    "name": "map.copy",
+    "desc": "Creates a copy of an existing map",
+    "category": "Maps"
+  },
+  {
+    "name": "map.size",
+    "desc": "Returns the number of key-value pairs in the map",
+    "category": "Maps"
+  },
+  {
+    "name": "map.get",
+    "desc": "Returns the value associated with the specified key in the map",
+    "category": "Maps"
+  },
+  {
+    "name": "map.contains",
+    "desc": "Returns true if the key was found in the map",
+    "category": "Maps"
+  },
+  {
+    "name": "map.keys",
+    "desc": "Returns an array of all the keys in the map",
+    "category": "Maps"
+  },
+  {
+    "name": "map.values",
+    "desc": "Returns an array of all the values in the map",
+    "category": "Maps"
+  },
+  {
+    "name": "map.put",
+    "desc": "Puts a new key-value pair into the map",
+    "category": "Maps"
+  },
+  {
+    "name": "map.put_all",
+    "desc": "Puts all key-value pairs from one map into another",
+    "category": "Maps"
+  },
+  {
+    "name": "map.remove",
+    "desc": "Removes a key-value pair from the map",
+    "category": "Maps"
+  },
+  {
+    "name": "map.clear",
+    "desc": "Clears the map, removing all key-value pairs from it",
+    "category": "Maps"
   },
   {
     "name": "array.abs()",
@@ -1307,82 +1422,82 @@
   {
     "name": "chart.bg_color",
     "desc": "Returns the color of the chart's background from the \"Chart settings/Appearance/Background\" field",
-    "category": "Chart Types"
+    "category": "Chart Types and Points"
   },
   {
     "name": "chart.fg_color",
     "desc": "Returns a color providing optimal contrast with chart.bg_color",
-    "category": "Chart Types"
+    "category": "Chart Types and Points"
   },
   {
     "name": "chart.is_heikinashi",
     "desc": "Returns true if the chart type is Heikin Ashi",
-    "category": "Chart Types"
+    "category": "Chart Types and Points"
   },
   {
     "name": "chart.is_kagi",
     "desc": "Returns true if the chart type is Kagi",
-    "category": "Chart Types"
+    "category": "Chart Types and Points"
   },
   {
     "name": "chart.is_linebreak",
     "desc": "Returns true if the chart type is Line Break",
-    "category": "Chart Types"
+    "category": "Chart Types and Points"
   },
   {
     "name": "chart.is_pnf",
     "desc": "Returns true if the chart type is Point & Figure",
-    "category": "Chart Types"
+    "category": "Chart Types and Points"
   },
   {
     "name": "chart.is_range",
     "desc": "Returns true if the chart type is Range",
-    "category": "Chart Types"
+    "category": "Chart Types and Points"
   },
   {
     "name": "chart.is_renko",
     "desc": "Returns true if the chart type is Renko",
-    "category": "Chart Types"
+    "category": "Chart Types and Points"
   },
   {
     "name": "chart.is_standard",
     "desc": "Returns true if the chart type is a standard candlestick chart",
-    "category": "Chart Types"
+    "category": "Chart Types and Points"
   },
   {
     "name": "chart.left_visible_bar_time",
     "desc": "The time of the leftmost bar currently visible on the chart",
-    "category": "Chart Types"
+    "category": "Chart Types and Points"
   },
   {
     "name": "chart.point.copy()",
     "desc": "Creates a copy of a chart.point object with the specified id",
-    "category": "Chart Types"
+    "category": "Chart Types and Points"
   },
   {
     "name": "chart.point.from_index()",
     "desc": "Returns a chart.point object with index as its x-coordinate and price as its y-coordinate",
-    "category": "Chart Types"
+    "category": "Chart Types and Points"
   },
   {
     "name": "chart.point.from_time()",
     "desc": "Returns a chart.point object with time as its x-coordinate and price as its y-coordinate",
-    "category": "Chart Types"
+    "category": "Chart Types and Points"
   },
   {
     "name": "chart.point.new()",
     "desc": "Creates a new chart.point object with the specified time, index, and price",
-    "category": "Chart Types"
+    "category": "Chart Types and Points"
   },
   {
     "name": "chart.point.now()",
     "desc": "Returns a chart.point object with price as the y-coordinate",
-    "category": "Chart Types"
+    "category": "Chart Types and Points"
   },
   {
     "name": "chart.right_visible_bar_time",
     "desc": "The time of the rightmost bar currently visible on the chart",
-    "category": "Chart Types"
+    "category": "Chart Types and Points"
   },
   {
     "name": "currency.AUD",
@@ -2187,122 +2302,122 @@
   {
     "name": "table.all",
     "desc": "Returns an array filled with all the current tables drawn by the script",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.cell_set_bgcolor()",
     "desc": "The function sets the background color of the cell",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.cell_set_height()",
     "desc": "The function sets the height of cell",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.cell_set_text_color()",
     "desc": "The function sets the color of the text inside the cell",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.cell_set_text_font_family()",
     "desc": "The function sets the font family of the text inside the cell",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.cell_set_text_formatting()",
     "desc": "Sets the formatting attributes the drawing applies to displayed text",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.cell_set_text_halign()",
     "desc": "The function sets the horizontal alignment of the cell's text",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.cell_set_text_size()",
     "desc": "The function sets the size of the cell's text",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.cell_set_text_valign()",
     "desc": "The function sets the vertical alignment of a cell's text",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.cell_set_text()",
     "desc": "The function sets the text in the specified cell",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.cell_set_tooltip()",
     "desc": "The function sets the tooltip in the specified cell",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.cell_set_width()",
     "desc": "The function sets the width of the cell",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.cell()",
     "desc": "The function defines a cell in the table and sets its attributes",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.clear()",
     "desc": "The function removes a cell or a sequence of cells from the table",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.delete()",
     "desc": "The function deletes a table",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.merge_cells()",
     "desc": "The function merges a sequence of cells in the table into one cell",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.new()",
     "desc": "The function creates a new table",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.set_bgcolor()",
     "desc": "The function sets the background color of a table",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.set_border_color()",
     "desc": "The function sets the color of the borders (excluding the outer frame) of the table's cells",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.set_border_width()",
     "desc": "The function sets the width of the borders (excluding the outer frame) of the table's cells",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.set_frame_color()",
     "desc": "The function sets the color of the outer frame of a table",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.set_frame_width()",
     "desc": "The function set the width of the outer frame of a table",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table.set_position()",
     "desc": "The function sets the position of a table",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "table()",
     "desc": "Keyword used to explicitly declare the \"table\" type of a variable or a parameter",
-    "category": "Indicators"
+    "category": "Tables"
   },
   {
     "name": "input.bool()",
@@ -3978,5 +4093,280 @@
     "name": "strategy()",
     "desc": "This declaration statement designates the script as a strategy and sets a number of strategy-related properties",
     "category": "Strategy"
+  },
+  {
+    "name": "position.bottom_center",
+    "desc": "Binds the table to the bottom edge in the center",
+    "category": "Tables"
+  },
+  {
+    "name": "position.bottom_left",
+    "desc": "Binds the table to the bottom left of the screen",
+    "category": "Tables"
+  },
+  {
+    "name": "position.bottom_right",
+    "desc": "Binds the table to the bottom right of the screen",
+    "category": "Tables"
+  },
+  {
+    "name": "position.middle_center",
+    "desc": "Binds the table to the center of the screen",
+    "category": "Tables"
+  },
+  {
+    "name": "position.middle_left",
+    "desc": "Binds the table to the left side of the screen",
+    "category": "Tables"
+  },
+  {
+    "name": "position.middle_right",
+    "desc": "Binds the table to the right side of the screen",
+    "category": "Tables"
+  },
+  {
+    "name": "position.top_center",
+    "desc": "Binds the table to the top edge in the center",
+    "category": "Tables"
+  },
+  {
+    "name": "position.top_left",
+    "desc": "Binds the table to the upper-left edge",
+    "category": "Tables"
+  },
+  {
+    "name": "position.top_right",
+    "desc": "Binds the table to the upper-right edge",
+    "category": "Tables"
+  },
+  {
+    "name": "order.ascending",
+    "desc": "Determines the sort order of the array from the smallest to the largest value",
+    "category": "Arrays"
+  },
+  {
+    "name": "order.descending",
+    "desc": "Determines the sort order of the array from the largest to the smallest value",
+    "category": "Arrays"
+  },
+  {
+    "name": "log.error()",
+    "desc": "Sends a formatted string to the Pine logs with the error level",
+    "category": "Logging & Debugging"
+  },
+  {
+    "name": "log.info()",
+    "desc": "Sends a formatted string to the Pine logs with the info level",
+    "category": "Logging & Debugging"
+  },
+  {
+    "name": "log.warning()",
+    "desc": "Sends a formatted string to the Pine logs with the warning level",
+    "category": "Logging & Debugging"
+  },
+  {
+    "name": "runtime.error()",
+    "desc": "Causes a runtime error with a specified message",
+    "category": "Logging & Debugging"
+  },
+  {
+    "name": "font.family_default",
+    "desc": "Default text font for drawings",
+    "category": "Texts & Formatting"
+  },
+  {
+    "name": "font.family_monospace",
+    "desc": "Monospace text font for drawings",
+    "category": "Texts & Formatting"
+  },
+  {
+    "name": "format.inherit",
+    "desc": "Selects formatting from the parent series",
+    "category": "Texts & Formatting"
+  },
+  {
+    "name": "format.mintick",
+    "desc": "Rounds to the nearest value divisible by syminfo.mintick",
+    "category": "Texts & Formatting"
+  },
+  {
+    "name": "format.percent",
+    "desc": "Formats output values as a percentage",
+    "category": "Texts & Formatting"
+  },
+  {
+    "name": "format.price",
+    "desc": "Formats output values as prices",
+    "category": "Texts & Formatting"
+  },
+  {
+    "name": "format.volume",
+    "desc": "Formats output values as volume (e.g., 1.5K)",
+    "category": "Texts & Formatting"
+  },
+  {
+    "name": "text.format_none",
+    "desc": "Signifies no special text formatting",
+    "category": "Texts & Formatting"
+  },
+  {
+    "name": "text.format_bold",
+    "desc": "Makes the text bold",
+    "category": "Texts & Formatting"
+  },
+  {
+    "name": "text.format_italic",
+    "desc": "Italicizes the text",
+    "category": "Texts & Formatting"
+  },
+  {
+    "name": "text.align_bottom",
+    "desc": "Vertical text alignment (bottom)",
+    "category": "Texts & Formatting"
+  },
+  {
+    "name": "text.align_center",
+    "desc": "Horizontal/Vertical text alignment (center)",
+    "category": "Texts & Formatting"
+  },
+  {
+    "name": "text.align_left",
+    "desc": "Horizontal text alignment (left)",
+    "category": "Texts & Formatting"
+  },
+  {
+    "name": "text.align_right",
+    "desc": "Horizontal text alignment (right)",
+    "category": "Texts & Formatting"
+  },
+  {
+    "name": "text.align_top",
+    "desc": "Vertical text alignment (top)",
+    "category": "Texts & Formatting"
+  },
+  {
+    "name": "text.wrap_auto",
+    "desc": "Automatic wrapping mode for drawings",
+    "category": "Texts & Formatting"
+  },
+  {
+    "name": "text.wrap_none",
+    "desc": "Disabled wrapping mode for drawings",
+    "category": "Texts & Formatting"
+  },
+  {
+    "name": "location.abovebar",
+    "desc": "Shape is plotted above main series bars",
+    "category": "Positions & Locations"
+  },
+  {
+    "name": "location.belowbar",
+    "desc": "Shape is plotted below main series bars",
+    "category": "Positions & Locations"
+  },
+  {
+    "name": "location.top",
+    "desc": "Shape is plotted near the top chart border",
+    "category": "Positions & Locations"
+  },
+  {
+    "name": "location.bottom",
+    "desc": "Shape is plotted near the bottom chart border",
+    "category": "Positions & Locations"
+  },
+  {
+    "name": "location.absolute",
+    "desc": "Shape is plotted on chart using indicator value as a price coordinate",
+    "category": "Positions & Locations"
+  },
+  {
+    "name": "xloc.bar_index",
+    "desc": "Drawing object treats each x-coordinate as a bar_index value",
+    "category": "Positions & Locations"
+  },
+  {
+    "name": "xloc.bar_time",
+    "desc": "Drawing object treats each x-coordinate as a UNIX timestamp",
+    "category": "Positions & Locations"
+  },
+  {
+    "name": "yloc.price",
+    "desc": "Specifies interpretation of y-value as a price coordinate",
+    "category": "Positions & Locations"
+  },
+  {
+    "name": "yloc.abovebar",
+    "desc": "Specifies interpretation of y-value as above the bar",
+    "category": "Positions & Locations"
+  },
+  {
+    "name": "yloc.belowbar",
+    "desc": "Specifies interpretation of y-value as below the bar",
+    "category": "Positions & Locations"
+  },
+  {
+    "name": "extend.none",
+    "desc": "A named constant for line extensions (none)",
+    "category": "Styling & Layout"
+  },
+  {
+    "name": "extend.left",
+    "desc": "A named constant for line extensions (left)",
+    "category": "Styling & Layout"
+  },
+  {
+    "name": "extend.right",
+    "desc": "A named constant for line extensions (right)",
+    "category": "Styling & Layout"
+  },
+  {
+    "name": "extend.both",
+    "desc": "A named constant for line extensions (both)",
+    "category": "Styling & Layout"
+  },
+  {
+    "name": "scale.right",
+    "desc": "Indicator is added to the right price scale",
+    "category": "Styling & Layout"
+  },
+  {
+    "name": "scale.left",
+    "desc": "Indicator is added to the left price scale",
+    "category": "Styling & Layout"
+  },
+  {
+    "name": "scale.none",
+    "desc": "Indicator is added in 'No Scale' mode",
+    "category": "Styling & Layout"
+  },
+  {
+    "name": "size.auto",
+    "desc": "Size of the shape automatically adapts to the size of the bars",
+    "category": "Styling & Layout"
+  },
+  {
+    "name": "size.tiny",
+    "desc": "Size of the shape is constantly tiny",
+    "category": "Styling & Layout"
+  },
+  {
+    "name": "size.small",
+    "desc": "Size of the shape is constantly small",
+    "category": "Styling & Layout"
+  },
+  {
+    "name": "size.normal",
+    "desc": "Size of the shape is constantly normal",
+    "category": "Styling & Layout"
+  },
+  {
+    "name": "size.large",
+    "desc": "Size of the shape is constantly large",
+    "category": "Styling & Layout"
+  },
+  {
+    "name": "size.huge",
+    "desc": "Size of the shape is constantly huge",
+    "category": "Styling & Layout"
   }
 ]

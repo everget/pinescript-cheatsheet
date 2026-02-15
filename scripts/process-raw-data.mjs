@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { Category } from '../src/data/categories.mjs';
+import { Category } from '../src/constants/categories.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rawDataPath = join(__dirname, '..', 'src', 'data', 'v6-raw.json');
@@ -25,44 +25,41 @@ async function isFileExists(filePath) {
 	}
 }
 
-function startsWith(prefix) {
-	return (str) => str.startsWith(prefix);
-}
+const startsWith = (prefix) => (str) => str.startsWith(prefix);
+const endsWith = (postfix) => (str) => str.endsWith(postfix);
+const exact = (strToMatch) => (str) => str === strToMatch;
+const includes = (substr) => (str) => str.includes(substr);
 
-function endsWith(postfix) {
-	return (str) => str.endsWith(postfix);
-}
-
-function exact(strToMatch) {
-	return (str) => str === strToMatch;
-}
-
-function includes(substr) {
-	return (str) => str.includes(substr);
-}
-
-const CategoryConditions = [
-	{ category: Category.Alerts, conditions: [startsWith('alert')] },
-	{ category: Category.Arrays, conditions: [startsWith('array'), exact('order')] },
+const CATEGORY_RULES = [
+	{ category: Category.Alerts, matchers: [startsWith('alert')] },
+	{ category: Category.Arrays, matchers: [startsWith('array'), startsWith('order.')] },
 	{
 		category: Category.BarData,
-		conditions: [
+		matchers: [
 			exact('open'),
 			exact('high'),
 			exact('low'),
 			exact('close'),
 			exact('bar_index'),
 			exact('volume'),
+			exact('time'),
+			exact('hl2'),
+			exact('hlc3'),
+			exact('hlcc4'),
+			exact('ohlc4'),
+			exact('last_bar_index'),
+			exact('last_bar_time'),
+			exact('timestamp'),
 		],
 	},
-	{ category: Category.BarState, conditions: [startsWith('barstate')] },
-	{ category: Category.Boxes, conditions: [startsWith('box')] },
-	{ category: Category.ChartTypes, conditions: [startsWith('chart.')] },
-	{ category: Category.Colors, conditions: [startsWith('color')] },
-	{ category: Category.Currency, conditions: [startsWith('currency')] },
+	{ category: Category.BarState, matchers: [startsWith('barstate')] },
+	{ category: Category.Boxes, matchers: [startsWith('box')] },
+	{ category: Category.ChartTypesPoints, matchers: [startsWith('chart.')] },
+	{ category: Category.Colors, matchers: [startsWith('color')] },
+	{ category: Category.Currency, matchers: [startsWith('currency')] },
 	{
 		category: Category.Datetime,
-		conditions: [
+		matchers: [
 			exact('time'),
 			exact('time_close'),
 			exact('time_tradingday'),
@@ -77,16 +74,19 @@ const CategoryConditions = [
 			startsWith('year'),
 		],
 	},
-	{ category: Category.Indicators, conditions: [startsWith('ta')] },
-	{ category: Category.Inputs, conditions: [startsWith('input')] },
-	{ category: Category.Labels, conditions: [startsWith('label'), startsWith('yloc')] },
-	{ category: Category.Lines, conditions: [startsWith('line')] },
-	{ category: Category.Polylines, conditions: [startsWith('polyline')] },
-	{ category: Category.Maths, conditions: [exact('na'), exact('nz'), startsWith('math')] },
-	{ category: Category.Matrixes, conditions: [startsWith('matrix')] },
+	{ category: Category.Indicators, matchers: [startsWith('ta.')] },
+	{ category: Category.Inputs, matchers: [startsWith('input')] },
+	{ category: Category.Labels, matchers: [startsWith('label'), startsWith('yloc')] },
+	{ category: Category.Lines, matchers: [startsWith('line')] },
+	{ category: Category.Polylines, matchers: [startsWith('polyline')] },
+	{
+		category: Category.Maths,
+		matchers: [exact('na'), exact('nz'), exact('fixnan'), startsWith('math')],
+	},
+	{ category: Category.Matrixes, matchers: [startsWith('matrix')] },
 	{
 		category: Category.Plotting,
-		conditions: [
+		matchers: [
 			startsWith('plot'),
 			startsWith('barcolor'),
 			startsWith('bgcolor'),
@@ -94,11 +94,13 @@ const CategoryConditions = [
 			startsWith('fill'),
 			startsWith('shape'),
 			startsWith('display'),
+			startsWith('location'),
+			startsWith('size'),
 		],
 	},
 	{
 		category: Category.Requests,
-		conditions: [
+		matchers: [
 			startsWith('adjustment'),
 			startsWith('request'),
 			startsWith('security'),
@@ -111,17 +113,39 @@ const CategoryConditions = [
 			startsWith('ticker'),
 		],
 	},
-	{ category: Category.Sessions, conditions: [startsWith('session')] },
-	{ category: Category.Strategy, conditions: [startsWith('strategy')] },
-	{ category: Category.Strings, conditions: [startsWith('str')] },
-	{ category: Category.Syminfo, conditions: [startsWith('syminfo')] },
-	{ category: Category.Timeframe, conditions: [startsWith('timeframe')] },
+	{ category: Category.Sessions, matchers: [startsWith('session')] },
+	{ category: Category.Strategy, matchers: [startsWith('strategy')] },
+	{ category: Category.Strings, matchers: [startsWith('str')] },
+	{ category: Category.Syminfo, matchers: [startsWith('syminfo')] },
+	{ category: Category.Tables, matchers: [startsWith('table'), startsWith('position')] },
+	{ category: Category.Maps, matchers: [startsWith('map')] },
+	{
+		category: Category.PositionsLocations,
+		matchers: [startsWith('location.'), startsWith('xloc.'), startsWith('yloc.')],
+	},
+	{
+		category: Category.StylingLayout,
+		matchers: [startsWith('extend.'), startsWith('scale.'), startsWith('size.')],
+	},
+	{
+		category: Category.ScriptType,
+		matchers: [exact('indicator'), exact('strategy'), exact('library')],
+	},
+	{
+		category: Category.LoggingDebugging,
+		matchers: [startsWith('log.'), exact('runtime.')],
+	},
+	{
+		category: Category.TextsFormatting,
+		matchers: [startsWith('font.'), startsWith('format.'), startsWith('text.')],
+	},
+	{ category: Category.Timeframe, matchers: [startsWith('timeframe')] },
 ];
 
+// TODO: Fix hardcoded length
 function handleDescription(desc) {
-	return trimTrailingPoint(Array.isArray(desc) ? desc[0] : (desc ?? ''))
-		.trim()
-		.slice(0, 40);
+	return trimTrailingPoint(Array.isArray(desc) ? desc[0] : (desc ?? '')).trim();
+	// .slice(0, 40);
 }
 
 function trimTrailingPoint(str) {
@@ -147,9 +171,9 @@ function putItemsIntoCategory(categoryAcc, collection) {
 }
 
 function putItemIntoCategoryByCondition(acc, name, description) {
-	for (const { category, conditions } of CategoryConditions) {
+	for (const { category, matchers } of CATEGORY_RULES) {
 		if (
-			conditions.some((condition) => condition(name)) &&
+			matchers.some((matcher) => matcher(name)) &&
 			!acc[category].find((item) => item.name === name)
 		) {
 			acc[category].push({
@@ -173,6 +197,17 @@ function putFunctionIntoCategoryByCondition(acc, name, description) {
 	);
 }
 
+const ReferenceCollectionTitle = {
+	Annotations: 'annotations',
+	Keywords: 'keywords',
+	Operators: 'operators',
+	Types: 'types',
+	Functions: 'functions',
+	Variables: 'variables',
+	Constants: 'constants',
+	Methods: 'methods',
+};
+
 async function processRawData() {
 	const rawData = await readJsonFile(rawDataPath);
 
@@ -184,23 +219,26 @@ async function processRawData() {
 	const cheatsheetData = Object.entries(rawData).reduce((acc, [rawTitle, rawCollection]) => {
 		const title = rawTitle.trim().toLowerCase();
 
-		if (title === 'annotations') {
+		if (title === ReferenceCollectionTitle.Annotations) {
 			putItemsIntoCategory(acc[Category.Annotations], mapCollection(rawCollection));
-		} else if (title === 'keywords') {
+		} else if (title === ReferenceCollectionTitle.Keywords) {
 			putItemsIntoCategory(acc[Category.Keywords], mapCollection(rawCollection));
-		} else if (title === 'operators') {
+		} else if (title === ReferenceCollectionTitle.Operators) {
 			putItemsIntoCategory(acc[Category.Operators], mapCollection(rawCollection));
-		} else if (title === 'types') {
+		} else if (title === ReferenceCollectionTitle.Types) {
 			putItemsIntoCategory(acc[Category.Types], mapCollection(rawCollection));
-		} else if (title === 'functions') {
+		} else if (title === ReferenceCollectionTitle.Functions) {
 			for (const obj of rawCollection) {
 				putFunctionIntoCategoryByCondition(acc, obj.name, obj.desc ?? '');
 			}
-		} else if (title === 'variables' || title === 'constants') {
+		} else if (
+			title === ReferenceCollectionTitle.Variables ||
+			title === ReferenceCollectionTitle.Constants
+		) {
 			for (const obj of rawCollection) {
 				putVariableIntoCategoryByCondition(acc, obj.name, obj.desc ?? '');
 			}
-		} else if (title === 'methods') {
+		} else if (title === ReferenceCollectionTitle.Methods) {
 			for (const obj of rawCollection) {
 				putFunctionIntoCategoryByCondition(
 					acc,
